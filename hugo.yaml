@@ -21,9 +21,9 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/tuousername"
-    - name: email
-      url: "mailto:tua@email.com"
+      url: "https://github.com/chrisdaloa"
+    - name: chridaloa@gmail.com
+      url: "mailto:chrisdaloa@email.com"
 
 menu:
   main:
