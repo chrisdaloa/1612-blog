@@ -1,4 +1,4 @@
-baseURL: '/'
+baseURL: 'https://1612-blog.netlify.app/'
 languageCode: it-it
 title: '1612.it - Tech, 3D Printing & AI'
 theme: PaperMod
@@ -23,7 +23,7 @@ params:
     - name: github
       url: "https://github.com/chrisdaloa"
     - name: chridaloa@gmail.com
-      url: "mailto:chrisdaloa@email.com"
+      url: "mailto:chrisdaloa@gmail.com"
 
 menu:
   main:
