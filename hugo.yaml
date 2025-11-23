@@ -1,0 +1,50 @@
+baseURL: 'https://www.1612.it/'
+languageCode: it-it
+title: '1612.it - Tech, 3D Printing & AI'
+theme: PaperMod
+
+params:
+  description: 'Blog su stampa 3D, programmazione, intelligenza artificiale e tecnologia'
+  author: 'Il tuo nome'
+  
+  ShowSearchPage: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Ciao! 👋"
+    Content: >
+      Benvenuto su 1612.it - il mio angolo di web dove scrivo di 
+      **stampa 3D**, **programmazione**, **AI** e tecnologia in generale.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/tuousername"
+    - name: email
+      url: "mailto:tua@email.com"
+
+menu:
+  main:
+    - name: Articoli
+      url: /posts/
+      weight: 10
+    - name: Categorie
+      url: /categories/
+      weight: 20
+    - name: Tags
+      url: /tags/
+      weight: 30
+    - name: Cerca
+      url: /search/
+      weight: 40
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: true
+
+taxonomies:
+  category: categories
+  tag: tags
