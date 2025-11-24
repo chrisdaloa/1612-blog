@@ -1,0 +1,168 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient neon blu elettrico stile Automan -->
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#0066ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0033aa;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow intenso stile neon -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Glow esterno forte -->
+    <filter id="outerGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid prospettico Tron-style -->
+    <pattern id="tronGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 0 0 L 40 0 M 0 0 L 0 40" fill="none" stroke="#0066ff" stroke-width="1" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background nero profondo -->
+  <rect width="800" height="300" fill="#000000"/>
+  
+  <!-- Grid floor prospettico -->
+  <g opacity="0.4">
+    <!-- Linee orizzontali prospettiche -->
+    <line x1="0" y1="280" x2="800" y2="280" stroke="#0066ff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="50" y1="260" x2="750" y2="260" stroke="#0066ff" stroke-width="1.2" opacity="0.5"/>
+    <line x1="100" y1="240" x2="700" y2="240" stroke="#0066ff" stroke-width="1" opacity="0.4"/>
+    <line x1="150" y1="220" x2="650" y2="220" stroke="#0066ff" stroke-width="0.8" opacity="0.3"/>
+    
+    <!-- Linee verticali prospettiche -->
+    <line x1="400" y1="220" x2="400" y2="280" stroke="#0066ff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="300" y1="225" x2="250" y2="280" stroke="#0066ff" stroke-width="1" opacity="0.4"/>
+    <line x1="500" y1="225" x2="550" y2="280" stroke="#0066ff" stroke-width="1" opacity="0.4"/>
+    <line x1="200" y1="230" x2="100" y2="280" stroke="#0066ff" stroke-width="0.8" opacity="0.3"/>
+    <line x1="600" y1="230" x2="700" y2="280" stroke="#0066ff" stroke-width="0.8" opacity="0.3"/>
+  </g>
+  
+  <!-- Cornice superiore luminosa -->
+  <path d="M 50,20 L 400,20 L 420,40 L 750,40" 
+        fill="none" stroke="url(#neonBlue)" stroke-width="3" 
+        filter="url(#neonGlow)" opacity="0.8"/>
+  
+  <!-- Testo SEDICI con effetto neon -->
+  <text x="130" y="120" 
+        font-family="'Audiowide', 'Orbitron', sans-serif" 
+        font-size="90" 
+        font-weight="700"
+        letter-spacing="15"
+        fill="url(#neonBlue)"
+        stroke="#00ffff"
+        stroke-width="1"
+        filter="url(#outerGlow)">
+    SEDICI
+  </text>
+  
+  <!-- Linea separatrice luminosa animata -->
+  <line x1="130" y1="140" x2="670" y2="140" 
+        stroke="#00ffff" stroke-width="2" 
+        filter="url(#neonGlow)"
+        opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Testo DODICI con effetto neon -->
+  <text x="130" y="200" 
+        font-family="'Audiowide', 'Orbitron', sans-serif" 
+        font-size="90" 
+        font-weight="700"
+        letter-spacing="15"
+        fill="url(#neonBlue)"
+        stroke="#00ffff"
+        stroke-width="1"
+        filter="url(#outerGlow)">
+    DODICI
+  </text>
+  
+  <!-- Sottotitolo elettronico -->
+  <text x="135" y="230" 
+        font-family="'Share Tech Mono', monospace" 
+        font-size="14" 
+        letter-spacing="8"
+        fill="#00ffff"
+        opacity="0.7">
+    DIGITAL • TECH • DIMENSION
+  </text>
+  
+  <!-- Elementi decorativi angolari stile circuiti -->
+  <!-- Angolo superiore sinistro -->
+  <g stroke="#00ffff" stroke-width="2.5" fill="none" filter="url(#neonGlow)">
+    <path d="M 20,50 L 20,20 L 50,20" opacity="0.8"/>
+    <circle cx="50" cy="50" r="4" fill="#00ffff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Angolo superiore destro -->
+  <g stroke="#00ffff" stroke-width="2.5" fill="none" filter="url(#neonGlow)">
+    <path d="M 780,50 L 780,20 L 750,20" opacity="0.8"/>
+    <circle cx="750" cy="50" r="4" fill="#00ffff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Particelle di energia luminosa -->
+  <circle cx="100" cy="70" r="3" fill="#00ffff" filter="url(#neonGlow)">
+    <animate attributeName="cy" values="70;210;70" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="700" cy="210" r="3" fill="#00ffff" filter="url(#neonGlow)">
+    <animate attributeName="cy" values="210;70;210" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="400" cy="60" r="2" fill="#ffffff" filter="url(#neonGlow)">
+    <animate attributeName="cx" values="400;400;400" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;240;60" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Scan line effect -->
+  <rect x="0" y="0" width="800" height="2" fill="#00ffff" opacity="0.3">
+    <animate attributeName="y" values="0;300;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Hexagono digitale decorativo sinistro -->
+  <g transform="translate(60, 150)" stroke="#0066ff" stroke-width="2" fill="none" opacity="0.5">
+    <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10"/>
+    <circle cx="0" cy="0" r="8" stroke="#00ffff" stroke-width="1">
+      <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Hexagono digitale decorativo destro -->
+  <g transform="translate(740, 150)" stroke="#0066ff" stroke-width="2" fill="none" opacity="0.5">
+    <polygon points="0,-20 17.32,-10 17.32,10 0,20 -17.32,10 -17.32,-10"/>
+    <circle cx="0" cy="0" r="8" stroke="#00ffff" stroke-width="1">
+      <animate attributeName="r" values="8;12;8" dur="2s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Pixel glow accents -->
+  <rect x="110" y="100" width="4" height="4" fill="#00ffff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="680" y="180" width="4" height="4" fill="#00ffff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

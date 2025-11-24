@@ -1,0 +1,198 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient neon blu elettrico stile Automan -->
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#0066ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0033aa;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient verde tech per LAB -->
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#00ff99;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#00cc66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#009944;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow intenso stile neon -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Glow esterno forte -->
+    <filter id="outerGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background nero profondo -->
+  <rect width="800" height="300" fill="#000000"/>
+  
+  <!-- Grid floor prospettico -->
+  <g opacity="0.4">
+    <!-- Linee orizzontali prospettiche -->
+    <line x1="0" y1="280" x2="800" y2="280" stroke="#0066ff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="50" y1="260" x2="750" y2="260" stroke="#0066ff" stroke-width="1.2" opacity="0.5"/>
+    <line x1="100" y1="240" x2="700" y2="240" stroke="#0066ff" stroke-width="1" opacity="0.4"/>
+    <line x1="150" y1="220" x2="650" y2="220" stroke="#0066ff" stroke-width="0.8" opacity="0.3"/>
+    
+    <!-- Linee verticali prospettiche -->
+    <line x1="400" y1="220" x2="400" y2="280" stroke="#0066ff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="300" y1="225" x2="250" y2="280" stroke="#0066ff" stroke-width="1" opacity="0.4"/>
+    <line x1="500" y1="225" x2="550" y2="280" stroke="#0066ff" stroke-width="1" opacity="0.4"/>
+    <line x1="200" y1="230" x2="100" y2="280" stroke="#0066ff" stroke-width="0.8" opacity="0.3"/>
+    <line x1="600" y1="230" x2="700" y2="280" stroke="#0066ff" stroke-width="0.8" opacity="0.3"/>
+  </g>
+  
+  <!-- Cornice superiore con angoli lab -->
+  <g stroke="#00ffff" stroke-width="2.5" fill="none" filter="url(#neonGlow)">
+    <path d="M 30,30 L 30,50 M 30,30 L 50,30" opacity="0.8"/>
+    <path d="M 770,30 L 770,50 M 770,30 L 750,30" opacity="0.8"/>
+  </g>
+  
+  <!-- Beaker/Flask icon (simbolo laboratorio) a sinistra -->
+  <g transform="translate(80, 110)" filter="url(#outerGlow)">
+    <!-- Flask body -->
+    <path d="M 0,-30 L -8,-30 L -15,0 Q -15,15 0,15 Q 15,15 15,0 L 8,-30 Z" 
+          fill="none" stroke="url(#neonGreen)" stroke-width="2.5"/>
+    <!-- Flask neck -->
+    <rect x="-4" y="-40" width="8" height="10" fill="none" stroke="url(#neonGreen)" stroke-width="2"/>
+    <!-- Liquid inside -->
+    <ellipse cx="0" cy="8" rx="10" ry="4" fill="#00ff99" opacity="0.3">
+      <animate attributeName="ry" values="4;5;4" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Bubbles -->
+    <circle cx="-5" cy="5" r="2" fill="#00ffff" opacity="0.6">
+      <animate attributeName="cy" values="5;-20" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="4" cy="8" r="1.5" fill="#00ffff" opacity="0.6">
+      <animate attributeName="cy" values="8;-15" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Testo LAB con effetto neon verde -->
+  <text x="140" y="130" 
+        font-family="'Audiowide', 'Orbitron', sans-serif" 
+        font-size="85" 
+        font-weight="700"
+        letter-spacing="20"
+        fill="url(#neonGreen)"
+        stroke="#00ff99"
+        stroke-width="1"
+        filter="url(#outerGlow)">
+    LAB
+  </text>
+  
+  <!-- Separatore atomico animato -->
+  <g transform="translate(440, 103)">
+    <!-- Nucleo centrale -->
+    <circle cx="0" cy="0" r="6" fill="#00ffff" filter="url(#neonGlow)">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Orbite elettroni -->
+    <ellipse cx="0" cy="0" rx="25" ry="8" 
+             fill="none" stroke="#0066ff" stroke-width="1" opacity="0.5"
+             transform="rotate(0)"/>
+    <ellipse cx="0" cy="0" rx="25" ry="8" 
+             fill="none" stroke="#0066ff" stroke-width="1" opacity="0.5"
+             transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="25" ry="8" 
+             fill="none" stroke="#0066ff" stroke-width="1" opacity="0.5"
+             transform="rotate(120)"/>
+    <!-- Elettroni -->
+    <circle r="3" fill="#00ffff">
+      <animateMotion dur="2s" repeatCount="indefinite"
+        path="M 25,0 A 25,8 0 1,1 -25,0 A 25,8 0 1,1 25,0"/>
+    </circle>
+    <circle r="3" fill="#00ffff">
+      <animateMotion dur="2s" begin="0.66s" repeatCount="indefinite"
+        path="M 25,0 A 25,8 0 1,1 -25,0 A 25,8 0 1,1 25,0"/>
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 0 0" to="360 0 0" dur="2s" begin="0.66s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Testo 1612 con effetto neon blu -->
+  <text x="500" y="130" 
+        font-family="'Audiowide', 'Orbitron', sans-serif" 
+        font-size="85" 
+        font-weight="700"
+        letter-spacing="8"
+        fill="url(#neonBlue)"
+        stroke="#00ffff"
+        stroke-width="1"
+        filter="url(#outerGlow)">
+    1612
+  </text>
+  
+  <!-- Linea di energia che collega LAB e 1612 -->
+  <line x1="140" y1="145" x2="680" y2="145" 
+        stroke="#00ffff" stroke-width="1.5" 
+        stroke-dasharray="5,5"
+        opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="0" to="10" dur="0.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Sottotitolo digitale -->
+  <text x="145" y="175" 
+        font-family="'Share Tech Mono', monospace" 
+        font-size="16" 
+        letter-spacing="8"
+        fill="#00ffff"
+        opacity="0.8">
+    DIGITAL EXPERIMENTS • 3D • AI • CODE
+  </text>
+  
+  <!-- Codice binario decorativo che scorre -->
+  <g opacity="0.3" font-family="'Courier New', monospace" font-size="10" fill="#00ff99">
+    <text x="50" y="200">01101100 01100001 01100010</text>
+    <text x="450" y="200">00110001 00110110 00110001 00110010</text>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Molecule icon (simbolo scienza) a destra -->
+  <g transform="translate(720, 110)" filter="url(#neonGlow)">
+    <!-- Atomi -->
+    <circle cx="0" cy="-15" r="5" fill="#00ffff"/>
+    <circle cx="-13" cy="8" r="5" fill="#0066ff"/>
+    <circle cx="13" cy="8" r="5" fill="#00ff99"/>
+    <!-- Legami -->
+    <line x1="0" y1="-10" x2="-10" y2="5" stroke="#00ffff" stroke-width="1.5"/>
+    <line x1="0" y1="-10" x2="10" y2="5" stroke="#00ffff" stroke-width="1.5"/>
+    <!-- Animazione rotazione -->
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Scan line effect -->
+  <rect x="0" y="0" width="800" height="2" fill="#00ffff" opacity="0.3">
+    <animate attributeName="y" values="0;300;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Pixel indicators angoli inferiori -->
+  <rect x="30" y="250" width="3" height="3" fill="#00ffff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="767" y="250" width="3" height="3" fill="#00ff99" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Data readout decoration -->
+  <g opacity="0.5" font-family="'Share Tech Mono', monospace" font-size="9" fill="#00ffff">
+    <text x="30" y="270">SYS.ONLINE</text>
+    <text x="690" y="270">v1.6.12</text>
+  </g>
+</svg>

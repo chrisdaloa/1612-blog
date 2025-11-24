@@ -1,11 +1,16 @@
-baseURL: 'https://1612-blog.netlify.app/'
+baseURL: '/'
 languageCode: it-it
-title: '1612.it - Tech, 3D Printing & AI'
+title: 'Lab1612'
 theme: PaperMod
 
 params:
+  label:
+    text: "Lab1612"
+    icon: /images/logo-lab1612.svg
+    iconHeight: 60
+  
   description: 'Blog su stampa 3D, programmazione, intelligenza artificiale e tecnologia'
-  author: 'Il tuo nome'
+  author: 'Christian'
   
   ShowSearchPage: true
   ShowReadingTime: true
@@ -16,14 +21,14 @@ params:
   homeInfoParams:
     Title: "Ciao! 👋"
     Content: >
-      Benvenuto su 1612.it - il mio angolo di web dove scrivo di 
+      Benvenuto su SediciDodici - il mio angolo di web dove scrivo di 
       **stampa 3D**, **programmazione**, **AI** e tecnologia in generale.
 
   socialIcons:
     - name: github
       url: "https://github.com/chrisdaloa"
-    - name: chridaloa@gmail.com
-      url: "mailto:chrisdaloa@gmail.com"
+    - name: email
+      url: "mailto:tua@email.com"
 
 menu:
   main:
