@@ -67,7 +67,7 @@ Un AI Agent:
 6. **Completa** il task autonomamente
 
 **Esempio pratico:**
-```
+
 Tu: "Crea un sito web portfolio con 3 pagine e deployalo"
 Agent: 
   1. Crea struttura HTML/CSS
@@ -78,7 +78,7 @@ Agent:
   6. Ti fornisce l'URL finale
   
 Fatto! ✅
-```
+
 
 ---
 
