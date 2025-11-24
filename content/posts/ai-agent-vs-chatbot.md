@@ -67,7 +67,7 @@ Un AI Agent:
 6. **Completa** il task autonomamente
 
 **Esempio pratico:**
-
+```
 Tu: "Crea un sito web portfolio con 3 pagine e deployalo"
 Agent: 
   1. Crea struttura HTML/CSS
@@ -78,7 +78,7 @@ Agent:
   6. Ti fornisce l'URL finale
   
 Fatto! ✅
-
+```
 
 ---
 
@@ -100,6 +100,7 @@ Fatto! ✅
 ## I Migliori AI Agents del 2025
 
 ### 1. **Cursor Agent Mode** ⭐⭐⭐⭐⭐
+![Cursor](/images/cursor.png)
 
 **Cosa fa:**
 Editor di codice AI che può completare intere feature autonomamente.
@@ -119,6 +120,7 @@ Editor di codice AI che può completare intere feature autonomamente.
 ---
 
 ### 2. **Claude con Computer Use (Anthropic)** ⭐⭐⭐⭐⭐
+![Cursor](/images/claude.jpg)
 
 **Cosa fa:**
 Claude può controllare il tuo computer: muovere mouse, cliccare, digitare.
@@ -138,6 +140,7 @@ Claude può controllare il tuo computer: muovere mouse, cliccare, digitare.
 ---
 
 ### 3. **Devin (Cognition AI)** ⭐⭐⭐⭐
+![Cursor](/images/devin.jpg)
 
 **Cosa fa:**
 Il primo "software engineer AI" completo.
@@ -155,6 +158,7 @@ Il primo "software engineer AI" completo.
 ---
 
 ### 4. **AutoGPT** ⭐⭐⭐⭐
+![Cursor](/images/autogpt.png)
 
 **Cosa fa:**
 Framework open source per creare AI agents personalizzati.
@@ -174,6 +178,7 @@ Framework open source per creare AI agents personalizzati.
 ---
 
 ### 5. **Windsurf (Codeium)** ⭐⭐⭐⭐
+![Cursor](/images/windsurf.webp)
 
 **Cosa fa:**
 Editor AI con focus su privacy e local-first.
