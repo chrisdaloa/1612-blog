@@ -105,10 +105,10 @@ Fatto! ✅
 Editor di codice AI che può completare intere feature autonomamente.
 
 **Caratteristiche:**
-- Scrive, testa e debugga codice
-- Accede al file system
-- Esegue comandi terminal
-- Integrato nell'IDE
+- Scrive, testa e debugga codice.
+- Accede al file system.
+- Esegue comandi terminal.
+- Integrato nell'IDE.
 
 **Prezzo:** free - $20/mese (piano gratuito previsto)
 
