@@ -5,6 +5,11 @@ draft: false
 tags: ["AI", "intelligenza-artificiale", "tutorial", "produttività"]
 categories: ["Intelligenza Artificiale"]
 description: "Scopri le differenze tra AI Agents e AI Chatbot, quando usarli e i migliori tool del 2025. Guida pratica con esempi reali per sviluppatori e maker."
+cover:
+    image: "/images/ai_agent_vs_chatbot.webp"
+    alt: "Nuovi materiali per stampa 3D 2025"
+    caption: "I materiali innovativi che stanno rivoluzionando la stampa 3D"
+    relative: false
 ---
 
 Se hai usato ChatGPT o Claude, hai già interagito con un **AI Chatbot**. Ma hai mai sentito parlare di **AI Agents**? Nel 2025, gli AI Agents stanno rivoluzionando il modo in cui lavoriamo con l'intelligenza artificiale, trasformandosi nelle "app dell'era AI" secondo Microsoft.
