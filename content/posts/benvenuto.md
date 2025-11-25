@@ -5,6 +5,12 @@ draft: false
 tags: ["news", "aggiornamenti"]
 categories: ["Generale"]
 description: "Il sito si rinnova con Hugo"
+cover:
+    image: "/images/hugo.jpg"
+    alt: "Il mio nuovo sito"
+    caption: "Nuovo sito realizzato  con Hugo"
+    relative: false
+---
 ---
 
 ## Benvenuto!

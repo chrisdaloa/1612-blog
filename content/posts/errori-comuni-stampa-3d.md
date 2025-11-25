@@ -5,6 +5,11 @@ draft: false
 tags: ["stampa-3d", "tutorial", "troubleshooting", "guida"]
 categories: ["Stampa 3D"]
 description: "Guida completa ai 10 errori più comuni nella stampa 3D FDM: dalle bolle al warping, scopri cause e soluzioni pratiche per stampe perfette."
+cover:
+    image: "/images/errori_ghost5.png"
+    alt: "Gli errori più comuni nella stampa 3d"
+    caption: "Una guida completa per i tuoi errori più comunie nella stampa 3D FDM"
+    relative: false
 ---
 
 Hai appena lanciato una stampa e dopo ore di attesa il risultato è... un disastro? Non preoccuparti, succede a tutti! In questa guida completa vedremo i 10 errori più comuni nella stampa 3D FDM e, soprattutto, come risolverli definitivamente.

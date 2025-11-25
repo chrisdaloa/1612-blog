@@ -5,6 +5,11 @@ draft: false
 tags: ["stampa-3d", "materiali", "innovazione", "guida"]
 categories: ["Stampa 3D"]
 description: "Scopri i nuovi materiali rivoluzionari per stampa 3D del 2025: polimeri conduttivi, bioplastiche, compositi ad alte prestazioni. Guida completa con test, prezzi e applicazioni."
+cover:
+    image: "/images/nuovi_materiali.webp"
+    alt: "Nuovi materiali per stampa 3D 2025"
+    caption: "I materiali innovativi che stanno rivoluzionando la stampa 3D"
+    relative: false
 ---
 
 Se pensi ancora che la stampa 3D sia solo PLA e ABS, preparati a rimanere sorpreso. Il 2025 sta portando una vera rivoluzione nei materiali: polimeri conduttivi che trasportano elettricità, bioplastiche che si decompongono in natura, compositi che competono con l'alluminio per resistenza.

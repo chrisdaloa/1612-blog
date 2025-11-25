@@ -5,6 +5,12 @@ draft: false
 tags: ["stampa-3d", "tutorial", "diy", "resina"]
 categories: ["Stampa 3D"]
 description: "Guida completa per costruire un riscaldatore DIY per stampanti a resina. Schema collegamenti, lista materiali e configurazione termostato per stampare a temperature ottimali."
+cover:
+    image: "/images/riscaldatore.png"
+    alt: "Costruisci il tuo riscaldatore DIY per stampanti a resina"
+    caption: "Scopri com costruire un utile riscaldatore per la tua stampante 3d a resina"
+    relative: false
+---
 ---
 
 Oggi voglio presentarvi questo progetto che ho trovato in rete e che ho realizzato per la mia stampante a resina [Voxelab Proxima 6.0](https://amzn.to/3oeusZs).
