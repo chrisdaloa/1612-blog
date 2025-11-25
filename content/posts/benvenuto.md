@@ -11,8 +11,6 @@ cover:
     caption: "Nuovo sito realizzato  con Hugo"
     relative: false
 ---
----
-
 ## Benvenuto!
 
 Dopo anni su WordPress, ho deciso di rinnovare completamente il sito utilizzando **Hugo**.
@@ -23,5 +21,7 @@ Dopo anni su WordPress, ho deciso di rinnovare completamente il sito utilizzando
 - 💻 **Programmazione**: tutorial e tips
 - 🤖 **AI**: novità e applicazioni pratiche
 - ⚙️ **Tech**: tutto sull'informatica
+
+Se vuoi sapere come ho creato questo sito, [leggi l'articolo](http://localhost:1313/posts/crea-blog-con-hugo/).
 
 Resta sintonizzato! 🚀
