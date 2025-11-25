@@ -78,5 +78,3 @@ Metodi: filament dryer, forno a convezione a temperatura controllata (solo se af
 
 ## Conclusione
 L'umidità è una delle cause più comuni di stampe difettose ma si risolve con semplici abitudini: stoccaggio ermetico, uso di desiccanti, monitoraggio con igrometro e asciugatura mirata. Investire in una buona pratica di conservazione salva tempo e materiale.
-
-Hai bisogno di un template per registrare le condizioni di conservazione o consigli su un essiccatore specifico? Posso suggerirti impostazioni e prodotti in base al materiale.

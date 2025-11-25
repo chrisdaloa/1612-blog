@@ -137,7 +137,3 @@ Alternativa: GitHub Pages (usa azioni con peaceiris/actions-hugo) o Vercel.
 - Hugo docs: https://gohugo.io/
 - PaperMod repo & docs: https://github.com/adityatelange/hugo-PaperMod
 - Deploy Netlify: https://www.netlify.com/
-
----
-
-Questa guida fornisce i passaggi essenziali e le impostazioni SEO immediate per lanciare un sito veloce e indicizzabile con Hugo + PaperMod. Posso generare un config.toml completo ottimizzato per PaperMod o uno script PowerShell che automatizza i comandi: quale preferisci?
