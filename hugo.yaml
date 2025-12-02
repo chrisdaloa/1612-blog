@@ -3,7 +3,6 @@ languageCode: it-it
 title: 'LAB1612'
 theme: PaperMod
 
-
 params:
   # label:
   #   text: "Lab1612"
@@ -35,7 +34,7 @@ params:
     - name: github
       url: "https://github.com/chrisdaloa"
     - name: email
-      url: "mailto:tua@email.com"
+      url: "mailto:chrisdaloa@gmail.com"
 
 menu:
   main:
