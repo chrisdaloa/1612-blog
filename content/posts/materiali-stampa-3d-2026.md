@@ -689,8 +689,7 @@ Il futuro della stampa 3D non è nella stampante, ma nei materiali. Chi li padro
 
 **Articoli correlati:**
 - [10 Errori Comuni nella Stampa 3D (e Come Risolverli)](/posts/errori-comuni-stampa-3d)
-- [Riscaldatore DIY per Stampanti a Resina](/posts/riscaldatore-diy-resina)
-- [Come Ottimizzare le Stampe 3D con l'AI](/posts/stampa-3d-ai-ottimizzazione)
+- [Riscaldatore DIY per Stampanti a Resina](/posts/riscaldatore-diy-per-stampanti-resina)
 
 ---
 
