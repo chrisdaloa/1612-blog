@@ -3,7 +3,7 @@ title: "Scrivere e Pubblicare su Hugo dal Telefono con GitJournal"
 date: 2025-12-02
 draft: false
 tags: ["hugo", "gitjournal", "workflow", "mobile", "tutorial"]
-categories: ["Programmazione"]
+categories: ["Web", "Hugo"]
 description: "Guida completa per scrivere e pubblicare articoli Hugo direttamente dal telefono usando GitJournal. Workflow mobile-first per blogger e developer."
 cover:
     image: "/images/gitjournal.png"
