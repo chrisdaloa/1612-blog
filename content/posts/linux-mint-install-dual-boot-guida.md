@@ -6,7 +6,7 @@ tags: ["linux", "linux-mint", "dual-boot", "tutorial", "windows"]
 categories: ["Programmazione", "Linux"]
 description: "Guida completa per installare Linux Mint in dual boot con Windows usando un secondo disco. Procedura step-by-step aggiornata 2025, facile e sicura."
 cover:
-    image: "/images/linux-mint-dual-boot-install-guide.jpg"
+    image: "/images/linux-mint-dual-boot-install-guide.webp"
     alt: "Linux Mint dual boot installation"
     caption: "Windows e Linux: il meglio di entrambi i mondi"
     relative: false
