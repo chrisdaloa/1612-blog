@@ -7,10 +7,9 @@ categories: ["Stampa 3D"]
 description: "Lista completa di ricambi e upgrade testati per la stampante 3D Flying Bear Ghost 5. Migliora le performance della tua stampante con questi componenti verificati."
 cover:
     image: "/images/ghost5.jpg"
-    # alt: "Nuovi materiali per stampa 3D 2025"
-    # caption: "I materiali innovativi che stanno rivoluzionando la stampa 3D"
+    alt: "I ricambi per la Flying Bear Ghost 5"
+    caption: "Tutti i ricambi e gli update utili per la stampante 3d Ghost 5"
     relative: false
----
 ---
 
 Ecco qui di seguito un elenco dei ricambi e upgrades testati per la Flying Bear Ghost 5.
