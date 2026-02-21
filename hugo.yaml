@@ -3,6 +3,13 @@ languageCode: it-it
 title: 'LAB1612'
 theme: PaperMod
 
+# ← outputs QUI, non dentro params!
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   # label:
   #   text: "Lab1612"
@@ -62,3 +69,7 @@ taxonomies:
 
 minify:
   disableJSON: true
+
+services:
+  googleAnalytics:
+    ID: G-DLD6641Y6D
