@@ -1,12 +1,12 @@
 ---
 title: "Winhance: Il Tool Gratuito che Rende Windows 10/11 Finalmente Veloce"
-date: 2025-11-24
+date: 2026-02-21
 draft: false
 tags: ["windows", "ottimizzazione", "debloat", "performance", "tool"]
 categories: ["Programmazione"]
 description: "Guida completa a Winhance, il tool open-source per ottimizzare, debloat e personalizzare Windows 10/11. Rimuovi bloatware, migliora privacy e performance in pochi click."
 cover:
-    image: "/images/winhance-cover.jpg"
+    image: "/images/winhance_1200x675.jpeg"
     alt: "Winhance Windows optimization tool"
     caption: "Ottimizza Windows senza reinstallare"
     relative: false
