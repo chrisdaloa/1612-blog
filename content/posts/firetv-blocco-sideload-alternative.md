@@ -559,3 +559,4 @@ Se questo articolo ti ha fatto capire che non possiedi davvero il tuo dispositiv
 - r/ShieldAndroidTV - Per NVIDIA Shield
 - Kodi Forums - Per setup Kodi
 
+*Questo articolo contiene link affiliati Amazon. Acquistando tramite questi link supporti Lab1612 senza costi aggiuntivi.* 🙏
