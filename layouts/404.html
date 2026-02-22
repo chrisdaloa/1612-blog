@@ -1,0 +1,86 @@
+{{- define "main" }}
+<div class="error-404">
+    <div class="error-container">
+        <!-- Icona errore -->
+        <div class="error-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+        </div>
+
+        <!-- Titolo -->
+        <h1 class="error-title">404 - Pagina Non Trovata</h1>
+        
+        <!-- Messaggio principale -->
+        <div class="error-message">
+            <p class="message-main">
+                Ops! La pagina che stai cercando non esiste più o è stata spostata.
+            </p>
+            <p class="message-secondary">
+                <strong>Lab1612 è stato completamente rinnovato!</strong><br>
+                Il vecchio sito WordPress non esiste più. Tutti i contenuti sono stati aggiornati e riorganizzati.
+            </p>
+        </div>
+
+        <!-- Ricerca -->
+        <div class="error-search">
+            <h2>🔍 Cerca nel nuovo sito</h2>
+            <p>Prova a cercare l'argomento che ti interessa:</p>
+            <form action="/search/" method="get" class="search-form-404">
+                <input type="text" 
+                       name="q" 
+                       placeholder="Cerca articoli su stampa 3D, AI, programmazione..." 
+                       class="search-input-404"
+                       autofocus>
+                <button type="submit" class="search-button-404">Cerca</button>
+            </form>
+        </div>
+
+        <!-- Articoli popolari -->
+        <div class="popular-posts">
+            <h2>📝 Articoli Più Popolari</h2>
+            <div class="posts-grid">
+                {{- range first 6 (where .Site.RegularPages "Type" "posts") }}
+                <a href="{{ .Permalink }}" class="post-card-404">
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Summary | truncate 100 }}</p>
+                </a>
+                {{- end }}
+            </div>
+        </div>
+
+        <!-- Navigazione veloce -->
+        <div class="quick-nav">
+            <h2>🧭 Esplora per Categoria</h2>
+            <div class="categories-grid">
+                {{- range .Site.Taxonomies.categories.ByCount }}
+                <a href="{{ .Page.Permalink }}" class="category-badge-404">
+                    {{ .Page.Title }} <span class="count">({{ .Count }})</span>
+                </a>
+                {{- end }}
+            </div>
+        </div>
+
+        <!-- Call to action -->
+        <div class="cta-section">
+            <a href="/" class="btn-home">← Torna alla Home</a>
+            <a href="/posts/" class="btn-articles">Tutti gli Articoli →</a>
+        </div>
+
+        <!-- Info tecnica -->
+        <div class="tech-info">
+            <details>
+                <summary>ℹ️ Perché vedo questa pagina?</summary>
+                <div class="info-content">
+                    <p><strong>Vecchio link WordPress:</strong> Hai seguito un link al vecchio sito che usava WordPress.</p>
+                    <p><strong>Nuovo sito Hugo:</strong> Abbiamo migrato a Hugo con una struttura URL più pulita.</p>
+                    <p><strong>Contenuti aggiornati:</strong> Gli articoli sono stati riscritti e migliorati.</p>
+                    <p><strong>Cosa fare:</strong> Usa la ricerca sopra o naviga dalle categorie per trovare quello che cerchi!</p>
+                </div>
+            </details>
+        </div>
+    </div>
+</div>
+{{- end }}
