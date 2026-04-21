@@ -74,9 +74,4 @@ services:
   googleAnalytics:
     ID: G-DLD6641Y6D
 
-# Output formats per ricerca
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON  # Necessario per ricerca!
+
