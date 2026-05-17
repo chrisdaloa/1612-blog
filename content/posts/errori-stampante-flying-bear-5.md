@@ -1,6 +1,6 @@
 ---
 title: "Codici Errore Flying Bear Ghost 4 e 5: Guida alla Risoluzione"
-date: 2024-10-22
+date: 2026-05-17
 draft: false
 tags: ["stampa-3d", "flying-bear", "ghost", "troubleshooting", "errori"]
 categories: ["Stampa 3D"]
