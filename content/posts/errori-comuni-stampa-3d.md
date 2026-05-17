@@ -10,6 +10,8 @@ cover:
     alt: "Gli errori più comuni nella stampa 3d"
     caption: "Una guida completa per i tuoi errori più comunie nella stampa 3D FDM"
     relative: false
+aliases:
+    - /wp/flyingbear-ghost-4-e-5-capire-gli-errori/
 ---
 
 Hai appena lanciato una stampa e dopo ore di attesa il risultato è... un disastro? Non preoccuparti, succede a tutti! In questa guida completa vedremo i 10 errori più comuni nella stampa 3D FDM e, soprattutto, come risolverli definitivamente.
