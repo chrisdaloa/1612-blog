@@ -1,7 +1,7 @@
 ---
 title: "open-wa: un gateway WhatsApp self-hosted e open source"
 date: 2026-05-19
-draft: true
+draft: false
 
 tags: ["whatsapp", "self-hosting", "docker", "automazione", "open-source", "api"]
 categories: ["Linux", "Tech"]

@@ -1,7 +1,7 @@
 ---
 title: "Mini PC usati come NAS: il mio setup con due OptiPlex e Proxmox"
 date: 2026-05-19
-draft: true
+draft: false
 
 tags: ["nas", "mini-pc", "proxmox", "self-hosting", "linux", "home-server", "jellyfin", "xpenology"]
 categories: ["Linux", "Tech"]
@@ -25,7 +25,6 @@ Ho un **OptiPlex 3070 Micro** e un **OptiPlex 3050 Micro**, entrambi con 16 GB d
 
 Il formato Micro di Dell è una di quelle cose che sembrano un giocattolo la prima volta che le vedi: 18x18x3 cm circa, un alimentatore esterno come quello di un laptop, silenziosi quasi al punto da dimenticarsi che ci sono. Per un server domestico che deve stare acceso sempre, silenzio e consumi bassi contano parecchio.
 
-![I due OptiPlex Micro affiancati — il 3070 a sinistra, il 3050 a destra](/images/optiplex-3070-3050-micro.jpg)
 
 ## Proxmox su entrambi
 
@@ -50,8 +49,6 @@ Jellyfin con hardware transcoding funziona benissimo grazie all'Intel Quick Sync
 ## I vecchi DS112j: storage aggiuntivo dal nulla
 
 I due **Synology DS112j** sono NAS single-bay del 2012 circa — lenti, con poco RAM, processori Marvell che fanno quasi tenerezza. Nuovi non li compererei, ma li ho recuperati e ci stanno dentro due [HDD da 4 TB](https://www.amazon.it/dp/B09RMRKC9P/?tag=16120s-21) ciascuno.
-
-![Il setup completo: i due DS112j sul ripiano in basso, i due OptiPlex sopra](/images/setup-nas-optiplex-ds112j.jpg)
 
 Li uso come destinazione per i backup: lo script di backup del 3070 scarica ogni notte una copia dei dati importanti su entrambi i DS112j. Non sono veloci e DSM su quel hardware non riceve più aggiornamenti da tempo, ma per fare da target di backup su rete locale fanno il loro lavoro senza problemi.
 

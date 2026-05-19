@@ -1,7 +1,7 @@
 ---
 title: "RapidRAW: un editor RAW open source che vale la pena tenere d'occhio"
 date: 2026-05-19
-draft: true
+draft: false
 
 tags: ["fotografia", "open-source", "linux", "raw", "strumenti", "alternativa-lightroom"]
 categories: ["Linux", "Tech"]
