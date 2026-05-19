@@ -26,3 +26,12 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+[[redirects]]
+  from = "/wp/category/home-assistant/"
+  to = "/tags/home-assistant/"
+  status = 301
+
+[[redirects]]
+  from = "/wp/tag/problem-solving/"
+  to = "/tags/home-assistant/"
+  status = 301
