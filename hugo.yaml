@@ -1,4 +1,4 @@
-baseURL: '/'
+baseURL: 'https://www.1612.it/'
 languageCode: it-it
 title: 'LAB1612'
 theme: PaperMod
@@ -73,5 +73,7 @@ minify:
 services:
   googleAnalytics:
     ID: G-DLD6641Y6D
+
+
 
 
