@@ -41,6 +41,8 @@ Quando scrivi un articolo:
 
 11. A fine elaborazione forniscimi un prompt da passare a gemini per la creazione della copertina dell'articolo
 
+12. non fare push su github, ci penso io manualmente
+
 ## Frontmatter
 
 Seguire SEMPRE:
