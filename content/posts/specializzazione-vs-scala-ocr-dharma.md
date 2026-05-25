@@ -1,7 +1,7 @@
 ---
 title: "Un modello da 3 miliardi di parametri che batte GPT e Claude sull'OCR"
 date: 2026-05-25
-draft: true
+draft: false
 
 tags: ["ai", "intelligenza-artificiale", "ocr", "llm", "machine-learning"]
 categories: ["Intelligenza Artificiale"]
