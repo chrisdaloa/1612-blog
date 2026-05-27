@@ -310,3 +310,6 @@
         width: 100%;
     }
 }
+.first-entry {
+    min-height: 180px !important;
+}

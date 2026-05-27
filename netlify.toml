@@ -35,3 +35,33 @@
   from = "/wp/tag/problem-solving/"
   to = "/tags/home-assistant/"
   status = 301
+
+[[redirects]]
+  from = "/wp/wp/tag/w1209wk/"
+  to = "/tags/"
+  status = 301
+
+[[redirects]]
+  from = "/wp/tag/termostato/"
+  to = "/tags/"
+  status = 301
+
+[[redirects]]
+  from = "/wp/tag/home-assistant/"
+  to = "/tags/home-assistant/"
+  status = 301
+
+[[redirects]]
+  from = "/wp/7-migliori-stampanti-3d-in-resina-per-principianti-nel-2021-alta-qualita/"
+  to = "/categories/stampa-3d/"
+  status = 301
+
+[[redirects]]
+  from = "/wp/installare-samba-su-home-assistant/"
+  to = "/tags/home-assistant/"
+  status = 301
+
+[[redirects]]
+  from = "/wp/non-estrude-a-inizio-stampa/"
+  to = "/posts/stampante-3d-fdm-non-estrude-inizio-stampa/"
+  status = 301
