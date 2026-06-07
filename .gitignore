@@ -2,3 +2,7 @@ public/
 .hugo_build.lock
 resources/_gen/
 .DS_Store
+
+# Editorial workflow — non committare bozze
+.drafts/*.md
+.drafts/status.json
