@@ -1,0 +1,11 @@
+{
+  "topic": "arcade_nerd",
+  "candidate_type": "news",
+  "title": "Un Game Boy Camera attaccato a un telescopio da 60 pollici fotografa Giove, e ora i progetti sono open source",
+  "summary": "Il musicista e regista Chris Graue ha collegato una Game Boy Camera al telescopio Hooker da 60 pollici dell'osservatorio di Mount Wilson tramite un adattatore stampato in 3D per lenti C-Mount, riuscendo a fotografare Giove con quello che rivendica come l'obiettivo piu' lungo mai usato con l'accessorio Nintendo. Ha da poco rilasciato gratuitamente gli schemi dell'adattatore, permettendo a chiunque di stamparselo in 3D.",
+  "source_url": "https://www.technology.org/2026/07/10/game-boy-camera-jupiter-telescope-adapter-diy/",
+  "source_name": "Technology.org",
+  "score": 8,
+  "product_potential": 5,
+  "rationale": "Controllo duplicati: verificato con grep su content/posts/ (chiavi: 'game boy', 'telescopio', 'giove', 'hooker', 'mount wilson') - nessun post precedente copre questa storia o argomenti affini. Scelto come pick 'content' perche' e' il candidato con score piu' alto (8) tra quelli senza rischio di duplicato: tra i pari-merito a score 8 (open-weight models wave, Ollama 0.32.0, falla web_fetch di Claude, scheda Pinch, Super Mario 64 su 3DO) ho applicato il criterio di varieta' di topic, dato che gli ultimi due post pubblicati (18/07 su Grok Build e 04/07 su Voice AI/Gemma 4) sono entrambi a tema 'ai', mentre nessun post recente tratta il topic 'arcade_nerd'. Scartato inoltre 'Ollama 0.32.0' perche' il suo stesso score_rationale segnala sovrapposizione con Gemma 4, argomento gia' coperto il 04/07/2026. Tra i restanti candidati a score 8 non-ai (Pinch su arduino, Super Mario 64 su 3DO su arcade_nerd), questa storia unisce in modo unico retro-computing, astronomia amatoriale e stampa 3D (l'adattatore e' un progetto stampabile in 3D, open source e riproducibile), risultando la scelta editorialmente piu' forte e distintiva per lo stile del blog rispetto a una semplice notizia hardware."
+}

@@ -6,3 +6,7 @@ resources/_gen/
 # Editorial workflow — non committare bozze
 .drafts/*.md
 .drafts/status.json
+
+pipeline/logs/
+*.env
+.env

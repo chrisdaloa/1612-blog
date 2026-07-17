@@ -51,6 +51,28 @@ publishing:
   git_branch: "main"
   autodeploy: true   # push su main = deploy automatico, nessuna revisione umana
 
+# Strategia doppia pubblicazione settimanale
+# La pipeline produce 2 articoli a settimana: uno scelto per qualità/rilevanza
+# (come sempre), uno scelto per potenziale di monetizzazione affiliata.
+affiliate_strategy:
+  enabled: true
+  min_quality_score: 6            # soglia minima di qualità anche per il pick "affiliato" — mai puramente commerciale
+  evergreen_guides_enabled: true  # oltre alle notizie del giorno, considera anche guide/confronti evergreen
+  evergreen_rotation_days: 60     # non riproporre la stessa guida evergreen entro N giorni
+  evergreen_topics:
+    stampa3d:
+      - "Migliori stampanti 3D economiche per iniziare"
+      - "Confronto filamenti PLA vs PETG vs ABS: quale scegliere"
+      - "Accessori essenziali per la tua prima stampante 3D"
+    arduino:
+      - "Kit Arduino per principianti: quale comprare"
+      - "Sensori e moduli essenziali per progetti Arduino/ESP32"
+    arcade_nerd:
+      - "Mini console retrogaming: guida all'acquisto"
+      - "Controller e periferiche per emulazione: cosa comprare"
+    ai:
+      - "Mini PC e schede per homelab AI: guida all'acquisto"
+
 # Affiliazione Amazon
 affiliate:
   enabled: true

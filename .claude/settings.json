@@ -10,6 +10,7 @@
       "Bash(git diff *)",
       "Bash(mkdir -p pipeline*)",
       "Bash(hugo *)",
+      "Bash(python3 scripts/generate_cover.py *)",
       "WebSearch",
       "WebFetch",
       "Read(./pipeline/**)",

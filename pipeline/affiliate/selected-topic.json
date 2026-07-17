@@ -1,0 +1,11 @@
+{
+  "topic": "arduino",
+  "candidate_type": "evergreen_guide",
+  "title": "Kit Arduino per principianti: quale comprare",
+  "summary": "Confronto tra i principali starter kit Arduino del 2026: dall'ELEGOO UNO R3 Super Starter Kit (miglior rapporto qualita'-prezzo, 200+ componenti), al Freenove Ultimate Starter Kit V4 (documentazione eccellente, 274 pagine di tutorial), fino al kit ufficiale Arduino Starter Kit R4 per chi vuole l'esperienza autentica con la nuova UNO R4 WiFi.",
+  "source_url": null,
+  "source_name": null,
+  "score": 7,
+  "product_potential": 9,
+  "rationale": "Controllo duplicati: verificato con grep su content/posts/ (chiavi: 'arduino', 'elegoo', 'freenove', 'starter kit') - trovate solo due menzioni marginali e fuori contesto (un esempio di prompt in ai-agent-vs-chatbot.md e un riferimento a marche di stampanti in ideamaker-slicer-guida.md), nessun post dedicato a guide/kit Arduino negli ultimi 60 giorni (rispetta evergreen_rotation_days). Score 7 supera la soglia minima di qualita' (min_quality_score: 6). Escluso il pick 'content' (arcade_nerd, Game Boy Camera+telescopio). Tra i candidati rimanenti con score>=6, il product_potential piu' alto (9) e' condiviso da 5 guide evergreen: 'Mini PC per homelab AI' (score 7, ai), 'Migliori stampanti 3D economiche' (score 7, stampa3d), 'Kit Arduino per principianti' (score 7, arduino), 'Mini console retrogaming' e 'Controller per emulazione' (score 6 entrambe, arcade_nerd). Applicata la preferenza per candidate_type evergreen_guide (tutte pari) e poi per score piu' alto: restano tre pari-merito a score 7 (ai, stampa3d, arduino). Ho scelto arduino perche' e' il topic meno recentemente coperto dal blog (stampa3d ha gia' avuto 3 post tra il 17 e il 26 maggio 2026, ai e' stato coperto due volte a luglio - 04/07 e 18/07 - mentre non esiste alcun post dedicato al mondo Arduino), massimizzando la varieta' editoriale della settimana. Rispetta anche la regola 9: il topic 'arduino' e' distinto dal topic 'arcade_nerd' del pick content, quindi nessuna sovrapposizione da segnalare."
+}
