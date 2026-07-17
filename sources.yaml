@@ -1,0 +1,60 @@
+# sources.yaml
+# Configurazione topic e fonti seed per il team di agenti di 1612.it
+# "seeds" = fonti fidate di partenza, sempre controllate
+# "dynamic" = se true, il trend-scout può cercare anche oltre le seed via web/SearXNG
+
+topics:
+  ai:
+    label: "Intelligenza Artificiale"
+    seeds:
+      - "Simon Willison blog (simonwillison.net)"
+      - "The Batch (deeplearning.ai)"
+      - "Andrej Karpathy (blog/X)"
+      - "Hacker News (news.ycombinator.com)"
+    dynamic: true
+    note: "Preferire novità pratiche/homelab-friendly rispetto a paper accademici puri"
+
+  stampa3d:
+    label: "Stampa 3D"
+    seeds:
+      - "Hackaday (tag 3d-printer-hacks)"
+      - "All3DP"
+      - "Prusa blog"
+    dynamic: true
+
+  arduino:
+    label: "Arduino / DIY Elettronica"
+    seeds:
+      - "Arduino blog ufficiale (blog.arduino.cc)"
+      - "Hackster.io"
+      - "Hackaday"
+    dynamic: true
+
+  arcade_nerd:
+    label: "Arcade e cultura nerd/retro"
+    seeds:
+      - "RetroGamer"
+      - "Hackaday (tag retro)"
+      - "Kotaku / community retro gaming"
+    dynamic: true
+
+# Regole generali di selezione trend
+selection_rules:
+  min_novelty_days: 7          # scarta notizie più vecchie di 7 giorni
+  max_candidates_per_topic: 8  # quanti candidati raccoglie il trend-scout per topic
+  avoid_duplicate_check_path: "content/posts/"  # dove il selector controlla i post già scritti
+
+# Impostazioni pubblicazione
+publishing:
+  hugo_content_dir: "content/posts/"
+  hugo_image_dir: "static/images/posts/"
+  git_branch: "main"
+  autodeploy: true   # push su main = deploy automatico, nessuna revisione umana
+
+# Affiliazione Amazon
+affiliate:
+  enabled: true
+  amazon_domain: "amazon.it"
+  tag: "16120s-21"   # <-- da sostituire con il tuo tag associati reale
+  only_named_products: true   # linka SOLO prodotti già citati nel testo, mai suggeriti ad-hoc
+  disclosure_shortcode: "{{< affiliate-disclosure >}}"
