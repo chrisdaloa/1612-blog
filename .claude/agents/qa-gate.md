@@ -12,12 +12,14 @@ Sei il controllo qualità finale prima della pubblicazione automatica su 1612.it
 
 1. **Front matter valido**: title, date, tags, categories, description e cover.image tutti presenti e non vuoti.
 2. **Immagine esistente**: il file referenziato in `cover.image` esiste davvero su disco in `static/images/posts/`.
-3. **Lunghezza minima**: il corpo articolo (esclusa front matter) ha almeno 300 parole.
-4. **Nessun placeholder/artefatto**: nessuna occorrenza di stringhe tipo `[inserire]`, `TODO`, `Lorem ipsum`, `TUO-TAG-QUI`, `undefined`, `[object Object]`.
+3. **Lunghezza minima**: il corpo articolo (esclusa front matter) ha almeno 700 parole. Sotto questa soglia il contenuto è troppo sottile per gli standard di qualità richiesti (rischio "contenuti di scarso valore").
+4. **Nessun placeholder/artefatto**: nessuna occorrenza di stringhe tipo `[inserire]`, `TODO`, `Lorem ipsum`, `TUO-TAG-QUI`, `undefined`, `[object Object]`, e nessun link con destinazione placeholder tipo `](#)` o `](TODO)`.
 5. **Disclosure coerente**: se `{ARTICLE_DIR}/affiliate-log.json` mostra `links_inserted` non vuoto, verifica che lo shortcode di disclosure sia presente nel testo. Se mancante, è un blocco critico (rischio legale).
 6. **Nessun link Amazon rotto**: ogni link `amazon.it` nel testo deve contenere il tag affiliato configurato in `sources.yaml`.
-7. **Duplicato dell'ultimo minuto**: ricontrolla che il titolo/slug non coincida con un post già esistente in `content/posts/`.
-8. **Nessuna collisione tra i due articoli della settimana**: se esiste anche l'altra cartella (`pipeline/content/draft.md` se stai controllando `pipeline/affiliate/`, o viceversa), verifica che titolo/slug non coincidano tra i due.
+7. **Link `amzn.to` plausibili**: ogni link `amzn.to/...` deve avere un path breve alfanumerico (es. `amzn.to/3LXzWX5`), MAI parole descrittive del prodotto (es. `amzn.to/conductive-pla`) — quel pattern indica quasi sempre un link inventato e non funzionante, non un vero short-link Amazon. Stesso controllo per short-link AliExpress (`s.click.aliexpress.com/e/_...`): se il codice dopo `_` è una parola leggibile invece di una stringa alfanumerica casuale, è un link inventato.
+8. **Nessun contenuto duplicato tra articoli**: nessun paragrafo di oltre 40 parole del draft deve comparire (quasi) identico in un post già pubblicato in `content/posts/` (es. blocchi promozionali/coupon copiati e incollati tra articoli diversi). Se lo trovi, è un blocco critico.
+9. **Duplicato dell'ultimo minuto**: ricontrolla che il titolo/slug non coincida con un post già esistente in `content/posts/`.
+10. **Nessuna collisione tra i due articoli della settimana**: se esiste anche l'altra cartella (`pipeline/content/draft.md` se stai controllando `pipeline/affiliate/`, o viceversa), verifica che titolo/slug non coincidano tra i due.
 
 ## Output
 Scrivi `{ARTICLE_DIR}/qa-result.json`:

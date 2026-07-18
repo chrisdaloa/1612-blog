@@ -254,9 +254,9 @@ L'hotend si intasa, il filamento non esce più o esce in modo irregolare.
 5. **Upgrade all-metal hotend** per materiali ad alta temperatura
 
 ### Prodotti per Manutenzione
-- [Essiccatore filamenti](https://amzn.to/dryer)
-- [Box ermetico con igrometro](https://amzn.to/drybox)
-- [Set nozzle di ricambio](https://amzn.to/nozzleset)
+- Essiccatore filamenti
+- Box ermetico con igrometro
+- Set nozzle di ricambio
 
 ---
 

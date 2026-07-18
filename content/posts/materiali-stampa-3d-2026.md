@@ -12,9 +12,9 @@ cover:
     relative: false
 ---
 
-Se pensi ancora che la stampa 3D sia solo PLA e ABS, preparati a rimanere sorpreso. Il 2025 sta portando una vera rivoluzione nei materiali: polimeri conduttivi che trasportano elettricità, bioplastiche che si decompongono in natura, compositi che competono con l'alluminio per resistenza.
+Se pensi ancora che la stampa 3D sia solo PLA e ABS, preparati a rimanere sorpreso. Sul mercato stanno arrivando materiali più specializzati: polimeri conduttivi che trasportano elettricità, bioplastiche pensate per decomporsi in condizioni controllate, compositi rinforzati che si avvicinano all'alluminio per resistenza.
 
-Il mercato dei materiali per stampa 3D raggiungerà gli 8,10 miliardi di dollari entro il 2030, e i nuovi materiali ne sono il motore principale. In questo articolo scoprirai quali sono, come usarli e perché cambieranno il tuo modo di stampare.
+In questo articolo li passo in rassegna: cosa sono, quando ha senso usarli e cosa serve per stamparli correttamente.
 
 ## L'Evoluzione dei Materiali: Da Dove Veniamo
 
@@ -72,7 +72,6 @@ Filamenti che **conducono elettricità**, permettendo di stampare circuiti, sens
 **Proto-Pasta Conductive PLA**
 - Resistività: ~15 Ω·cm
 - Prezzo: €45/750g
-- [Amazon](https://amzn.to/conductive-pla) | [AliExpress](https://s.click.aliexpress.com/e/_conductive)
 
 **Black Magic 3D Graphene**
 - Resistività: 0.6 Ω·cm (migliore!)
@@ -116,7 +115,6 @@ Il vero biodegradabile:
 **ColorFabb PHA**
 - Prezzo: €35/750g
 - Degrada in 3-6 mesi in compost
-- [Link](https://amzn.to/pha-filament)
 
 #### **PLA+ Bio-enhanced**
 
@@ -129,7 +127,6 @@ PLA con additivi biodegradabili:
 - €20/1kg
 - Packaging 100% riciclato
 - Colori matte bellissimi
-- [Amazon](https://amzn.to/polyterra) | [AliExpress](https://s.click.aliexpress.com/e/_polyterra)
 
 #### **Alghe-Based Filaments**
 
@@ -199,7 +196,6 @@ Alternativa al carbonio:
 **eSUN ePA-GF**
 - €35/1kg
 - Nylon + 30% glass fiber
-- [AliExpress](https://s.click.aliexpress.com/e/_glass-fiber)
 
 ### Applicazioni
 
@@ -238,7 +234,6 @@ Novità: stampabile veloce
 **Fillamentum Flexfill 70A**
 - €38/500g
 - Colori vivaci
-- [Amazon](https://amzn.to/flexfill)
 
 #### **TPU Shore 60A** (Super-Morbido)
 
@@ -295,7 +290,6 @@ Cambiano colore con temperatura o UV:
 - Cambia colore 25-31°C
 - Perfetto per tazze, decorazioni
 - €30/500g
-- [Link](https://amzn.to/thermochromic)
 
 **UV-Reactive**
 - Bianco indoor → Viola outdoor
@@ -312,7 +306,6 @@ Non il solito GITD:
 **Gizmo Dorks GITD Pro**
 - €35/1kg
 - Super brillante
-- [AliExpress](https://s.click.aliexpress.com/e/_gitd)
 
 ---
 
@@ -383,13 +376,11 @@ Supporto solubile in limonene:
 **Nozzle Hardened Steel**
 - €15-25 su Amazon
 - Compatibile 99% stampanti
-- [Link nozzle acciaio](https://amzn.to/hardened-steel)
 
 **Dry Box**
 - Per nylon, essenziale
 - Fai-da-te: €20 (box IKEA + silica)
 - Pronto: €40-60
-- [Dry Box Amazon](https://amzn.to/drybox)
 
 **Piatto Alta Temperatura**
 - Se <80°C, serve upgrade
@@ -449,7 +440,6 @@ Dry box attivo:
 
 **Sunlu S2 Dryer Box**
 - €60 per 2 bobine
-- [Amazon](https://amzn.to/sunlu-dryer)
 
 **PrintDry PRO**
 - €280 per 4 bobine
@@ -529,7 +519,7 @@ Temperature e tempi:
 - Diffusore in PLA translucido
 - Interruttore capacitivo (touch)
 
-**File:** [Thingiverse Link](#)
+Cerca "conductive PLA touch lamp" su Thingiverse o Printables per trovare progetti già pronti da adattare.
 
 ---
 
@@ -618,29 +608,9 @@ Cambia colore con temperatura corporea!
 
 ---
 
-## Il Futuro: Cosa Aspettarci nel 2026
+## Cosa guardare nei prossimi mesi
 
-### Materiali in Arrivo
-
-🔬 **Self-Healing Polymers**
-- Si auto-riparano dopo danno
-- Già in sviluppo per automotive
-
-🧬 **DNA-Based Filaments**
-- Storage dati in DNA sintetico
-- Densità: 1 exabyte per mm³
-
-🌡️ **Phase-Change Materials**
-- Assorbono/rilasciano calore
-- Termoregolazione passiva
-
-🔋 **Energy-Storing Polymers**
-- Filamenti-batteria
-- Oggetti che si auto-alimentano
-
-⚡ **Superconduttori a Temperatura Ambiente**
-- Ancora sperimentale
-- Rivoluzione elettronica
+Un paio di direzioni di ricerca che vale la pena tenere d'occhio, senza aspettarsi tempi brevi: i **polimeri self-healing** (in sviluppo soprattutto per applicazioni automotive, capaci di auto-ripararsi dopo un piccolo danno) e i **phase-change materials**, che assorbono e rilasciano calore per termoregolazione passiva. Sono ambiti di ricerca reali, ma per ora restano lontani dal filamento che compri su Amazon.
 
 ---
 
@@ -694,5 +664,3 @@ Il futuro della stampa 3D non è nella stampante, ma nei materiali. Chi li padro
 ---
 
 *Questo articolo ti è stato utile? Condividilo con altri maker!* 🚀
-
-**P.S.** Usa il codice **SCONTO10** su Eryone per il 10% di sconto su tutti i filamenti! [Visita Eryone →](https://www.eryone3d.com/)

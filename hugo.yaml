@@ -2,6 +2,7 @@ baseURL: 'https://www.1612.it/'
 languageCode: it-it
 title: 'LAB1612'
 theme: PaperMod
+enableRobotsTXT: true
 
 # ← outputs QUI, non dentro params!
 outputs:
@@ -57,6 +58,15 @@ menu:
     - name: Cerca
       url: /search/
       weight: 40
+    - name: Chi siamo
+      url: /chi-siamo/
+      weight: 50
+    - name: Contatti
+      url: /contatti/
+      weight: 60
+    - name: Privacy
+      url: /privacy/
+      weight: 70
 
 markup:
   highlight:

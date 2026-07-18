@@ -1,7 +1,7 @@
 ---
 title: "Benvenuto sul nuovo 1612.it"
 date: 2025-11-23
-draft: false
+draft: true
 tags: ["news", "aggiornamenti"]
 categories: ["Generale"]
 description: "Il sito si rinnova con Hugo"

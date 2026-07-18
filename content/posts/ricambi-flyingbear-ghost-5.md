@@ -17,14 +17,6 @@ aliases:
 
 Ecco qui di seguito un elenco dei ricambi e upgrades testati per la Flying Bear Ghost 5.
 
-## Sconto Eryone
-
-Prima di procedere voglio offrirti uno sconto del 10% sui prodotti Eryone con spedizione gratuita a partire da 22€. Usa il coupon **SCONTO10** nel carrello.
-
-[Visita Eryone →](https://www.eryone3d.com/)
-
----
-
 ## Lista Ricambi e Upgrades
 
 ### Hotend e Estrusore
@@ -54,7 +46,6 @@ Prima di procedere voglio offrirti uno sconto del 10% sui prodotti Eryone con sp
 
 - **BLTouch / CRTouch** (autolivellamento) - [Amazon](https://amzn.to/449HTif) | [AliExpress](https://s.click.aliexpress.com/e/_c3iA8soV)
 - **Silent board TMC2208** - [Amazon](https://amzn.to/4ptyN7R) | [AliExpress](https://s.click.aliexpress.com/e/_c3qixSKD)
-<!-- - **Direct Drive Kit** (conversione) - [Amazon](https://amzn.to/directdrive) | [AliExpress](https://s.click.aliexpress.com/e/_directdrive) -->
 
 ---
 
