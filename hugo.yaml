@@ -58,8 +58,8 @@ menu:
     - name: Cerca
       url: /search/
       weight: 40
-    - name: Chi siamo
-      url: /chi-siamo/
+    - name: Chi sono
+      url: /chi-sono/
       weight: 50
     - name: Contatti
       url: /contatti/

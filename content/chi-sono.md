@@ -1,11 +1,15 @@
 ---
-title: "Chi siamo"
+title: "Chi sono"
 date: 2026-07-18
 draft: false
 description: "Chi c'è dietro 1612.it"
 ShowToc: false
 searchHidden: true
+aliases:
+    - /chi-siamo/
 ---
+
+![Christian](/images/io.jpg)
 
 Ciao, sono Christian, e 1612.it è il mio spazio personale su web dove scrivo di **stampa 3D**, **programmazione**, **intelligenza artificiale**, **Arduino/elettronica** e tecnologia in generale — le cose che smonto, monto, testo e a volte rompo nel mio tempo libero.
 
