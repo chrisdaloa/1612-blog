@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    {"name": "front_matter", "passed": true, "detail": "title, date, tags, categories, description e cover.image presenti e non vuoti."},
+    {"name": "image_exists", "passed": true, "detail": "static/images/posts/grok-build-prometteva-tutto-locale-poi-caricava-interi-repository-password-comprese-sul-cloud-di-xai.png presente su disco (872985 byte) e coerente con cover.image nel front matter."},
+    {"name": "min_length", "passed": true, "detail": "Corpo articolo (esclusa front matter): 769 parole, sopra la soglia minima di 300."},
+    {"name": "no_placeholders", "passed": true, "detail": "Nessuna occorrenza di [inserire], TODO, Lorem ipsum, TUO-TAG-QUI, undefined, [object Object] nel testo."},
+    {"name": "disclosure_consistency", "passed": true, "detail": "pipeline/affiliate-log.json ha links_inserted: [] e disclosure_added: false; nessun link affiliato nel testo, quindi non è richiesta disclosure. Coerente."},
+    {"name": "amazon_links_tag", "passed": true, "detail": "Nessun link amazon.it presente nel testo, quindi nessun controllo di tag affiliato applicabile."},
+    {"name": "duplicate_check", "passed": true, "detail": "Titolo/slug 'Grok Build prometteva tutto locale...' (slug atteso: grok-build-prometteva-tutto-locale-poi-caricava-interi-repository-password-comprese-sul-cloud-di-xai) non coincide con nessun file esistente in content/posts/."}
+  ],
+  "blocking_issues": []
+}

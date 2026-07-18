@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    {"name": "front_matter", "passed": true},
+    {"name": "image_exists", "passed": true},
+    {"name": "min_length", "passed": true, "detail": "764 parole nel corpo (minimo 300)"},
+    {"name": "no_placeholders", "passed": true},
+    {"name": "disclosure_coherence", "passed": true, "detail": "links_inserted non vuoto e shortcode {{< affiliate-disclosure >}} presente nel testo"},
+    {"name": "amazon_links_tagged", "passed": true, "detail": "Unico link amazon.it (Game Boy Camera) contiene tag=16120s-21 come da sources.yaml"},
+    {"name": "no_duplicate_in_posts", "passed": true, "detail": "Nessun post in content/posts/ tratta Game Boy Camera + telescopio Hooker/Mount Wilson/Giove"},
+    {"name": "no_collision_other_article", "passed": true, "detail": "pipeline/affiliate/ non ha ancora un draft.md (topic arduino, non sovrapposto al topic arcade_nerd di questo articolo)"}
+  ],
+  "blocking_issues": []
+}

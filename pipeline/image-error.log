@@ -1,0 +1,21 @@
+[2026-07-18] image-creator: generazione copertina fallita.
+
+Articolo: "Grok Build prometteva 'tutto locale'. Poi caricava interi repository (password comprese) sul cloud di xAI"
+Slug atteso: grok-build-prometteva-tutto-locale-poi-caricava-interi-repository-password-comprese-sul-cloud-di-xai
+Target file atteso: static/images/posts/<slug>.png
+
+Motivo del fallimento:
+Nessun provider/API di generazione immagini risulta configurato nell'ambiente di esecuzione.
+- Nessun server MCP di image generation registrato (assenti sia .mcp.json nel repo sia configurazioni MCP a livello utente).
+- Nessuna variabile d'ambiente con API key per provider noti (OpenAI Images, Stability AI, Replicate, Gemini, ecc.).
+- scripts/run-pipeline.sh non specifica alcun provider concreto da usare.
+- Le permission in .claude/settings.json negano esplicitamente "Bash(curl *)", quindi non e' comunque possibile invocare una API HTTP esterna da questo step anche disponendo di una chiave.
+- Nessuno strumento nativo di generazione immagini disponibile nel toolset dell'agente (solo Bash, Read, Write).
+
+Prompt immagine che sarebbe stato usato (per riferimento/riuso futuro quando un provider sara' configurato):
+"A moody photographic-illustrative tech scene inside a home server rack / homelab setup at night, a laptop terminal glowing on a desk showing abstract code lines (no readable text), a subtle visual metaphor of data streaming out of a laptop upward into a stylized cloud/server icon in the background, cables and a small SBC/raspberry-pi style board on the desk, blue and dark teal color palette, cinematic lighting, shallow depth of field, slightly gritty realistic photo style consistent with a maker/homelab tech blog, no text, no logos, no watermarks, 16:9"
+
+Azione presa:
+- pipeline/draft.md NON modificato: cover.image lasciato vuoto ("").
+- Nessun file placeholder scritto in static/images/posts/.
+- Decisione su blocco pubblicazione demandata al qa-gate.

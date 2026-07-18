@@ -6,10 +6,12 @@ tags: ["retro-gaming", "game-boy", "stampa-3d", "astronomia", "open-source", "ar
 categories: ["Stampa 3D"]
 description: "Chris Graue ha collegato una Game Boy Camera al telescopio Hooker da 60 pollici di Mount Wilson con un adattatore C-Mount stampato in 3D, fotografando Giove con quello che chiama l'obiettivo più lungo mai usato con l'accessorio Nintendo. Ora gli schemi sono open source."
 cover:
-  image: ""
+  image: "/images/posts/ha-attaccato-una-game-boy-camera-a-un-telescopio-da-60-pollici-ha-fotografato-giove-e-ora-ti-regala-i-file-stl.png"
 ---
 
-Ho una Game Boy Camera in un cassetto da anni, presa più per nostalgia che per uso reale: 128x112 pixel, 4 tonalità di grigio, sensore che nel 1998 era già considerato scarso. Poi leggo che qualcuno l'ha puntata su Giove attraverso un telescopio da 60 pollici e mi tocca rivalutare tutto.
+{{< affiliate-disclosure >}}
+
+Ho una [Game Boy Camera](https://www.amazon.it/dp/B00002ST2O?tag=16120s-21) in un cassetto da anni, presa più per nostalgia che per uso reale: 128x112 pixel, 4 tonalità di grigio, sensore che nel 1998 era già considerato scarso. Poi leggo che qualcuno l'ha puntata su Giove attraverso un telescopio da 60 pollici e mi tocca rivalutare tutto.
 
 La storia, riportata da [Technology.org](https://www.technology.org/2026/07/10/game-boy-camera-jupiter-telescope-adapter-diy/), è quella di Chris Graue, musicista e regista che nel tempo libero fa esperimenti con hardware retro. Ha collegato la sua Game Boy Camera al telescopio Hooker da 60 pollici dell'osservatorio di Mount Wilson, in California — uno strumento storico, quello con cui Edwin Hubble dimostrò che l'universo si sta espandendo — e ci ha fotografato Giove. Il risultato è quello che lui stesso rivendica come l'obiettivo più lungo mai accoppiato a un accessorio Nintendo. Detto così sembra una barzelletta, ma il punto tecnico dietro c'è davvero.
 
