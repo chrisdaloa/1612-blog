@@ -96,7 +96,7 @@ La superiorità hardware della P1S è sostenuta da un'esperienza software curata
 
 ### 4.1. Bambu Studio: Il Cuore del Workflow
 
-Il slicer **Bambu Studio** è un fork di PrusaSlicer (e quindi di Slic3r), ma è stato ottimizzato per l'ecosistema Bambu Lab. Offre:
+Lo slicer **Bambu Studio** è un fork di PrusaSlicer (e quindi di Slic3r), ma è stato ottimizzato per l'ecosistema Bambu Lab. Offre:
 * **Integrazione Cloud:** Controllo remoto, monitoraggio della stampa e gestione della libreria di modelli.
 * **Calibrazione del Flusso:** Funzionalità semi-automatica per la calibrazione del *flow rate* del filamento.
 * **Supporti di Facile Rimozione:** Generazione avanzata di supporti a nido d'ape e a torre.
