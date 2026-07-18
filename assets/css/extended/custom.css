@@ -313,3 +313,24 @@
 .first-entry {
     min-height: 180px !important;
 }
+
+/* Chi sono - foto profilo affiancata al testo */
+.chi-sono-avatar {
+    float: left;
+    width: 120px;
+    margin: 0 1.2rem 1rem 0;
+}
+
+.chi-sono-avatar img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+    .chi-sono-avatar {
+        float: none;
+        margin: 0 auto 1rem;
+    }
+}
