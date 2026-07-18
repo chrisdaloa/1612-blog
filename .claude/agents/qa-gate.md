@@ -20,6 +20,7 @@ Sei il controllo qualità finale prima della pubblicazione automatica su 1612.it
 8. **Nessun contenuto duplicato tra articoli**: nessun paragrafo di oltre 40 parole del draft deve comparire (quasi) identico in un post già pubblicato in `content/posts/` (es. blocchi promozionali/coupon copiati e incollati tra articoli diversi). Se lo trovi, è un blocco critico.
 9. **Duplicato dell'ultimo minuto**: ricontrolla che il titolo/slug non coincida con un post già esistente in `content/posts/`.
 10. **Nessuna collisione tra i due articoli della settimana**: se esiste anche l'altra cartella (`pipeline/content/draft.md` se stai controllando `pipeline/affiliate/`, o viceversa), verifica che titolo/slug non coincidano tra i due.
+11. **Tag non eccessivi (bloccante)**: il draft ha al massimo 5 tag e 2 categorie. Se ne ha di più, è un blocco critico (ogni tag genera una pagina archivio pubblica: troppi tag per articolo creano bloat SEO).
 
 ## Output
 Scrivi `{ARTICLE_DIR}/qa-result.json`:
@@ -31,9 +32,12 @@ Scrivi `{ARTICLE_DIR}/qa-result.json`:
     {"name": "front_matter", "passed": true},
     {"name": "image_exists", "passed": true}
   ],
-  "blocking_issues": []
+  "blocking_issues": [],
+  "warnings": []
 }
 ```
+
+`warnings` è per segnalazioni non bloccanti, es. un tag del draft semanticamente equivalente a uno già esistente in `content/posts/*.md` (`grep -h "^tags:" content/posts/*.md`) — es. `stampa3d` quando esiste già `stampa-3d`. Non blocca la pubblicazione, ma aiuta a tenere pulita la tassonomia nel tempo.
 
 ## Regole
 - Se ANCHE UN SOLO controllo obbligatorio fallisce, `"passed": false` e la pipeline NON deve procedere al publisher.

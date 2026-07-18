@@ -11,7 +11,6 @@ cover:
     caption: "Scopri com costruire un utile riscaldatore per la tua stampante 3d a resina"
     relative: false
 ---
----
 
 Oggi voglio presentarvi questo progetto che ho trovato in rete e che ho realizzato per la mia stampante a resina [Voxelab Proxima 6.0](https://amzn.to/3oeusZs).
 
