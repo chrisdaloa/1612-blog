@@ -36,6 +36,7 @@ def main():
     payload = {
         "model": MODEL,
         "prompt": args.prompt,
+        "aspect_ratio": args.aspect_ratio,
         "image_config": {
             "aspect_ratio": args.aspect_ratio,
             "image_size": "2K",

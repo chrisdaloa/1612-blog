@@ -12,6 +12,7 @@ Sei il controllo qualità finale prima della pubblicazione automatica su 1612.it
 
 1. **Front matter valido**: title, date, tags, categories, description e cover.image tutti presenti e non vuoti.
 2. **Immagine esistente**: il file referenziato in `cover.image` esiste davvero su disco in `static/images/posts/`.
+2b. **Immagine in formato 16:9**: controlla le dimensioni effettive del file (es. `python3 -c "from PIL import Image; im=Image.open('static/images/posts/<file>.png'); print(im.size)"`). Se il rapporto larghezza/altezza è vicino a 1:1 (quadrata, es. 1024x1024) invece che ~16:9 (es. 1344x768), è un blocco critico: la copertina deve sempre essere orizzontale, mai quadrata.
 3. **Lunghezza minima**: il corpo articolo (esclusa front matter) ha almeno 700 parole. Sotto questa soglia il contenuto è troppo sottile per gli standard di qualità richiesti (rischio "contenuti di scarso valore").
 4. **Nessun placeholder/artefatto**: nessuna occorrenza di stringhe tipo `[inserire]`, `TODO`, `Lorem ipsum`, `TUO-TAG-QUI`, `undefined`, `[object Object]`, e nessun link con destinazione placeholder tipo `](#)` o `](TODO)`.
 5. **Disclosure coerente**: se `{ARTICLE_DIR}/affiliate-log.json` mostra `links_inserted` non vuoto, verifica che lo shortcode di disclosure sia presente nel testo. Se mancante, è un blocco critico (rischio legale).

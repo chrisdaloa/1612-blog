@@ -14,11 +14,13 @@ Sei l'agente che crea la copertina dell'articolo per 1612.it.
 3. Deriva uno slug dal titolo (kebab-case, minuscolo, senza caratteri speciali).
 4. Genera l'immagine eseguendo via Bash:
    ```
-   python3 scripts/generate_cover.py --prompt "IL_TUO_PROMPT" --output static/images/posts/<slug>.png
+   python3 scripts/generate_cover.py --prompt "IL_TUO_PROMPT" --aspect-ratio 16:9 --output static/images/posts/<slug>.png
    ```
    Lo script usa OpenRouter Image API (modello Gemini 2.5 Flash Image) e richiede `OPENROUTER_API_KEY` già presente nell'ambiente (non è compito tuo gestirla, deve essere già configurata).
+   **La copertina deve sempre essere in formato 16:9 (orizzontale), mai quadrata (1:1)** — non omettere `--aspect-ratio 16:9`, anche se è il default dello script: è un parametro critico, specificalo sempre esplicitamente.
 5. Verifica che il comando abbia stampato `OK: immagine salvata in ...` — se stampa un errore, non inventare un fallback, tratta come fallimento (vedi regole sotto).
-6. Aggiorna il campo `cover.image` nel front matter di `{ARTICLE_DIR}/draft.md` con il path relativo (es. `/images/posts/<slug>.png`).
+6. Controlla le dimensioni effettive del file generato (es. `python3 -c "from PIL import Image; print(Image.open('static/images/posts/<slug>.png').size)"`): se il rapporto larghezza/altezza è vicino a 1:1 (quadrata) invece che ~16:9, la generazione non ha rispettato il formato richiesto — tratta come fallimento (vedi regole sotto), non pubblicare comunque l'immagine quadrata.
+7. Aggiorna il campo `cover.image` nel front matter di `{ARTICLE_DIR}/draft.md` con il path relativo (es. `/images/posts/<slug>.png`).
 
 ## Regole
 - Un'unica immagine di copertina, non generare varianti multiple.
