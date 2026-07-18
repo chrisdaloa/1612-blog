@@ -9,9 +9,9 @@ aliases:
     - /chi-siamo/
 ---
 
-{{< figure src="/images/io.jpg" alt="Christian" class="chi-sono-avatar" >}}
+{{< figure src="/images/io.jpg" alt="cbor" class="chi-sono-avatar" >}}
 
-Ciao, sono Christian, e 1612.it è il mio spazio personale su web dove scrivo di **stampa 3D**, **programmazione**, **intelligenza artificiale**, **Arduino/elettronica** e tecnologia in generale — le cose che smonto, monto, testo e a volte rompo nel mio tempo libero.
+Ciao, sono cbor, e 1612.it è il mio spazio personale su web dove scrivo di **stampa 3D**, **programmazione**, **intelligenza artificiale**, **Arduino/elettronica** e tecnologia in generale — le cose che smonto, monto, testo e a volte rompo nel mio tempo libero.
 
 ## Come nasce questo blog
 

@@ -11,7 +11,7 @@ Questa pagina descrive come vengono trattati i dati di chi visita 1612.it.
 
 ## Titolare del trattamento
 
-Il titolare di questo sito è Christian, raggiungibile all'indirizzo email [chrisdaloa@gmail.com](mailto:chrisdaloa@gmail.com). 1612.it è un blog personale, non gestito da una società.
+Il titolare di questo sito è cbor, raggiungibile all'indirizzo email [chrisdaloa@gmail.com](mailto:chrisdaloa@gmail.com). 1612.it è un blog personale, non gestito da una società.
 
 ## Dati raccolti tramite Google Analytics
 

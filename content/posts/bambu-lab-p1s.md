@@ -2,7 +2,7 @@
 title: "Bambu Lab P1S: La Recensione Definitiva. È Veramente la Migliore Stampante 3D Veloce del 2024?"
 date: 2025-12-02
 draft: false
-author: "Christian"
+author: "cbor"
 tags: ["stampa3d", "BambuLabP1S", "migliore stampante 3D", "CoreXY", "AMS", "tecnologia", "recensione lunga", "SEO"]
 categories: ["Stampa 3D"]
 keywords: ["Bambu Lab P1S recensione", "velocità stampa 3D", "vantaggi Bambu Lab", "svantaggi Bambu Lab", "prezzo Bambu Lab P1S"]

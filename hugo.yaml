@@ -21,7 +21,7 @@ params:
     imageUrl: "/images/logo_lab1612_leo.jpg"
     
   description: 'Blog su stampa 3D, programmazione, intelligenza artificiale e tecnologia'
-  author: 'Christian'
+  author: 'cbor'
   
   # Colori tema coordinati con il logo
   defaultTheme: dark  # Forza tema scuro come il logo

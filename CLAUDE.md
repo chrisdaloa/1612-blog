@@ -1,6 +1,6 @@
 # 1612.it — Pipeline automatica articoli (doppia pubblicazione settimanale)
 
-Questo progetto orchestra un team di subagent per: trovare trend, scrivere DUE articoli a settimana nello stile di Christian (uno scelto per qualità/rilevanza, uno scelto per potenziale di monetizzazione affiliata), inserire link affiliati Amazon (solo su prodotti già nominati), generare le copertine, validare, e pubblicare via git push sulla repo Hugo del blog 1612.it.
+Questo progetto orchestra un team di subagent per: trovare trend, scrivere DUE articoli a settimana nello stile di cbor (uno scelto per qualità/rilevanza, uno scelto per potenziale di monetizzazione affiliata), inserire link affiliati Amazon (solo su prodotti già nominati), generare le copertine, validare, e pubblicare via git push sulla repo Hugo del blog 1612.it.
 
 ## Struttura cartelle pipeline
 
