@@ -15,7 +15,7 @@ tags:
   - "open-source"
 description: "Quello che mi ha colpito di più in questo articolo è il modo in cui Hugging Face e Cerebras hanno unito la potenza dell’open-source a un’architettura modulare,"
 cover:
-  image: "/images/gemma-ai-voce.png"
+  image: "/images/posts/voice-ai-con-gemma-4.png"
   alt: "Voice AI con Gemma 4: una rivoluzione per l'interfaccia utente"
   caption: ""
 source: "https://huggingface.co/blog/cerebras-gemma4-voice-ai"

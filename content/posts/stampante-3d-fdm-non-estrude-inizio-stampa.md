@@ -9,7 +9,7 @@ categories: ["Stampa 3D"]
 description: "La stampante scalda, si posiziona, parte — e non esce niente. Quasi sempre c'è una causa precisa. Ecco come trovarla e risolverla."
 
 cover:
-    image: "/images/fdm_cover_noestrude_16x9.svg"
+    image: "/images/posts/stampante-3d-fdm-non-estrude-inizio-stampa.png"
     alt: "Stampante FDM non estrude all'inizio della stampa"
     caption: "Nessun filamento al via: le cause più comuni e come risolverle"
     relative: false
