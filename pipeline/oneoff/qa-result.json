@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    {"name": "front_matter", "passed": true},
+    {"name": "image_exists", "passed": true},
+    {"name": "image_aspect_ratio_16_9", "passed": true},
+    {"name": "min_length_700_words", "passed": true},
+    {"name": "no_placeholders", "passed": true},
+    {"name": "disclosure_consistency", "passed": true},
+    {"name": "amazon_links_tagged", "passed": true},
+    {"name": "shortlink_plausibility", "passed": true},
+    {"name": "no_duplicate_content", "passed": true},
+    {"name": "no_title_slug_collision", "passed": true},
+    {"name": "weekly_pair_collision", "passed": true, "note": "Non applicabile: articolo one-off, controllo saltato su istruzione esplicita"},
+    {"name": "tags_categories_limits", "passed": true}
+  ],
+  "blocking_issues": [],
+  "warnings": []
+}

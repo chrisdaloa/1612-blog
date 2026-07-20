@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    {"name": "front_matter", "passed": true},
+    {"name": "image_exists", "passed": true},
+    {"name": "min_length", "passed": true},
+    {"name": "no_placeholders", "passed": true},
+    {"name": "disclosure_present", "passed": true},
+    {"name": "amazon_links_tagged", "passed": true},
+    {"name": "short_links_plausible", "passed": true},
+    {"name": "no_duplicate_content", "passed": true},
+    {"name": "no_title_slug_collision", "passed": true},
+    {"name": "no_collision_between_weekly_articles", "passed": true},
+    {"name": "tags_categories_within_limits", "passed": true}
+  ],
+  "blocking_issues": [],
+  "warnings": []
+}

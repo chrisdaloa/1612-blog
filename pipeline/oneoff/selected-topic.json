@@ -1,0 +1,11 @@
+{
+  "topic": "linux",
+  "candidate_type": "evergreen_guide",
+  "title": "Giocare su Linux nel 2026: Steam, Proton e ProtonDB",
+  "summary": "Guida pratica per giocare su Linux usando Steam Play/Proton: come verificare la compatibilità di un gioco su ProtonDB prima di comprarlo, i passaggi di configurazione lato sistema operativo (driver, dipendenze) e lato Steam (abilitare Steam Play, forzare una versione di Proton), le limitazioni note (anticheat kernel-level, alcuni titoli online, VR). Basata sull'esperienza personale dell'autore con Linux Mint, che consiglia come distribuzione di partenza per chi vuole giocare su Linux.",
+  "source_url": null,
+  "source_name": null,
+  "score": null,
+  "product_potential": null,
+  "rationale": "Articolo one-off commissionato direttamente dall'utente (non selezionato da trend-scout/selector). Topic scelto a mano: gaming su Linux con Steam/Proton/ProtonDB, guida step-by-step, con Linux Mint come distribuzione di riferimento consigliata dall'autore."
+}

@@ -1,52 +1,50 @@
 ---
-title: "Kit Arduino per principianti: quale comprare nel 2026"
+title: "Mini console e handheld retrogaming: quale comprare nel 2026"
 date: 2026-07-18
 draft: false
-tags: ["arduino", "elettronica", "diy", "maker", "guida-acquisto"]
-categories: ["Arduino"]
-description: "ELEGOO UNO R3 Super Starter Kit, Freenove Ultimate Starter Kit V4 o kit ufficiale Arduino con la nuova UNO R4 WiFi: confronto pratico tra i tre starter kit che consiglierei davvero a chi parte da zero."
+tags: ["retro-gaming", "guida-acquisto", "handheld", "emulazione"]
+categories: ["Retrogaming"]
+description: "Miyoo Mini Plus, Anbernic RG556 o Retroid Pocket 5: confronto pratico tra tre handheld retrogaming per fasce di prezzo e uso diverso, dal tascabile economico fino a chi vuole emulare PS2 e GameCube in mano."
 cover:
-  image: ""
+  image: "/images/posts/mini-console-e-handheld-retrogaming-quale-comprare-nel-2026.png"
 ---
 
-Mi scrivono spesso la stessa domanda: "voglio iniziare con Arduino, quale kit compro?". La risposta breve è "dipende da quanto vuoi spendere e da quanto ti piace leggere documentazione prima di saldare qualcosa". La risposta lunga è questo articolo.
+{{< affiliate-disclosure >}}
 
-Non sto per consigliarti la scheda Arduino da sola. Se sei alle prime armi, comprare solo la board e poi rincorrere resistenze, breadboard, sensori e cavetti sparsi su dieci ordini diversi è la strada più lenta e più cara per iniziare. Uno starter kit ben fatto ti dà tutto il necessario in una scatola sola, con progetti guidati che ti tengono motivato nelle prime settimane, quelle in cui è facile scoraggiarsi.
+Mi chiedono spesso quale mini console retrogaming comprare, di solito dopo che hanno visto qualche video di uno che gioca a Chrono Trigger in un aggeggio grande come un pacchetto di sigarette. La domanda sembra semplice, ma il mercato oggi è pieno di cloni cinesi con nomi quasi identici, fasce di prezzo che vanno da 20 a 300 euro, e differenze tecniche che a un primo sguardo non si capiscono affatto.
 
-Ho messo a confronto tre opzioni che coprono bene le esigenze diverse di chi parte da zero: budget, documentazione, autenticità del brand.
+Ho selezionato tre handheld che coprono bene tre esigenze diverse: il tascabile economico e onesto, il compromesso con schermo top e stick analogici, e il mostro che ti emula quasi tutto quello che hai giocato da bambino fino all'adolescenza inoltrata.
 
-## ELEGOO UNO R3 Super Starter Kit: il rapporto qualità-prezzo che consiglio più spesso
+## Miyoo Mini Plus: il tascabile che consiglio più spesso
 
-Se devo indicare un kit a un principiante senza fare troppe domande, è questo. L'**ELEGOO UNO R3 Super Starter Kit** viene con oltre 200 componenti: la scheda compatibile UNO R3, breadboard, resistori, LED di vari colori, sensori (fotoresistenza, temperatura, ultrasuoni, infrarossi), un display LCD 1602, motori DC e servo, e un manuale PDF con una trentina di progetti guidati passo passo.
+Se il budget è la priorità assoluta, il [**Miyoo Mini Plus**](https://www.amazon.it/dp/B0CBTHCH2V?tag=16120s-21) resta il punto di riferimento. Costa una frazione degli altri due, entra letteralmente in una tasca dei jeans, ed è dotato di uno schermo IPS da 3,5 pollici che, nonostante la risoluzione non altissima, rende benissimo con la grafica pixel art di SNES, Game Boy Advance e sistemi 16-bit in generale: la densità di pixel sullo schermo piccolo fa sembrare tutto più nitido di quanto i numeri sulla carta suggeriscano.
 
-Il punto forte è proprio questo: non ti serve comprare nient'altro per settimane. Monti un semaforo, un termometro digitale, un antifurto con sensore di movimento, un dado elettronico con i LED — tutta roba che sembra banale scritta qui ma che la prima volta che ti si accende sul serio dà una soddisfazione genuina.
+Il limite più grosso, e va detto chiaramente, è l'assenza di stick analogici: solo croce direzionale e pulsanti frontali. Per emulare NES, SNES, Game Boy, Genesis, PS1 nella maggior parte dei giochi non è un problema, ma se il tuo obiettivo è N64 o PSP con i controlli analogici, qui ti scontri subito con un muro. Sul software gira OnionOS, una custom firmware open source molto ben curata, con interfaccia pulita, gestione ordinata delle raccolte per sistema e supporto agli shader per simulare lo scanline dei vecchi CRT, se ti piace quell'estetica.
 
-La scheda inclusa non è un Arduino originale, è un clone compatibile (il chip è spesso un CH340 al posto dell'ATmega16U2 originale per la comunicazione USB). Per imparare non cambia nulla: il linguaggio, l'IDE, le librerie sono identiche. L'unica accortezza è installare il driver CH340 sul PC la prima volta, altrimenti la scheda non viene riconosciuta — è un problema comune, risolvibile in due minuti, ma se non lo sai ti blocca prima ancora di iniziare.
+Il chip dentro non è potentissimo, e infatti il Mini Plus si ferma bene entro la generazione PS1/N64 leggero, senza pretese oltre. Per quello che costa, e per quanto sta comodo in mano, è la scelta più sensata per chi vuole provare l'emulazione retro senza investire cifre importanti, o per chi lo vuole regalare a un adolescente curioso senza il timore che venga trattato come un oggetto delicato e costoso.
 
-Il prezzo è quello che fa la differenza: siamo grosso modo alla metà del kit ufficiale Arduino, con più componenti dentro alla scatola. Per chi vuole capire se l'elettronica gli piace prima di investire di più, è la scelta più sensata.
+## Anbernic RG556: il compromesso con lo schermo che si merita
 
-## Freenove Ultimate Starter Kit V4: quando la documentazione è tutto
+Un gradino sopra, in una fascia di prezzo intermedia, c'è l'[**Anbernic RG556**](https://www.amazon.it/dp/B0CXPS6T1Z?tag=16120s-21). La differenza si vede appena lo accendi: schermo AMOLED da 5,48 pollici con colori saturi e neri veri, molto più piacevole da guardare rispetto ai pannelli IPS economici degli handheld più a buon mercato. Qui trovi anche due stick analogici, quindi N64, PSP e persino Dreamcast smettono di essere un compromesso scomodo e diventano giocabili davvero.
 
-Il **Freenove Ultimate Starter Kit V4** punta forte su un aspetto che gli altri due trascurano: la qualità della documentazione. Parliamo di 274 pagine di tutorial, con schemi elettrici chiari, spiegazioni del codice riga per riga e — cosa che apprezzo particolarmente — una spiegazione del "perché" dietro ogni componente, non solo del "come collegarlo".
+Sotto il cofano c'è un chipset Unisoc discretamente potente, sufficiente per emulare senza troppi patemi tutto ciò che va da PS1 fino a Dreamcast e PSP, con qualche titolo PS2 leggero giocabile a costo di qualche compromesso grafico. Anbernic ha scelto Android come sistema operativo, il che porta con sé un vantaggio pratico non da poco: oltre agli emulatori classici (RetroArch, standalone come PPSSPP), puoi installare app normali, streaming, e persino qualche gioco mobile se ti va.
 
-Dentro trovi una scheda compatibile UNO, oltre 200 componenti tra cui moduli più avanzati rispetto ai kit entry-level: modulo RFID, joystick analogico, sensore di gas, modulo relè, display OLED oltre al classico LCD. È pensato per chi vuole andare oltre il primo mese di esperimenti base e iniziare a costruire progetti un po' più ambiziosi — una piccola stazione meteo, un sistema di accesso con RFID, cose che ti fanno capire come combinare più componenti insieme.
+Il rovescio della medaglia di Android è la gestione più macchinosa rispetto a una custom firmware dedicata come OnionOS: devi configurare tu gli emulatori, organizzare le raccolte, aggiornare le app. Se vieni dal mondo "accendi e giochi" del Miyoo, la prima sera di configurazione richiede pazienza. Una volta impostato bene, però, resta lì e funziona senza pensieri.
 
-Freenove ha anche il vantaggio di aggiornare periodicamente i tutorial e mantenere un canale di supporto reattivo, cosa non scontata in questo mercato dove tanti kit vengono venduti con un PDF fermo a cinque anni fa e zero assistenza. Se hai figli o nipoti che vuoi avvicinare all'elettronica e temi di non riuscire a spiegare tutto tu, la qualità della documentazione qui fa davvero la differenza tra "lo usa una settimana e lo abbandona" e "continua da solo".
+## Retroid Pocket 5: per chi vuole arrivare fino a PS2 e GameCube
 
-## Il kit ufficiale Arduino con UNO R4 WiFi: per chi vuole l'esperienza autentica
+In cima alla lista, per chi non vuole fare compromessi sulla potenza, c'è il [**Retroid Pocket 5**](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21). Monta un chipset di fascia alta derivato dal mondo smartphone, abbastanza potente da far girare in modo stabile PS2, GameCube e Wii, con parecchi titoli in modalità handheld a risoluzione e frame rate accettabili — cosa che fino a poco tempo fa richiedeva un mini PC dedicato collegato alla TV, non certo un dispositivo portatile.
 
-Poi c'è la scelta di chi vuole il prodotto originale, punto. L'**Arduino Starter Kit**, aggiornato per includere la nuova **UNO R4 WiFi**, è l'opzione per chi non vuole compatibili cinesi e preferisce sapere che la scheda è prodotta da Arduino S.r.l. in Italia (a Torino, per la precisione — un dettaglio che a me, da italiano, fa comunque un certo effetto).
+Lo schermo AMOLED è di buona qualità, gli stick analogici usano sensori a effetto Hall (niente drift nel tempo, uno dei difetti più fastidiosi degli stick a potenziometro tradizionali che si consumano dopo mesi di uso), e la costruzione generale si sente più solida e curata rispetto ai concorrenti economici. Anche qui gira Android, con lo stesso discorso di configurazione manuale fatto per l'RG556: ci vuole un pomeriggio per mettere tutto a posto tra RetroArch, core specifici per PS2/GameCube e organizzazione delle librerie.
 
-La UNO R4 WiFi porta con sé un salto generazionale reale rispetto alla vecchia UNO R3: un microcontrollore Renesas RA4M1 a 32 bit molto più potente dell'ATmega328P a 8 bit delle versioni precedenti, connettività WiFi e Bluetooth integrate, una matrice di LED 12x8 programmabile sulla scheda stessa. Per un principiante puro questa potenza in più non serve a granché nei primi progetti, ma se hai già in mente di fare qualcosa con IoT — mandare dati a un server, controllare la scheda da smartphone — evita di dover comprare uno shield WiFi a parte più avanti.
-
-Il kit ufficiale è il più caro dei tre e ha meno componenti "quantità" rispetto a ELEGOO o Freenove, ma il manuale cartaceo Arduino è fatto molto bene, con un approccio pedagogico che introduce i concetti di elettronica e programmazione in modo graduale e ben curato — è lo stesso kit che viene usato in tanti corsi scolastici e workshop introduttivi, non a caso.
+Il prezzo è coerente con quello che offre, il più alto dei tre, ma resta comunque una frazione di quanto spenderesti per un PC dedicato all'emulazione con prestazioni comparabili. Se il tuo obiettivo è rivivere l'era PS2/GameCube in mano sul divano o in treno, è oggi probabilmente la scelta più equilibrata sul mercato.
 
 ## Quale comprare, secondo me
 
-Se il budget è la priorità e vuoi il massimo numero di progetti possibili per capire se l'elettronica ti appassiona, prendi l'**ELEGOO UNO R3 Super Starter Kit**. È quello che consiglierei a un adolescente curioso o a chi vuole solo "provare" senza spendere troppo.
+Se vuoi il minimo indispensabile per riscoprire NES, SNES, Game Boy e PS1 senza spendere una cifra importante e senza pensieri di configurazione, prendi il **Miyoo Mini Plus**. È perfetto anche come primo approccio per capire se l'emulazione portatile ti appassiona davvero prima di investire di più.
 
-Se vuoi imparare bene, con spiegazioni approfondite e la prospettiva di crescere verso progetti più complessi nel tempo, il **Freenove Ultimate Starter Kit V4** vale la spesa leggermente superiore: la documentazione da sola giustifica la differenza di prezzo.
+Se vuoi uno schermo che si gode davvero e gli stick analogici per PSP, N64 e Dreamcast senza spendere una follia, l'**Anbernic RG556** è il compromesso che consiglio più spesso: copre bene la stragrande maggioranza delle console che la gente vuole rigiocare.
 
-Se per te conta avere hardware originale, magari perché lo regali a qualcuno a cui tieni o perché ti piace l'idea di sostenere il progetto Arduino stesso, il kit ufficiale con **UNO R4 WiFi** è quello giusto, con il vantaggio pratico non trascurabile del WiFi integrato per quando vorrai fare il salto verso progetti connessi.
+Se il tuo obiettivo dichiarato è PS2 e GameCube in mano, senza compromessi sulla fluidità, il **Retroid Pocket 5** è quello giusto, con la consapevolezza che è comunque un dispositivo Android da configurare, non un "accendi e gioca".
 
-Una cosa che vale per tutti e tre: nessuno di questi kit ti insegna l'elettronica da solo. Ti dà gli strumenti e i progetti guidati, ma la parte che conta — capire perché un LED ha bisogno di una resistenza in serie, perché un pull-up o pull-down su un pin digitale cambia tutto, perché certi sensori vanno alimentati a 3.3V e altri a 5V — quella la impari sbagliando cablaggio, bruciando qualche componente da due euro e ricominciando. È normale, fa parte del percorso, e nessuno dei tre kit qui sopra te lo risparmia. Ed è anche il motivo per cui, alla fine, ne vale la pena.
+Una nota che vale per tutti e tre, e su cui sono abbastanza rigido: questi dispositivi emulano hardware, non contengono giochi. I ROM dei titoli che possiedi già su cartuccia o disco puoi estrarli tu stesso in molti paesi con procedure legali di backup personale; scaricare ROM di giochi che non possiedi è un'altra cosa, ed è quella zona grigia-nera che personalmente evito e su cui non mi sento di consigliare nulla. Detto questo, se vuoi rigiocarti i titoli della tua infanzia con lo schermo giusto in mano, uno di questi tre copre praticamente ogni esigenza e ogni budget.

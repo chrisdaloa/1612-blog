@@ -1,14 +1,18 @@
 {
   "passed": true,
   "checks": [
-    {"name": "front_matter", "passed": true},
-    {"name": "image_exists", "passed": true},
-    {"name": "min_length", "passed": true, "detail": "764 parole nel corpo (minimo 300)"},
-    {"name": "no_placeholders", "passed": true},
-    {"name": "disclosure_coherence", "passed": true, "detail": "links_inserted non vuoto e shortcode {{< affiliate-disclosure >}} presente nel testo"},
-    {"name": "amazon_links_tagged", "passed": true, "detail": "Unico link amazon.it (Game Boy Camera) contiene tag=16120s-21 come da sources.yaml"},
-    {"name": "no_duplicate_in_posts", "passed": true, "detail": "Nessun post in content/posts/ tratta Game Boy Camera + telescopio Hooker/Mount Wilson/Giove"},
-    {"name": "no_collision_other_article", "passed": true, "detail": "pipeline/affiliate/ non ha ancora un draft.md (topic arduino, non sovrapposto al topic arcade_nerd di questo articolo)"}
+    {"name": "front_matter", "passed": true, "detail": "title, date, tags, categories, description e cover.image tutti presenti e non vuoti"},
+    {"name": "image_exists", "passed": true, "detail": "static/images/posts/kimi-k3-modello-open-weight-2-8-trilioni-parametri.png presente su disco (1024x1024 PNG)"},
+    {"name": "min_length", "passed": true, "detail": "822 parole nel corpo articolo (soglia minima 700)"},
+    {"name": "no_placeholders", "passed": true, "detail": "nessuna occorrenza di TODO, Lorem ipsum, undefined, link placeholder, ecc."},
+    {"name": "disclosure_coherence", "passed": true, "detail": "affiliate-log.json ha links_inserted vuoto e disclosure_added false; nel testo non è presente lo shortcode, coerente"},
+    {"name": "amazon_links_tagged", "passed": true, "detail": "nessun link amazon.it presente nel draft, nulla da verificare"},
+    {"name": "shortlink_plausibility", "passed": true, "detail": "nessun link amzn.to o s.click.aliexpress presente nel draft"},
+    {"name": "no_duplicate_content", "passed": true, "detail": "nessun paragrafo >40 parole con overlap significativo (>60%) rispetto ai post pubblicati in content/posts/"},
+    {"name": "no_title_slug_collision", "passed": true, "detail": "nessun post esistente in content/posts/ tratta Kimi K3 o Moonshot AI"},
+    {"name": "no_cross_article_collision", "passed": true, "detail": "pipeline/affiliate/draft.md ha titolo 'Kit Arduino per principianti: quale comprare nel 2026', nessuna sovrapposizione con questo articolo"},
+    {"name": "tags_categories_limit", "passed": true, "detail": "4 tag (max 5) e 1 categoria (max 2)"}
   ],
-  "blocking_issues": []
+  "blocking_issues": [],
+  "warnings": []
 }
