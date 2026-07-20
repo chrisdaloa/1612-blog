@@ -22,6 +22,7 @@ Sei il controllo qualità finale prima della pubblicazione automatica su 1612.it
 9. **Duplicato dell'ultimo minuto**: ricontrolla che il titolo/slug non coincida con un post già esistente in `content/posts/`.
 10. **Nessuna collisione tra i due articoli della settimana**: se esiste anche l'altra cartella (`pipeline/content/draft.md` se stai controllando `pipeline/affiliate/`, o viceversa), verifica che titolo/slug non coincidano tra i due.
 11. **Tag non eccessivi (bloccante)**: il draft ha al massimo 5 tag e 2 categorie. Se ne ha di più, è un blocco critico (ogni tag genera una pagina archivio pubblica: troppi tag per articolo creano bloat SEO).
+12. **Concordanza articoli (non bloccante, warning)**: cerca nel testo pattern tipo `\b(il|un|Il|Un) [Ss][bcdfglmnpqrtvz]` o `\b(i|I) [Ss][bcdfglmnpqrtvz]` (es. `grep -noE`) — spesso indicano un errore di concordanza davanti a parole straniere/tecniche (es. "il Steam Deck" invece di "lo Steam Deck", "il slicer" invece di "lo slicer"). Attenzione ai falsi positivi su citazioni/testo in inglese. Se trovi un match plausibile, non bloccare ma segnalalo in `warnings` con la riga esatta: è un segnale di scrittura poco curata/da AI che vale la pena correggere prima della prossima revisione.
 
 ## Output
 Scrivi `{ARTICLE_DIR}/qa-result.json`:
