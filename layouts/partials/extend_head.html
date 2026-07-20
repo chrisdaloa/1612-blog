@@ -2,5 +2,18 @@
 {{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
 {{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
+<style>
+    .site-banner {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: var(--gap);
+    }
+</style>
+{{- /* Accenti colore da banner, reversibile: params.brandAccent: false in hugo.yaml disattiva */ -}}
+{{- if (site.Params.brandAccent | default true) }}
+<link rel="stylesheet" href="{{ "css/brand-accent.css" | absURL }}">
+{{- end }}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3620589436606953"
      crossorigin="anonymous"></script>

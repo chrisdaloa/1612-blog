@@ -12,11 +12,8 @@ outputs:
     - JSON
 
 params:
-  # label:
-  #   text: "Lab1612"
-  #   # icon: /images/logo-lab1612-leo.svg
-  #   icon: /images/logo_lab1612_leo.jpg
-  #   iconHeight: 60
+  label:
+    text: "LAB1612"
   profileMode:
     imageUrl: "/images/logo_lab1612_leo.jpg"
     

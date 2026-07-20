@@ -1,0 +1,36 @@
+/* Accenti colore ripresi dal banner (static/images/header.webp): ciano e arancio.
+   Per rimuovere: imposta params.brandAccent: false in hugo.yaml, oppure elimina
+   questo file e il relativo <link> in layouts/partials/extend_head.html. */
+
+:root {
+    --accent-1: #0fb8c9; /* ciano */
+    --accent-2: #e8672e; /* arancio */
+}
+
+.post-content a {
+    color: var(--accent-1);
+}
+
+.post-content h2 {
+    color: var(--accent-1);
+}
+
+.post-content h3 {
+    color: var(--accent-2);
+}
+
+.post-content a code {
+    box-shadow: 0 -1px 0 var(--accent-1) inset;
+}
+
+.post-content blockquote {
+    border-inline-start-color: var(--accent-2);
+}
+
+#menu .active {
+    color: var(--accent-2);
+}
+
+.terms-tags a {
+    box-shadow: inset 0 0 0 1px var(--accent-1);
+}
