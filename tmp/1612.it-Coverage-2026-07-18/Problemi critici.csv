@@ -1,0 +1,10 @@
+Ragione,Sorgente,Convalida,Pagine
+Pagina con reindirizzamento,Sito web,Non iniziata,24
+"Pagina scansionata, ma attualmente non indicizzata",Sistemi di Google,Non iniziata,35
+Non trovata (404),Sito web,Iniziata,35
+Errore di reindirizzamento,Sito web,Iniziata,3
+Errore del server (5xx),Sito web,Iniziata,2
+"Esclusa in base al tag ""noindex""",Sito web,N/D,0
+Pagina alternativa con tag canonical appropriato,Sito web,N/D,0
+"Pagina duplicata, Google ha scelto una pagina canonica diversa da quella specificata dall'utente",Sistemi di Google,N/D,0
+"Rilevata, ma attualmente non indicizzata",Sistemi di Google,N/D,0
