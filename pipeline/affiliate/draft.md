@@ -1,50 +1,38 @@
 ---
-title: "Mini console e handheld retrogaming: quale comprare nel 2026"
-date: 2026-07-18
+title: "Anbernic RG SP: torna la forma del Game Boy Advance SP, senza stick analogici"
+date: 2026-07-23
 draft: false
-tags: ["retro-gaming", "guida-acquisto", "handheld", "emulazione"]
+tags: ["retro-gaming", "handheld", "emulazione"]
 categories: ["Retrogaming"]
-description: "Miyoo Mini Plus, Anbernic RG556 o Retroid Pocket 5: confronto pratico tra tre handheld retrogaming per fasce di prezzo e uso diverso, dal tascabile economico fino a chi vuole emulare PS2 e GameCube in mano."
+description: "Anbernic annuncia la RG SP, handheld pieghevole ispirata al Game Boy Advance SP: schermo IPS 3,4 pollici, chip Allwinner H700, niente stick analogici. Cosa significa questa scelta e a chi conviene davvero."
 cover:
-  image: "/images/posts/mini-console-e-handheld-retrogaming-quale-comprare-nel-2026.png"
+  image: "/images/posts/anbernic-rg-sp-game-boy-advance-sp.png"
 ---
 
 {{< affiliate-disclosure >}}
 
-Mi chiedono spesso quale mini console retrogaming comprare, di solito dopo che hanno visto qualche video di uno che gioca a Chrono Trigger in un aggeggio grande come un pacchetto di sigarette. La domanda sembra semplice, ma il mercato oggi è pieno di cloni cinesi con nomi quasi identici, fasce di prezzo che vanno da 20 a 300 euro, e differenze tecniche che a un primo sguardo non si capiscono affatto.
+Il Game Boy Advance SP resta, a distanza di più di vent'anni, uno degli oggetti più azzeccati mai usciti da Nintendo: si chiudeva a conchiglia, entrava in tasca senza rovinarti i pantaloni, e con la retroilluminazione risolveva finalmente il problema dello schermo del GBA originale che al buio era illeggibile. Anbernic l'ha capito benissimo, e con la RG SP appena annunciata ne clona la forma quasi pixel per pixel.
 
-Ho selezionato tre handheld che coprono bene tre esigenze diverse: il tascabile economico e onesto, il compromesso con schermo top e stick analogici, e il mostro che ti emula quasi tutto quello che hai giocato da bambino fino all'adolescenza inoltrata.
+L'ha raccontato Time Extension, e i numeri sono quelli tipici della fascia Anbernic ormai matura: schermo IPS da 3,4 pollici a 720x480, processore Allwinner H700 (lo stesso che troviamo su parecchi handheld cinesi recenti, capace senza troppi patemi di reggere fino a PS1 e sistemi 16-bit con margine), batteria da 3300 mAh con ricarica rapida fino a 7,5W. Il claim ufficiale, tradotto, è far rivivere "la pura gioia dell'era 2D". Marketing a parte, la scelta tecnica dietro merita due parole in più.
 
-## Miyoo Mini Plus: il tascabile che consiglio più spesso
+## Niente stick analogici, ed è una scelta precisa
 
-Se il budget è la priorità assoluta, il [**Miyoo Mini Plus**](https://www.amazon.it/dp/B0CBTHCH2V?tag=16120s-21) resta il punto di riferimento. Costa una frazione degli altri due, entra letteralmente in una tasca dei jeans, ed è dotato di uno schermo IPS da 3,5 pollici che, nonostante la risoluzione non altissima, rende benissimo con la grafica pixel art di SNES, Game Boy Advance e sistemi 16-bit in generale: la densità di pixel sullo schermo piccolo fa sembrare tutto più nitido di quanto i numeri sulla carta suggeriscano.
+La cosa che salta all'occhio, e che secondo me è la vera notizia sotto la notizia, è l'assenza totale di stick analogici. Solo croce direzionale e pulsanti frontali, esattamente come il GBA SP originale. In un mercato dove ormai quasi ogni nuovo handheld Anbernic o Retroid punta ad arrivare a PS2 e GameCube con doppio stick Hall-effect, fare marcia indietro sembra un controsenso commerciale. Non lo è, se guardi bene il target.
 
-Il limite più grosso, e va detto chiaramente, è l'assenza di stick analogici: solo croce direzionale e pulsanti frontali. Per emulare NES, SNES, Game Boy, Genesis, PS1 nella maggior parte dei giochi non è un problema, ma se il tuo obiettivo è N64 o PSP con i controlli analogici, qui ti scontri subito con un muro. Sul software gira OnionOS, una custom firmware open source molto ben curata, con interfaccia pulita, gestione ordinata delle raccolte per sistema e supporto agli shader per simulare lo scanline dei vecchi CRT, se ti piace quell'estetica.
+La RG SP non vuole competere con la fascia alta emulazione 3D. Vuole essere il dispositivo con cui rigiochi Pokémon Smeraldo, Metroid Fusion, Kirby e tutto il catalogo 2D che con la croce direzionale ci gioca benissimo e non ha mai avuto bisogno di uno stick analogico in vita sua. Tolgo gli stick, abbasso i costi, alleggerisco il case, e ottengo un dispositivo pensato apposta per un solo tipo di libreria: quella 2D pura, NES/SNES/GBA/Genesis, dove la croce direzionale non è un compromesso ma lo standard con cui quei giochi sono stati progettati.
 
-Il chip dentro non è potentissimo, e infatti il Mini Plus si ferma bene entro la generazione PS1/N64 leggero, senza pretese oltre. Per quello che costa, e per quanto sta comodo in mano, è la scelta più sensata per chi vuole provare l'emulazione retro senza investire cifre importanti, o per chi lo vuole regalare a un adolescente curioso senza il timore che venga trattato come un oggetto delicato e costoso.
+È lo stesso ragionamento che avevo fatto parlando del [Miyoo Mini Plus](https://www.amazon.it/dp/B0CBTHCH2V?tag=16120s-21) in una guida agli handheld che ho scritto qualche giorno fa: se il tuo obiettivo dichiarato è la generazione 8/16-bit, uno stick analogico che non userai mai è solo un costo e un punto di rottura in più.
 
-## Anbernic RG556: il compromesso con lo schermo che si merita
+## Il form factor conta più di quanto si pensi
 
-Un gradino sopra, in una fascia di prezzo intermedia, c'è l'[**Anbernic RG556**](https://www.amazon.it/dp/B0CXPS6T1Z?tag=16120s-21). La differenza si vede appena lo accendi: schermo AMOLED da 5,48 pollici con colori saturi e neri veri, molto più piacevole da guardare rispetto ai pannelli IPS economici degli handheld più a buon mercato. Qui trovi anche due stick analogici, quindi N64, PSP e persino Dreamcast smettono di essere un compromesso scomodo e diventano giocabili davvero.
+Il pieghevole a conchiglia non è solo nostalgia da vetrina. Chiuso protegge lo schermo senza bisogno di custodie aggiuntive, entra in tasca in modo naturale, e libera lo spazio per uno schermo relativamente generoso (3,4 pollici) su un corpo che da chiuso resta compatto. Chi ha avuto un GBA SP originale ricorderà anche il piacere tattile dello scatto della cerniera: un dettaglio piccolo, ma che i cloni economici spesso rovinano con un meccanismo ballerino dopo qualche mese d'uso. Su questo aspetto specifico bisognerà aspettare le prime unità in mano per capire se Anbernic ha fatto i compiti seriamente o se ha risparmiato sulla cerniera come talvolta capita nella fascia bassa del suo catalogo.
 
-Sotto il cofano c'è un chipset Unisoc discretamente potente, sufficiente per emulare senza troppi patemi tutto ciò che va da PS1 fino a Dreamcast e PSP, con qualche titolo PS2 leggero giocabile a costo di qualche compromesso grafico. Anbernic ha scelto Android come sistema operativo, il che porta con sé un vantaggio pratico non da poco: oltre agli emulatori classici (RetroArch, standalone come PPSSPP), puoi installare app normali, streaming, e persino qualche gioco mobile se ti va.
+Sul chip, l'Allwinner H700 lo conosciamo già da altri modelli Anbernic recenti: non è un mostro di potenza, ma per l'obiettivo dichiarato (16-bit e sotto, con margine su qualche titolo PS1 leggero) è più che sufficiente, e ha il vantaggio di consumare poco, che si traduce in autonomia reale coerente con la batteria da 3300 mAh dichiarata.
 
-Il rovescio della medaglia di Android è la gestione più macchinosa rispetto a una custom firmware dedicata come OnionOS: devi configurare tu gli emulatori, organizzare le raccolte, aggiornare le app. Se vieni dal mondo "accendi e giochi" del Miyoo, la prima sera di configurazione richiede pazienza. Una volta impostato bene, però, resta lì e funziona senza pensieri.
+## Vale la pena, secondo me
 
-## Retroid Pocket 5: per chi vuole arrivare fino a PS2 e GameCube
+Se cerchi un dispositivo che faccia tutto, dal NES alla Dreamcast, la RG SP non è quello che stai cercando: per quello restano scelte migliori il [Retroid Pocket 5](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21) o l'[Anbernic RG556](https://www.amazon.it/dp/B0CXPS6T1Z?tag=16120s-21), con doppio stick e chip più potente. Ma se il tuo obiettivo è specifico e onesto — rigiocarti l'infanzia 2D, GBA in testa, in un formato che sta in tasca ed è chiaramente pensato per quello scopo — la RG SP colpisce esattamente il bersaglio che si è data, senza fingere di essere altro.
 
-In cima alla lista, per chi non vuole fare compromessi sulla potenza, c'è il [**Retroid Pocket 5**](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21). Monta un chipset di fascia alta derivato dal mondo smartphone, abbastanza potente da far girare in modo stabile PS2, GameCube e Wii, con parecchi titoli in modalità handheld a risoluzione e frame rate accettabili — cosa che fino a poco tempo fa richiedeva un mini PC dedicato collegato alla TV, non certo un dispositivo portatile.
+È anche, va detto, un acquisto d'impulso facile: prezzo presumibilmente contenuto (Anbernic in questa fascia storicamente si muove tra i 40 e i 70 euro) e un design che parla direttamente alla nostalgia di chiunque abbia avuto un GBA SP in tasca alle medie. Aspetto la disponibilità effettiva e i primi unboxing prima di consigliarla a scatola chiusa, ma l'impostazione tecnica, per quello che deve fare, mi convince.
 
-Lo schermo AMOLED è di buona qualità, gli stick analogici usano sensori a effetto Hall (niente drift nel tempo, uno dei difetti più fastidiosi degli stick a potenziometro tradizionali che si consumano dopo mesi di uso), e la costruzione generale si sente più solida e curata rispetto ai concorrenti economici. Anche qui gira Android, con lo stesso discorso di configurazione manuale fatto per l'RG556: ci vuole un pomeriggio per mettere tutto a posto tra RetroArch, core specifici per PS2/GameCube e organizzazione delle librerie.
-
-Il prezzo è coerente con quello che offre, il più alto dei tre, ma resta comunque una frazione di quanto spenderesti per un PC dedicato all'emulazione con prestazioni comparabili. Se il tuo obiettivo è rivivere l'era PS2/GameCube in mano sul divano o in treno, è oggi probabilmente la scelta più equilibrata sul mercato.
-
-## Quale comprare, secondo me
-
-Se vuoi il minimo indispensabile per riscoprire NES, SNES, Game Boy e PS1 senza spendere una cifra importante e senza pensieri di configurazione, prendi il **Miyoo Mini Plus**. È perfetto anche come primo approccio per capire se l'emulazione portatile ti appassiona davvero prima di investire di più.
-
-Se vuoi uno schermo che si gode davvero e gli stick analogici per PSP, N64 e Dreamcast senza spendere una follia, l'**Anbernic RG556** è il compromesso che consiglio più spesso: copre bene la stragrande maggioranza delle console che la gente vuole rigiocare.
-
-Se il tuo obiettivo dichiarato è PS2 e GameCube in mano, senza compromessi sulla fluidità, il **Retroid Pocket 5** è quello giusto, con la consapevolezza che è comunque un dispositivo Android da configurare, non un "accendi e gioca".
-
-Una nota che vale per tutti e tre, e su cui sono abbastanza rigido: questi dispositivi emulano hardware, non contengono giochi. I ROM dei titoli che possiedi già su cartuccia o disco puoi estrarli tu stesso in molti paesi con procedure legali di backup personale; scaricare ROM di giochi che non possiedi è un'altra cosa, ed è quella zona grigia-nera che personalmente evito e su cui non mi sento di consigliare nulla. Detto questo, se vuoi rigiocarti i titoli della tua infanzia con lo schermo giusto in mano, uno di questi tre copre praticamente ogni esigenza e ogni budget.
+Fonte: [Time Extension](https://www.timeextension.com/news/2026/07/relive-the-pure-joy-of-the-2d-golden-era-meet-the-rg-sp-anbernics-latest-gba-sp-inspired-handheld)

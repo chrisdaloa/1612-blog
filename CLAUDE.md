@@ -39,10 +39,16 @@ Per ciascun ARTICLE_DIR, SE il relativo `selected-topic.json` ha un `topic` non 
 4. `affiliate-linker` (stesso ARTICLE_DIR) → aggiorna `{ARTICLE_DIR}/draft.md` + `{ARTICLE_DIR}/affiliate-log.json`
 5. `image-creator` (stesso ARTICLE_DIR) → aggiorna `{ARTICLE_DIR}/draft.md` (cover.image) + salva immagine in `static/images/posts/`
 6. `qa-gate` (stesso ARTICLE_DIR) → produce `{ARTICLE_DIR}/qa-result.json`
-   - Se `passed: false`, FERMATI per QUESTO ARTICLE_DIR (non chiamare `publisher` per questo), ma continua comunque con l'altro ARTICLE_DIR se non ancora processato.
-7. `publisher` (stesso ARTICLE_DIR) → pubblica (git commit + push) e produce `{ARTICLE_DIR}/publish-log.json`
+   - Se `passed: false`, FERMATI per QUESTO ARTICLE_DIR (non includerlo nella pubblicazione), ma continua comunque con l'altro ARTICLE_DIR se non ancora processato.
 
-**Importante**: esegui la Fase 2 SEMPRE in sequenza (prima tutto `pipeline/content`, poi tutto `pipeline/affiliate`), mai in parallelo — evita conflitti su git commit/push e sullo slug.
+**Importante**: esegui la produzione (step 3-6) SEMPRE in sequenza (prima tutto `pipeline/content`, poi tutto `pipeline/affiliate`), mai in parallelo — evita conflitti sullo slug e sui file intermedi.
+
+### Fase 3 — Pubblicazione combinata (una sola volta, dopo che ENTRAMBI gli ARTICLE_DIR sono stati processati)
+
+7. `publisher` → invocato UNA SOLA VOLTA in modalità combinata per ENTRAMBI gli ARTICLE_DIR che hanno `qa-result.json` con `passed: true`, producendo UN SOLO commit + UN SOLO push (invece di due separati) e scrivendo `{ARTICLE_DIR}/publish-log.json` per ciascun articolo pubblicato.
+   - **Perché**: ogni push attiva l'autodeploy Hugo (build su host esterno); combinare i due articoli in un solo push dimezza i deploy/crediti host consumati a settimana.
+   - Se un solo ARTICLE_DIR ha superato il QA (l'altro è bloccato o ha `topic: null`), pubblica comunque quello valido con un commit+push singolo per lui.
+   - Se nessuno dei due ha superato il QA, non fare alcun commit/push.
 
 ## Regole generali per tutti gli step
 
