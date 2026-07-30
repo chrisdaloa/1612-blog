@@ -29,7 +29,7 @@ Ogni gioco riceve un rating aggregato, con una scala di colori che vale la pena 
 
 - **Platinum**: gira perfetto, senza nessun intervento manuale. Installi, lanci, giochi. È il massimo a cui puoi aspirare.
 - **Gold**: gira benissimo dopo qualche piccola modifica alle impostazioni, tipo forzare una versione specifica di Proton o disattivare un'opzione grafica particolare. Nulla di complicato, ma non è "zero pensieri".
-- **Silver**: gira, ma con problemi minori che restano presenti — magari un crash occasionale, un filmato che non parte, qualche bug grafico non bloccante. Giocabile, non perfetto.
+- **Silver**: gira, ma con problemi minori che restano presenti: magari un crash occasionale, un filmato che non parte, qualche bug grafico non bloccante. Giocabile, non perfetto.
 - **Bronze**: gira, ma con problemi seri che intaccano l'esperienza: crash frequenti, funzionalità mancanti, prestazioni sotto la sufficienza. Ci giochi solo se non hai alternative.
 - **Borked**: non funziona, punto. Non si avvia, o si avvia e crasha subito, o è ingiocabile per motivi strutturali (spesso anticheat, ne parlo dopo).
 
@@ -37,7 +37,7 @@ La cosa utile di ProtonDB non è solo il rating aggregato ma i report individual
 
 ## Setup lato sistema: Linux Mint come base
 
-Consiglio Linux Mint a chiunque voglia iniziare a giocare su Linux, e non solo per la solita ragione "è amichevole per chi viene da Windows". Con Cinnamon hai un desktop stabile, poco invasivo, che si fa notare zero mentre giochi — importante quanto le prestazioni pure, perché l'ultima cosa che vuoi è un desktop environment che ti mangia risorse in background mentre stai spremendo la GPU.
+Consiglio Linux Mint a chiunque voglia iniziare a giocare su Linux, e non solo per la solita ragione "è amichevole per chi viene da Windows". Con Cinnamon hai un desktop stabile, poco invasivo, che si fa notare zero mentre giochi (importante quanto le prestazioni pure), perché l'ultima cosa che vuoi è un desktop environment che ti mangia risorse in background mentre stai spremendo la GPU.
 
 Prima di tutto servono i driver GPU proprietari, se hai una scheda NVIDIA. Mint ha il **Driver Manager** integrato (lo trovi in Menu → Amministrazione → Driver Manager) che rileva la tua scheda e ti propone il driver proprietario consigliato. Installalo, riavvia, e verifica che sia effettivamente in uso con:
 
@@ -68,13 +68,13 @@ Una volta dentro Steam, il passaggio che sblocca davvero tutto è nascosto nelle
 
 Da questo momento, ogni gioco Windows nella tua libreria mostra il tasto "Installa" come qualsiasi titolo nativo Linux.
 
-Se un gioco specifico ha problemi con la versione di Proton di default — capita, soprattutto su titoli particolari — puoi forzare una versione diversa solo per quel gioco, senza toccare l'impostazione globale: click destro sul gioco nella libreria → **Proprietà** → scheda **Compatibilità** → spunta "Forza l'uso di uno specifico strumento di compatibilità Steam Play" e scegli la versione dal menu. È esattamente qui che tornano utili i report di ProtonDB: se qualcuno ha scritto che quel gioco funziona bene con Proton 8.0-5 ma ha problemi con la 9.0, sai già cosa impostare senza fare tentativi a caso.
+Se un gioco specifico ha problemi con la versione di Proton di default (capita, soprattutto su titoli particolari), puoi forzare una versione diversa solo per quel gioco, senza toccare l'impostazione globale: click destro sul gioco nella libreria → **Proprietà** → scheda **Compatibilità** → spunta "Forza l'uso di uno specifico strumento di compatibilità Steam Play" e scegli la versione dal menu. È esattamente qui che tornano utili i report di ProtonDB: se qualcuno ha scritto che quel gioco funziona bene con Proton 8.0-5 ma ha problemi con la 9.0, sai già cosa impostare senza fare tentativi a caso.
 
 ## Le limitazioni vere, senza girarci intorno
 
 Qui è dove tanti articoli entusiasti diventano poco onesti. Proton ha fatto passi enormi, ma ci sono categorie di giochi dove il problema non è tecnico nel senso stretto, è una scelta deliberata degli editori, e nessun aggiornamento di Proton la risolverà da solo.
 
-**Anticheat kernel-level**. È il limite più grosso e più frustrante. Giochi come Valorant di Riot Games usano un anticheat (Vanguard) che gira a livello kernel e che l'editore ha esplicitamente scelto di bloccare su Linux, indipendentemente dal fatto che tecnicamente Proton potrebbe farlo girare. Non è un problema di compatibilità, è un blocco intenzionale. Altri titoli competitivi online — alcuni Call of Duty, Fortnite in certe fasi, Apex Legends in certi periodi — hanno avuto storie altalenanti, a volte funzionanti, a volte bloccati dopo un aggiornamento dell'anticheat. Se il tuo gioco principale è un competitivo online con anticheat aggressivo, controlla lo stato specifico su ProtonDB prima di dare per scontato qualsiasi cosa: qui la situazione cambia da un patch all'altro, letteralmente.
+**Anticheat kernel-level**. È il limite più grosso e più frustrante. Giochi come Valorant di Riot Games usano un anticheat (Vanguard) che gira a livello kernel e che l'editore ha esplicitamente scelto di bloccare su Linux, indipendentemente dal fatto che tecnicamente Proton potrebbe farlo girare. Non è un problema di compatibilità, è un blocco intenzionale. Altri titoli competitivi online (alcuni Call of Duty, Fortnite in certe fasi, Apex Legends in certi periodi) hanno avuto storie altalenanti, a volte funzionanti, a volte bloccati dopo un aggiornamento dell'anticheat. Se il tuo gioco principale è un competitivo online con anticheat aggressivo, controlla lo stato specifico su ProtonDB prima di dare per scontato qualsiasi cosa: qui la situazione cambia da un patch all'altro, letteralmente.
 
 **VR**. Il supporto VR su Linux esiste (SteamVR gira, con limitazioni) ma è nettamente il gradino più fragile di tutto l'ecosistema. Compatibilità hardware limitata, driver meno maturi, esperienza generale che definirei "per chi vuole sperimentare", non per chi vuole l'headset e via senza pensieri. Se il VR è la ragione principale per cui giochi, oggi Windows resta la scelta più sensata.
 

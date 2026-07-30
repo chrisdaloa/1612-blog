@@ -21,7 +21,7 @@ Se hai mai voluto mandare un messaggio WhatsApp da uno script, da Home Assistant
 
 ## Come funziona
 
-Si installa sul proprio server — o su un container Docker, che è il modo più sensato — e si connette al proprio account WhatsApp. Una volta avviato espone due porte: la REST API su `2785` e una dashboard web su `2886`. Da lì in poi, mandare un messaggio è una chiamata POST.
+Si installa sul proprio server (o su un container Docker, che è il modo più sensato) e si connette al proprio account WhatsApp. Una volta avviato espone due porte: la REST API su `2785` e una dashboard web su `2886`. Da lì in poi, mandare un messaggio è una chiamata POST.
 
 Lo stack è Node.js 20, NestJS, TypeScript. Per lo storage supporta SQLite (per chi vuole tenerlo semplice) o PostgreSQL, con Redis per la cache. Multi-sessione, webhook in tempo reale, autenticazione via chiave API.
 
@@ -35,7 +35,7 @@ cd open-wa
 docker compose up -d
 ```
 
-Dopo di che si apre la dashboard su `http://localhost:2886`, si esegue il collegamento con WhatsApp — di solito tramite QR code da scansionare con il telefono — e il gateway è operativo. L'API è documentata via Swagger su `http://localhost:2785/api/docs`.
+Dopo di che si apre la dashboard su `http://localhost:2886`, si esegue il collegamento con WhatsApp (di solito tramite QR code da scansionare con il telefono) e il gateway è operativo. L'API è documentata via Swagger su `http://localhost:2785/api/docs`.
 
 Per chi ha già Proxmox in casa, un container LXC leggero è più che sufficiente per farlo girare stabilmente.
 
@@ -49,7 +49,7 @@ Più in generale: qualsiasi automazione che oggi usi email o Telegram perché Wh
 
 Vale la pena dirlo chiaramente: questo tipo di integrazione non usa le API ufficiali di WhatsApp. Usa un client non ufficiale che simula l'app. WhatsApp vieta esplicitamente questo utilizzo nei propri termini di servizio, e in passato ha bannato account che usavano client alternativi.
 
-Il rischio nella pratica dipende molto dall'uso: un account dedicato che manda qualche decina di notifiche al giorno ha un profilo di rischio diverso da uno che fa invii massivi. Ma il rischio esiste, e usare un account secondario — non quello principale — è una precauzione sensata.
+Il rischio nella pratica dipende molto dall'uso: un account dedicato che manda qualche decina di notifiche al giorno ha un profilo di rischio diverso da uno che fa invii massivi. Ma il rischio esiste, e usare un account secondario, non quello principale, è una precauzione sensata.
 
 Non è un problema nuovo: esiste da quando esistono i client WhatsApp non ufficiali. Chi ha già usato soluzioni simili sa già come si sta.
 

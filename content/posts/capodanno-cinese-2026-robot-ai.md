@@ -23,22 +23,22 @@ La scena è suggestiva: robot e umani insieme in uno spettacolo che celebra l’
 
 ## Il Gala del Capodanno lunare: simbolo culturale e politico
 
-Il Gala del Capodanno lunare non è semplicemente intrattenimento: è un evento **simbolicamente potente**, seguito da centinaia di milioni di persone in Cina e da spettatori internazionali. Tradizionalmente, il Gala trasmette messaggi di unità, prosperità e celebrazione culturale. Ma negli ultimi anni, con l’integrazione di **tecnologia avanzata**, il significato si amplia: l’evento diventa anche una **vetrina di innovazione e capacità industriale**.
+Il Gala del Capodanno lunare va oltre il semplice intrattenimento. È un evento **simbolicamente potente**, seguito da centinaia di milioni di persone in Cina e da spettatori internazionali. Tradizionalmente, il Gala trasmette messaggi di unità, prosperità e celebrazione culturale. Ma negli ultimi anni, con l’integrazione di **tecnologia avanzata**, il significato si amplia: l’evento diventa anche una **vetrina di innovazione e capacità industriale**.
 
-Secondo alcuni analisti, ogni elemento dello spettacolo ha una funzione narrativa: **cultura, modernità e progresso tecnologico** si intrecciano per creare un’immagine coerente del Paese nel mondo globale. Le esibizioni robotiche, in questo contesto, possono essere interpretate come un **messaggio politico indiretto**, simile a una “parata di potenza”, ma in chiave culturale e tecnologica.
+Secondo alcuni analisti, ogni elemento dello spettacolo ha una funzione narrativa: **cultura, modernità e progresso tecnologico** si intrecciano per creare un’immagine coerente del Paese nel mondo globale. Le esibizioni robotiche, in questo contesto, possono essere interpretate come un **messaggio politico indiretto**, simile a una "parata di potenza", ma in chiave culturale e tecnologica.
 
 ---
 
-## Robot come nuove “parate militari tecnologiche”
+## Robot come nuove "parate militari tecnologiche"
 
-La definizione di queste esibizioni come **“parate militari tecnologiche”** è provocatoria, ma ha un fondo di verità. Anche senza armi, i robot esibiscono:
+La definizione di queste esibizioni come **"parate militari tecnologiche"** è provocatoria, ma ha un fondo di verità. Anche senza armi, i robot esibiscono:
 
 - **Coordinazione avanzata**: movimenti sincronizzati, precisione matematica, intelligenza artificiale integrata.  
 - **Capacità industriale**: ingegneria robotica di alto livello, ricerca e sviluppo su larga scala.  
 - **Segnali geopolitici**: un messaggio implicito agli osservatori globali sulle capacità tecnologiche della Cina.  
 
 In altre parole, queste esibizioni sono **simboli di potere nel XXI secolo**, dove la tecnologia sostituisce in parte la tradizionale dimostrazione militare. Come dice un esperto di soft power internazionale:  
-> “Oggi le nazioni mostrano la propria forza attraverso innovazione e tecnologia più che tramite armamenti convenzionali.”
+> "Oggi le nazioni mostrano la propria forza attraverso innovazione e tecnologia più che tramite armamenti convenzionali."
 
 {{< figure src="/images/i-robot-umanoidi-danzano-con-i-bambini-in-carne-e-ossa.jpg" alt="Robot umanoidi con spade eseguono acrobazie al Gala del Festival di Primavera Cina 2026" class="aligncenter" >}}
 
@@ -107,7 +107,7 @@ Le esibizioni robotiche si inseriscono in un contesto di **competizione tecnolog
 - **Automazione e robotica avanzata**  
 - **Sistemi informatici e chip strategici**  
 
-In questo contesto, la dimostrazione di capacità di coordinamento robotico diventa **un simbolo di prestigio e potere**. Mostrare competenze tecnologiche è oggi una forma di **proiezione di influenza internazionale**.
+Su questo terreno, la dimostrazione di capacità di coordinamento robotico diventa **un simbolo di prestigio e potere**. Mostrare competenze tecnologiche è oggi una forma di **proiezione di influenza internazionale**.
 
 ---
 

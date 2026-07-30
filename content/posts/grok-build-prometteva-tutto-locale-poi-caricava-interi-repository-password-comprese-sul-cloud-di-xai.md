@@ -25,7 +25,7 @@ E qui casca l'asino di tanti homelab e piccoli team: i repository privati sono p
 
 La storia è finita in prima pagina su Hacker News, cosa che raramente fa bene alla reputazione di un prodotto lanciato da poco. Musk ha promesso la cancellazione dei dati caricati. xAI ha disabilitato la funzione di upload e, mossa quasi obbligata a questo punto, ha rilasciato il codice di Grok Build come Apache 2.0.
 
-Apprezzo la trasparenza forzata — meglio open source dopo un incidente che nessuna trasparenza — ma non mi basta come rassicurazione. "Promettiamo di cancellare i dati" è una frase che si può dire, non verificare. Se i tuoi segreti sono già finiti su un bucket che non controlli, la cancellazione lato loro non ti restituisce la certezza che nessuno li abbia già copiati, loggati o indicizzati nel frattempo. Il danno, se c'è stato, è già fatto nel momento dell'upload, non nel momento della cancellazione promessa.
+Apprezzo la trasparenza forzata (meglio open source dopo un incidente che nessuna trasparenza), ma non mi basta come rassicurazione. "Promettiamo di cancellare i dati" è una frase che si può dire, non verificare. Se i tuoi segreti sono già finiti su un bucket che non controlli, la cancellazione lato loro non ti restituisce la certezza che nessuno li abbia già copiati, loggati o indicizzati nel frattempo. Il danno, se c'è stato, è già fatto nel momento dell'upload, non nel momento della cancellazione promessa.
 
 ## Cosa faccio io prima di far girare un CLI AI su un mio repo
 

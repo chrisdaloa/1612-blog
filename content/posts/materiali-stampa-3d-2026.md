@@ -635,7 +635,7 @@ Prova 1-2 materiali nuovi quest'anno. PolyTerra PLA (bio) e TPU Flexfill 70A son
 Investi in nozzle hardened steel + dry box. Il PA-CF cambierà il tuo business.
 
 **Per tutti:**
-Il futuro della stampa 3D non è nella stampante, ma nei materiali. Chi li padroneggia oggi, domina domani.
+La stampante ormai conta relativamente poco. Sono i materiali a fare la differenza, e conviene impararli bene adesso, prima che diventino lo standard per tutti.
 
 ---
 
@@ -655,7 +655,7 @@ Il futuro della stampa 3D non è nella stampante, ma nei materiali. Chi li padro
 
 ---
 
-**Hai già provato qualcuno di questi materiali?** Raccontaci la tua esperienza nei commenti! Quale ti ha sorpreso di più?
+Se hai già provato uno di questi materiali, raccontalo nei commenti: mi interessa sapere quale ti ha sorpreso di più.
 
 **Articoli correlati:**
 - [10 Errori Comuni nella Stampa 3D (e Come Risolverli)](/posts/errori-comuni-stampa-3d)
@@ -663,4 +663,4 @@ Il futuro della stampa 3D non è nella stampante, ma nei materiali. Chi li padro
 
 ---
 
-*Questo articolo ti è stato utile? Condividilo con altri maker!* 🚀
+*Se l'articolo ti è servito, condividilo con altri maker.* 🚀

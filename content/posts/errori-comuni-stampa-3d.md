@@ -310,4 +310,4 @@ Lascia un commento descrivendo il tuo problema, magari con foto, e cercherò di 
 
 ---
 
-*Hai trovato utile questa guida? Condividila con altri maker!* 🚀
+*Buona stampa!*

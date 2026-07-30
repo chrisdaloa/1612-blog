@@ -31,7 +31,7 @@ Sul chip, l'Allwinner H700 lo conosciamo già da altri modelli Anbernic recenti:
 
 ## Vale la pena, secondo me
 
-Se cerchi un dispositivo che faccia tutto, dal NES alla Dreamcast, la RG SP non è quello che stai cercando: per quello restano scelte migliori il [Retroid Pocket 5](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21) o l'[Anbernic RG556](https://www.amazon.it/dp/B0CXPS6T1Z?tag=16120s-21), con doppio stick e chip più potente. Ma se il tuo obiettivo è specifico e onesto — rigiocarti l'infanzia 2D, GBA in testa, in un formato che sta in tasca ed è chiaramente pensato per quello scopo — la RG SP colpisce esattamente il bersaglio che si è data, senza fingere di essere altro.
+Se cerchi un dispositivo che faccia tutto, dal NES alla Dreamcast, la RG SP non è quello che stai cercando: per quello restano scelte migliori il [Retroid Pocket 5](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21) o l'[Anbernic RG556](https://www.amazon.it/dp/B0CXPS6T1Z?tag=16120s-21), con doppio stick e chip più potente. Ma se il tuo obiettivo è specifico e onesto (rigiocarti l'infanzia 2D, GBA in testa, in un formato che sta in tasca ed è chiaramente pensato per quello scopo), la RG SP colpisce esattamente il bersaglio che si è data, senza fingere di essere altro.
 
 È anche, va detto, un acquisto d'impulso facile: prezzo presumibilmente contenuto (Anbernic in questa fascia storicamente si muove tra i 40 e i 70 euro) e un design che parla direttamente alla nostalgia di chiunque abbia avuto un GBA SP in tasca alle medie. Aspetto la disponibilità effettiva e i primi unboxing prima di consigliarla a scatola chiusa, ma l'impostazione tecnica, per quello che deve fare, mi convince.
 

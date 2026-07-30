@@ -33,7 +33,7 @@ Il rovescio della medaglia di Android è la gestione più macchinosa rispetto a 
 
 ## Retroid Pocket 5: per chi vuole arrivare fino a PS2 e GameCube
 
-In cima alla lista, per chi non vuole fare compromessi sulla potenza, c'è il [**Retroid Pocket 5**](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21). Monta un chipset di fascia alta derivato dal mondo smartphone, abbastanza potente da far girare in modo stabile PS2, GameCube e Wii, con parecchi titoli in modalità handheld a risoluzione e frame rate accettabili — cosa che fino a poco tempo fa richiedeva un mini PC dedicato collegato alla TV, non certo un dispositivo portatile.
+In cima alla lista, per chi non vuole fare compromessi sulla potenza, c'è il [**Retroid Pocket 5**](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21). Monta un chipset di fascia alta derivato dal mondo smartphone, abbastanza potente da far girare in modo stabile PS2, GameCube e Wii, con parecchi titoli in modalità handheld a risoluzione e frame rate accettabili, una cosa che fino a poco tempo fa richiedeva un mini PC dedicato collegato alla TV, non certo un dispositivo portatile.
 
 Lo schermo AMOLED è di buona qualità, gli stick analogici usano sensori a effetto Hall (niente drift nel tempo, uno dei difetti più fastidiosi degli stick a potenziometro tradizionali che si consumano dopo mesi di uso), e la costruzione generale si sente più solida e curata rispetto ai concorrenti economici. Anche qui gira Android, con lo stesso discorso di configurazione manuale fatto per l'RG556: ci vuole un pomeriggio per mettere tutto a posto tra RetroArch, core specifici per PS2/GameCube e organizzazione delle librerie.
 

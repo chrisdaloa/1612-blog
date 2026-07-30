@@ -23,13 +23,13 @@ Lightroom costa circa 11€ al mese nell'abbonamento base, le foto passano per i
 
 Un editor RAW non-distruttivo, accelerato via GPU, open source con licenza AGPL-3. Gira su Windows, macOS e Linux. Pesa 20-30 MB. Le modifiche si salvano in file sidecar, gli originali non vengono mai toccati.
 
-Lo stack è Rust, Tauri e React. Non è un'app Electron con un browser intero impacchettato dentro — Tauri usa il webview nativo del sistema operativo, e la parte pesante del processing è scritta in Rust con shader WGSL che girano direttamente sulla GPU. Il risultato è che gli aggiustamenti sono in tempo reale anche su file RAW grandi, senza il lag a cui ci si abitua con altri software.
+Lo stack è Rust, Tauri e React. Non è un'app Electron con un browser intero impacchettato dentro. Tauri usa il webview nativo del sistema operativo, e la parte pesante del processing è scritta in Rust con shader WGSL che girano direttamente sulla GPU. Il risultato è che gli aggiustamenti sono in tempo reale anche su file RAW grandi, senza il lag a cui ci si abitua con altri software.
 
 ## Le funzioni principali
 
 Ha quello che ci si aspetta da un editor RAW moderno: curve tonali, mixer HSL, dettagli, correzione lente tramite Lensfun, geometria, analisi dell'immagine con waveform e scopi. Niente di rivoluzionario nel set di strumenti base, ma tutto quello che serve per un workflow normale c'è.
 
-La parte più interessante sono le maschere AI: rilevamento automatico di soggetto, cielo e primo piano. Funzionano direttamente nell'app senza connessione a servizi esterni. C'è anche l'integrazione con ComfyUI per chi vuole strumenti generativi più avanzati — rimozione oggetti, aggiunta elementi via prompt — con tre opzioni: strumenti base inclusi gratis, ComfyUI self-hosted su GPU propria, oppure abbonamento cloud per chi non vuole configurare niente.
+La parte più interessante sono le maschere AI: rilevamento automatico di soggetto, cielo e primo piano. Funzionano direttamente nell'app senza connessione a servizi esterni. C'è anche l'integrazione con ComfyUI per chi vuole strumenti generativi più avanzati (rimozione oggetti, aggiunta elementi via prompt), con tre opzioni: strumenti base inclusi gratis, ComfyUI self-hosted su GPU propria, oppure abbonamento cloud per chi non vuole configurare niente.
 
 L'opzione self-hosted con ComfyUI è quella che trovo più coerente con il resto del progetto.
 
@@ -37,13 +37,13 @@ L'opzione self-hosted con ComfyUI è quella che trovo più coerente con il resto
 
 Timon Käch, 18 anni, lo sviluppa parallelamente a un apprendistato. Il repository GitHub è attivo, le release sono frequenti e lo sviluppatore risponde alle issue. La licenza AGPL-3 è stata scelta esplicitamente per garantire che il progetto e i suoi derivati rimangano sempre open source.
 
-Al momento c'è una campagna donazioni aperta — circa 5.700 CHF su 10.000 CHF di obiettivo — per supportare lo sviluppo continuato. Non è un prodotto commerciale con un business model consolidato, e questo è sia il suo punto di forza che l'unica incertezza sul lungo periodo.
+Al momento c'è una campagna donazioni aperta (circa 5.700 CHF su 10.000 CHF di obiettivo) per supportare lo sviluppo continuato. Non è un prodotto commerciale con un business model consolidato, e questo è sia il suo punto di forza che l'unica incertezza sul lungo periodo.
 
 ## Confronto con Darktable
 
 Darktable è l'altra alternativa open source seria in questo spazio. È gratuito, maturo, potente, ma ha una curva di apprendimento ripida e un'interfaccia che non si è mai particolarmente preoccupata di essere intuitiva. Funziona bene per chi ci investe tempo.
 
-RapidRAW punta su qualcosa di diverso: un'interfaccia più vicina all'esperienza Lightroom, più immediata. È un progetto molto più giovane e manca ancora di alcune funzionalità — la lista dei formati RAW supportati non è ancora documentata in modo esaustivo — ma per chi trova Darktable ostico è un'alternativa da valutare.
+RapidRAW punta su qualcosa di diverso: un'interfaccia più vicina all'esperienza Lightroom, più immediata. È un progetto molto più giovane e manca ancora di alcune funzionalità (la lista dei formati RAW supportati non è ancora documentata in modo esaustivo), ma per chi trova Darktable ostico è un'alternativa da valutare.
 
 ## Vale la pena provarlo
 

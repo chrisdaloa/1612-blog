@@ -716,7 +716,7 @@ Pronto a iniziare?
 3. **Scrivi il primo articolo mobile** (20 min)
 4. **Pubblica e stupisciti** (2 min)
 
-**Totale:** 37 minuti per rivoluzionare il tuo workflow! 🚀
+**Totale:** 37 minuti per cambiare il tuo modo di scrivere articoli. 🚀
 
 ---
 
@@ -737,7 +737,7 @@ Pronto a iniziare?
 
 ---
 
-**Hai già provato GitJournal?** Raccontaci il tuo workflow nei commenti! Come scrivi i tuoi articoli?
+**Hai già provato GitJournal?** Raccontami il tuo workflow nei commenti, mi interessa sapere come scrivi i tuoi articoli.
 
 **Articoli correlati:**
 - [Creare un Blog Hugo da Zero con GitHub](/posts/creare-blog-hugo-github)
@@ -746,4 +746,4 @@ Pronto a iniziare?
 
 ---
 
-*Questo articolo ti è stato utile? Condividilo con altri blogger mobile-first!* 📱✨
+*Se ti è tornato utile, condividilo con altri blogger mobile-first.*

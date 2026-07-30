@@ -20,7 +20,7 @@ L'industria della stampa 3D Fused Deposition Modeling (FDM) ha subito una scossa
 
 Al centro di questa rivoluzione non c'è solo l'ammiraglia X1 Carbon, ma soprattutto la **Bambu Lab P1S**. Questo modello ha saputo distillare le tecnologie di punta in un pacchetto più economico, rendendo la stampa ad alta velocità alla portata di hobbisti, piccole imprese e scuole.
 
-Questo articolo non è una semplice scheda tecnica. È un'analisi approfondita e bilanciata, lunga oltre 2500 parole, che esplora il fenomeno Bambu Lab, le sue tecnologie innovative, i motivi del suo successo schiacciante, e, crucialmente, gli aspetti negativi che spesso vengono trascurati nella foga della recensione iniziale.
+Questo è un'analisi approfondita e bilanciata, lunga oltre 2500 parole, che esplora il fenomeno Bambu Lab, le sue tecnologie, i motivi del suo successo e, soprattutto, gli aspetti negativi che spesso vengono trascurati nella foga della recensione iniziale.
 
 ---
 
@@ -52,7 +52,7 @@ La **P1S** utilizza la cinematica **CoreXY**. A differenza dei *bed slinger*, il
 
 ### 2.2. Compensazione Attiva delle Vibrazioni (Active Vibration Compensation)
 
-Questo è forse il vero ingrediente segreto. La P1S, come gli altri modelli Bambu Lab, utilizza un accelerometro per misurare in modo preciso le frequenze di risonanza della macchina.
+Questo è probabilmente l'elemento meno appariscente ma più decisivo del pacchetto. La P1S, come gli altri modelli Bambu Lab, utilizza un accelerometro per misurare in modo preciso le frequenze di risonanza della macchina.
 
 #### 2.2.1. Funzionamento di Input Shaping
 La P1S applica l'**Input Shaping** (una tecnologia ampiamente adottata anche dal firmware Klipper). Prima che il motore si muova, il firmware calcola e inietta un segnale di "anti-vibrazione" che annulla o riduce gli effetti del *ringing* e del *ghosting* (artefatti a onda sulle pareti). Questo è il motivo principale per cui la P1S mantiene una qualità impressionante anche a velocità estreme.
@@ -169,11 +169,11 @@ La Bambu Lab P1S ha reso la stampa 3D FDM un'attività molto più vicina al cons
 
 ### 7.1. Il Valore è nell'Efficienza
 
-Il vero valore della P1S non è solo la velocità, ma l'**efficienza**. Meno stampe fallite, meno tempo di calibrazione, più tempo a creare. Per piccole imprese che producono oggetti o hobbisti con tempo limitato, questo fattore è inestimabile.
+Il valore concreto della P1S sta nell'**efficienza**, più che nella pura velocità. Meno stampe fallite, meno tempo di calibrazione, più tempo a creare. Per piccole imprese che producono oggetti o hobbisti con tempo limitato, questo fattore è inestimabile.
 
 ### 7.2. L'Impegno per il Futuro
 
-Bambu Lab ha stabilito un nuovo standard. La P1S è un benchmark. Il futuro del mercato della stampa 3D sarà definito dalla capacità dei concorrenti di eguagliare o superare l'affidabilità e l'esperienza utente offerte da questo modello. Chiunque acquisti una P1S sta investendo in una tecnologia che sarà rilevante per gli anni a venire.
+Bambu Lab ha alzato l'asticella e la P1S è diventata il metro di paragone: sono i concorrenti a dover rincorrere la sua affidabilità e la sua esperienza utente, non il contrario. Chi compra una P1S oggi acquista una tecnologia che difficilmente diventerà obsoleta nel giro di poco tempo.
 
 ---
 
@@ -198,6 +198,6 @@ Queste domande e risposte frequenti mirano a intercettare le ricerche a coda lun
 
 ---
 
-> La P1S rappresenta un punto di svolta. Non è solo la stampante 3D di oggi, è lo standard di domani.
+> La P1S segna un punto di svolta: è la stampante 3D di oggi ed è probabile che diventi lo standard di domani.
 
 <!-- *Qual è la tua esperienza con la P1S? Sei d'accordo con il compromesso tra velocità e l'approccio 'closed source'? Condividi la tua opinione nei commenti qui sotto!* -->

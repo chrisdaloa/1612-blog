@@ -100,7 +100,7 @@ Questi dispositivi "jailbroken" possono rappresentare anche un rischio per la si
 
 ### Motivazione 4: Controllo dell'Ecosistema
 
-Amazon sta trasformando Fire TV per comportarsi più come iOS — controllato, chiuso, curato.
+Amazon sta trasformando Fire TV per comportarsi più come iOS: controllato, chiuso, curato.
 
 **Business sense:** Più controllo = più monetizzazione da Amazon Appstore.
 
@@ -154,7 +154,7 @@ Per ora, Amazon insiste di essere una "azienda multi-OS" e pianifica di supporta
 
 **Per utente medio:** Il sideload su Fire TV è finito.
 
-Questo non riguarda solo le app di pirateria, riguarda il futuro della proprietà dei dispositivi; Amazon sta chiarendo: non controlli completamente il tuo Firestick — lo fanno loro.
+Questo non riguarda solo le app di pirateria, riguarda il futuro della proprietà dei dispositivi; Amazon sta chiarendo: non controlli completamente il tuo Firestick, lo fanno loro.
 
 ---
 
@@ -173,7 +173,7 @@ Se vuoi continuare ad avere controllo totale sulle app che installi, è il momen
 ✅ **No ads invasivi** - Esperienza più pulita di Fire TV
 
 **Differenze chiave:**
-- A differenza di Firestick, Android TV/Google TV non blocca le app sideload — anche quelle che non sono nel Play Store; puoi installare ciò che vuoi senza attendere approvazione corporate
+- A differenza di Firestick, Android TV/Google TV non blocca le app sideload, anche quelle che non sono nel Play Store; puoi installare ciò che vuoi senza attendere approvazione corporate
 
 ---
 
@@ -529,9 +529,9 @@ Se dai valore alla scelta, sicurezza e libertà di installare le tue app preferi
 
 Se questo articolo ti ha fatto capire che non possiedi davvero il tuo dispositivo Fire TV, dovresti considerare di cambiare device.
 
-**La domanda non è "se"** Amazon continuerà a stringere il controllo.
+Amazon continuerà a stringere il controllo, su questo non ci sono dubbi.
 
-**La domanda è "quando"** sarà troppo tardi per passare ad alternative migliori.
+**Il punto è capire quando** sarà troppo tardi per passare ad alternative migliori.
 
 ---
 

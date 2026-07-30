@@ -32,15 +32,15 @@ Vediamo come fare in entrambi i casi: **via terminale** (per chi ha Hassbian + M
 
 ---
 
-## Metodo 1 – Via terminale (Hassbian + Mosquitto)
+## Metodo 1: via terminale (Hassbian + Mosquitto)
 
-### Passo 1 – Imposta retain: false su Home Assistant
+### Passo 1: imposta retain: false su Home Assistant
 
 Per prima cosa riconfigura gli switch MQTT su Home Assistant impostando `retain: false`.
 
-[IMMAGINE – Screenshot configurazione retain: false in Home Assistant]
+[IMMAGINE: Screenshot configurazione retain: false in Home Assistant]
 
-### Passo 2 – Visualizza i topic attivi
+### Passo 2: visualizza i topic attivi
 
 Accedi via terminale al Raspberry e digita il comando seguente per visualizzare tutti i topic Tasmota attivi:
 
@@ -50,11 +50,11 @@ sudo mosquitto_sub -t stat/# -t tele/# -t cmnd/#  -v -u iltuoutente -P latuapass
 
 Il risultato sarà qualcosa di simile a questo:
 
-[IMMAGINE – Screenshot output mosquitto_sub con topic attivi]
+[IMMAGINE: Screenshot output mosquitto_sub con topic attivi]
 
 Il topic da eliminare è quello che inizia per `cmnd`, ovvero il comando che arriva da Home Assistant per accendere/spegnere il dispositivo.
 
-### Passo 3 – Cancella il topic incriminato
+### Passo 3: cancella il topic incriminato
 
 Una volta trovato il topic, puoi cancellarlo inviando un payload vuoto con questo comando:
 
@@ -64,14 +64,14 @@ sudo mosquitto_pub -t cmnd/stampante3d/POWER -r -n -u iltuoutente -P latuapasswo
 
 Le opzioni del comando:
 
-- `-r` — assegna il RETAIN al topic
-- `-n` — passa un payload `null` (vuoto)
-- `-u` — nome utente di Mosquitto
-- `-P` — password di Mosquitto
+- `-r`: assegna il RETAIN al topic
+- `-n`: passa un payload `null` (vuoto)
+- `-u`: nome utente di Mosquitto
+- `-P`: password di Mosquitto
 
 > Se non hai impostato utente e password in Mosquitto, puoi omettere `-u` e `-P`.
 
-### Passo 4 – Verifica
+### Passo 4: verifica
 
 Ripeti il comando di sottoscrizione per verificare che il topic `cmnd` non sia più presente:
 
@@ -79,45 +79,45 @@ Ripeti il comando di sottoscrizione per verificare che il topic `cmnd` non sia p
 sudo mosquitto_sub -t stat/# -t tele/# -t cmnd/#  -v -u iltuoutente -P latuapassword
 ```
 
-[IMMAGINE – Screenshot output mosquitto_sub senza topic cmnd]
+[IMMAGINE: Screenshot output mosquitto_sub senza topic cmnd]
 
 Se provi ora a far perdere la connessione al Sonoff, alla riconnessione non verrà eseguita nessuna operazione.
 
 ---
 
-## Metodo 2 – Via MQTT Lens (HASSIO con MQTT embedded)
+## Metodo 2: via MQTT Lens (HASSIO con MQTT embedded)
 
 Chi ha HASSIO con il broker MQTT embedded e non ha accesso al terminale del Raspberry non può usare i comandi di Mosquitto. In questo caso è possibile cancellare i topic tramite un client MQTT grafico.
 
 Io ho usato **MQTT Lens**, un'app per Chrome disponibile sul [Chrome Web Store](https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm?hl=it).
 
-### Passo 1 – Configura la connessione
+### Passo 1: configura la connessione
 
 Installa MQTT Lens, clicca sul "+" accanto a CONNECTIONS e configura la connessione al tuo broker MQTT.
 
-[IMMAGINE – Screenshot configurazione connessione in MQTT Lens]
+[IMMAGINE: Screenshot configurazione connessione in MQTT Lens]
 
-### Passo 2 – Sottoscrivi il topic cmnd/#
+### Passo 2: sottoscrivi il topic cmnd/#
 
 Effettua la sottoscrizione al topic `cmnd/#`.
 
-[IMMAGINE – Screenshot sottoscrizione topic cmnd/# in MQTT Lens]
+[IMMAGINE: Screenshot sottoscrizione topic cmnd/# in MQTT Lens]
 
 In basso verranno visualizzati tutti i topic `cmnd` attivi nel tuo broker MQTT.
 
-[IMMAGINE – Screenshot lista topic cmnd attivi]
+[IMMAGINE: Screenshot lista topic cmnd attivi]
 
-### Passo 3 – Cancella i topic
+### Passo 3: cancella i topic
 
 Cancellali uno per uno inviando un payload vuoto (null) e selezionando la casella **retain**.
 
-[IMMAGINE – Screenshot invio payload null con retain selezionato]
+[IMMAGINE: Screenshot invio payload null con retain selezionato]
 
-### Passo 4 – Verifica
+### Passo 4: verifica
 
 Ripeti la sottoscrizione al topic `cmnd/#`. I topic cancellati non dovrebbero più comparire.
 
-[IMMAGINE – Screenshot verifica topic rimossi]
+[IMMAGINE: Screenshot verifica topic rimossi]
 
 ---
 
@@ -129,4 +129,4 @@ Se usi altri software come Node-RED o dashboard MQTT per inviare comandi al Sono
 
 ---
 
-*Hai trovato utile questa guida? Condividila con altri appassionati di domotica!* 🚀
+Se ti ritrovi lo stesso comportamento anomalo su un altro dispositivo Tasmota, il sospetto principale resta sempre il RETAIN.

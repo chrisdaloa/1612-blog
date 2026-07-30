@@ -14,11 +14,11 @@ aliases:
     - /wp/home-assistant-sensore-raccolta-rifiuti/
 ---
 
-Con il mio amico Carlo ci siamo chiesti come poteva Home Assistant aiutarci a ricordare quale tipologia di rifiuti è in raccolta — fondamentalmente quale bidone dobbiamo preparare. Abbiamo scelto di sfruttare quello che Home Assistant mette già a disposizione, senza installare componenti custom.
+Con il mio amico Carlo ci siamo chiesti come poteva Home Assistant aiutarci a ricordare quale tipologia di rifiuti è in raccolta, in pratica quale bidone dobbiamo preparare. Abbiamo scelto di sfruttare quello che Home Assistant mette già a disposizione, senza installare componenti custom.
 
 Il risultato finale è questo:
 
-[IMMAGINE – Screenshot della card rifiuti in Home Assistant]
+[IMMAGINE: Screenshot della card rifiuti in Home Assistant]
 
 Le cose da fare sono solo 3:
 
@@ -28,7 +28,7 @@ Le cose da fare sono solo 3:
 
 ---
 
-## Passo 1 – Le immagini
+## Passo 1: Le immagini
 
 Le immagini che abbiamo creato le trovate [qui](/downloads/rifiuti.zip). Scaricate lo zip, estraete il contenuto e copiate la cartella `rifiuti` nella cartella `www` della vostra installazione di Home Assistant:
 
@@ -40,7 +40,7 @@ Se vi manca qualche colore o combinazione, lasciate un commento qui sotto e la a
 
 ---
 
-## Passo 2 – Il sensore template
+## Passo 2: Il sensore template
 
 Aggiungete questo blocco nella sezione `sensor:` del file `configuration.yaml`:
 
@@ -66,7 +66,7 @@ sensor:
 
 ---
 
-## Passo 3 – La card Lovelace
+## Passo 3: La card Lovelace
 
 Aggiungete questa card nel file `ui-lovelace.yaml`, rispettando l'indentatura:
 
@@ -149,4 +149,4 @@ Per adattare il sensore al calendario di raccolta della vostra città è suffici
 
 ---
 
-*Hai trovato utile questa guida? Condividila con altri appassionati di domotica!* 🚀
+Con questo il sensore è pronto e funzionante.

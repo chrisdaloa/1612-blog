@@ -16,7 +16,7 @@ cover:
 
 # 🖥️ NoMachine su Linux Mint: esperienza reale, pro, contro e guida completa
 
-Se come me avete diversi computer in casa, magari in zone o piani differenti, avrete sicuramente la necessità di collegarvi su altri computer per fae cose. In questa situazione uno strumento affidabile per il desktop remoto diventa fondamentale. Una delle soluzioni che ho testato su Linux Mint è NoMachine. 
+Se come me avete diversi computer in casa, magari in zone o piani differenti, avrete sicuramente la necessità di collegarvi su altri computer per fare cose. In questa situazione uno strumento affidabile per il desktop remoto diventa fondamentale. Una delle soluzioni che ho testato su Linux Mint è NoMachine. 
 In questo articolo vediamo come funziona, i suoi pro e contro e una guida completa all’installazione su Linux Mint.
 
 ---

@@ -752,4 +752,4 @@ Se incontri problemi, chiedi su forum! Community Linux è molto disponibile.
 
 ---
 
-*Questo articolo ti è stato utile? Condividilo con chi vuole provare Linux!* 🐧💻
+*Se decidi di provarci, buona installazione. In caso di intoppi, i link qui sopra sono un buon punto di partenza.* 🐧💻

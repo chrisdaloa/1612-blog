@@ -14,7 +14,7 @@ cover:
 
 Hai un codice errore sul display della tua Flying Bear Ghost 4 o 5 e non sai cosa significa? Qui di seguito trovi l'interpretazione di tutti gli errori che possono comparire, con le relative cause e indicazioni per risolverli.
 
-## Err1 – Temperatura letto troppo alta
+## Err1: Temperatura letto troppo alta
 
 Il letto termico supera il limite massimo di temperatura.
 
@@ -22,7 +22,7 @@ Il letto termico supera il limite massimo di temperatura.
 
 ---
 
-## Err2 – Temperatura testina troppo alta
+## Err2: Temperatura testina troppo alta
 
 La testina di stampa supera il limite massimo di temperatura.
 
@@ -30,7 +30,7 @@ La testina di stampa supera il limite massimo di temperatura.
 
 ---
 
-## Err3 – Temperatura letto troppo bassa
+## Err3: Temperatura letto troppo bassa
 
 Il letto caldo scende sotto il limite minimo di temperatura.
 
@@ -38,7 +38,7 @@ Il letto caldo scende sotto il limite minimo di temperatura.
 
 ---
 
-## Err4 – Temperatura testina troppo bassa
+## Err4: Temperatura testina troppo bassa
 
 La testina di stampa scende sotto il limite minimo di temperatura.
 
@@ -46,7 +46,7 @@ La testina di stampa scende sotto il limite minimo di temperatura.
 
 ---
 
-## Err5 – Riscaldamento ugello fallito
+## Err5: Riscaldamento ugello fallito
 
 L'ugello non riesce a raggiungere la differenza di temperatura impostata entro il tempo previsto.
 
@@ -56,7 +56,7 @@ L'ugello non riesce a raggiungere la differenza di temperatura impostata entro i
 
 ---
 
-## Err6 – Riscaldamento letto fallito
+## Err6: Riscaldamento letto fallito
 
 Il letto di riscaldamento non riesce a raggiungere la differenza di temperatura impostata entro il tempo previsto.
 
@@ -66,7 +66,7 @@ Il letto di riscaldamento non riesce a raggiungere la differenza di temperatura 
 
 ---
 
-## Err7 – Fuga termica
+## Err7: Fuga termica
 
 Quando la temperatura sale verso il target, la temperatura corrente risulta inferiore a quella attesa e supera la soglia impostata entro il tempo previsto.
 

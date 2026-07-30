@@ -21,9 +21,9 @@ Un articolo pubblicato questa settimana da Dharma-AI su Hugging Face mette in di
 
 ## L'esperimento
 
-Il team ha costruito un sistema OCR per documenti in portoghese brasiliano — un dominio preciso, non un test generico — e ha confrontato un modello specializzato da 3 miliardi di parametri contro i principali modelli commerciali e open-source disponibili.
+Il team ha costruito un sistema OCR per documenti in portoghese brasiliano (un dominio preciso, non un test generico) e ha confrontato un modello specializzato da 3 miliardi di parametri contro i principali modelli commerciali e open-source disponibili.
 
-Il benchmark usato è DharmaOCR, costruito internamente su documenti stampati, testi manoscritti e record legali e amministrativi. Le metriche principali sono edit-distance similarity, n-gram overlap e un tasso di "text degeneration" — cioè quanto spesso il modello produce output corrotto o incoerente.
+Il benchmark usato è DharmaOCR, costruito internamente su documenti stampati, testi manoscritti e record legali e amministrativi. Le metriche principali sono edit-distance similarity, n-gram overlap e un tasso di "text degeneration", cioè quanto spesso il modello produce output corrotto o incoerente.
 
 ## I numeri
 
@@ -39,7 +39,7 @@ Il benchmark usato è DharmaOCR, costruito internamente su documenti stampati, t
 | Amazon Textract | 0.618 | — |
 | Mistral OCR 3 | 0.574 | — |
 
-*Il degeneration rate non è stato misurato sui modelli commerciali — la metrica è stata raccolta solo sui modelli open-source eseguiti direttamente dal team.*
+*Il degeneration rate non è stato misurato sui modelli commerciali: la metrica è stata raccolta solo sui modelli open-source eseguiti direttamente dal team.*
 
 Otto punti percentuali sopra Claude Opus, che è il modello più capace di Anthropic. Il tasso di degenerazione è praticamente zero. E il costo per milione di pagine elaborate è circa 52 volte inferiore rispetto alle API commerciali.
 
@@ -51,9 +51,9 @@ La tesi che difendono è quella dell'"allineamento distribuzionale": quello che 
 
 ## Cosa va tenuto a mente
 
-I limiti sono dichiarati esplicitamente nell'articolo, e questo è uno dei motivi per cui vale la pena leggerlo: i risultati riguardano un solo dominio, testato su due scale di parametri (3B e 7B). Non è una dimostrazione che i modelli frontier siano sopravvalutati in generale — sono strumenti diversi per usi diversi.
+I limiti sono dichiarati esplicitamente nell'articolo, e questo è uno dei motivi per cui vale la pena leggerlo: i risultati riguardano un solo dominio, testato su due scale di parametri (3B e 7B). Non è una dimostrazione che i modelli frontier siano sopravvalutati in generale: sono strumenti diversi per usi diversi.
 
-Per task generativi, conversazionali o che richiedono ragionamento su domini multipli, un modello grande ha ancora senso. Il punto è che per task ben definiti e ripetitivi — OCR, classificazione, estrazione strutturata — la specializzazione compensa la differenza di scala, spesso ampiamente.
+Per task generativi, conversazionali o che richiedono ragionamento su domini multipli, un modello grande ha ancora senso. Il punto è che per task ben definiti e ripetitivi, come OCR, classificazione ed estrazione strutturata, la specializzazione compensa la differenza di scala, spesso ampiamente.
 
 ## La cosa concreta
 
