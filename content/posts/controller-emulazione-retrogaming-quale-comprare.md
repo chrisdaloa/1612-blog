@@ -13,7 +13,7 @@ cover:
 
 Ho passato più tempo a scegliere il controller giusto per il mio cabinet Batocera che a configurare RetroArch, e non è un'esagerazione: puoi avere l'emulatore più preciso del mondo, se il pad ha uno stick che va in drift dopo tre mesi o un layout che non assomiglia a nessuna delle console che stai emulando, l'esperienza è comunque frustrante. Mi scrivono spesso chiedendo quale controller comprare per il proprio setup di emulazione, che sia un Raspberry Pi sotto la TV, un PC dedicato o un handheld Android. La risposta cambia parecchio a seconda di cosa vuoi emulare davvero.
 
-Ho selezionato tre controller 8BitDo, che negli ultimi anni sono diventati di fatto lo standard per chi emula seriamente: coprono bene tre esigenze diverse, dal generalista onesto al top di gamma senza compromessi, fino allo stick arcade per chi ama i picchiaduro e i giochi da sala.
+Ho selezionato tre controller 8BitDo, che negli ultimi anni sono diventati di fatto lo standard per chi emula seriamente: uno per chi vuole un generalista onesto, uno per chi punta al top di gamma, e uno stick arcade per chi ama i picchiaduro e i giochi da sala.
 
 ## 8BitDo SN30 Pro: il generalista che consiglio più spesso
 

@@ -23,7 +23,7 @@ Da lì in poi la palla passa allo slicer. E qui, da chi ha fatto girare stampant
 
 L'articolo originale segnala PLA e PETG come materiali validi. Nella mia esperienza con altri accessori funzionali stampati in FDM, andrei più deciso sul PETG: è più tenace e flette meno sotto la pressione della racla quando spalmi la pasta, e uno stencil che si flette o si crepa a metà lavoro è più fastidioso di uno che costa qualche euro in più. Il PLA stampa più facile e con più definizione, ma è più fragile su geometrie sottili e ripetute come quelle di uno stencil.
 
-Il limite vero, però, non è il materiale: è la fisica della stampa FDM confrontata con l'incisione chimica o il taglio laser con cui si fanno gli stencil metallici professionali. Un ugello standard da 0,4 mm ha una risoluzione che semplicemente non regge il passo di componenti come QFN o BGA a 0,4-0,5 mm di pitch, dove la precisione dello stencil metallico resta l'unica opzione sensata. Per resistenze e condensatori 0402/0603, SOIC, e in generale componenti a passo largo, invece, uno stencil stampato in 3D può essere del tutto sufficiente, ed è lì che questo approccio ha senso.
+Il materiale però non è il vero limite. È la fisica della stampa FDM, che regge il confronto male con l'incisione chimica o il taglio laser con cui si fanno gli stencil metallici professionali. Un ugello standard da 0,4 mm ha una risoluzione che semplicemente non tiene il passo di componenti come QFN o BGA a 0,4-0,5 mm di pitch, dove la precisione dello stencil metallico resta l'unica opzione sensata. Per resistenze e condensatori 0402/0603, SOIC, e in generale componenti a passo largo, invece, uno stencil stampato in 3D può essere del tutto sufficiente, ed è lì che questo approccio ha senso.
 
 ## Dove lo userei davvero
 
