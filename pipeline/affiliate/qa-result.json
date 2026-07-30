@@ -3,17 +3,17 @@
   "checks": [
     {"name": "front_matter", "passed": true},
     {"name": "image_exists", "passed": true},
-    {"name": "image_aspect_ratio_16_9", "passed": true},
-    {"name": "min_length_700_words", "passed": true},
+    {"name": "image_aspect_ratio_16_9", "passed": true, "detail": "1344x768 (rapporto 1.75)"},
+    {"name": "min_length_700_words", "passed": true, "detail": "1095 parole nel corpo"},
     {"name": "no_placeholders", "passed": true},
-    {"name": "disclosure_present", "passed": true},
-    {"name": "amazon_links_tagged", "passed": true},
-    {"name": "amzn_to_links_plausible", "passed": true},
-    {"name": "no_duplicate_content_with_published_posts", "passed": true},
-    {"name": "no_title_slug_duplicate", "passed": true},
-    {"name": "no_collision_with_other_weekly_article", "passed": true},
-    {"name": "tags_categories_within_limits", "passed": true},
-    {"name": "article_agreement_il_lo_un_uno", "passed": true}
+    {"name": "disclosure_present", "passed": true, "detail": "links_inserted non vuoto (3 prodotti) in affiliate-log.json, shortcode {{< affiliate-disclosure >}} presente in riga 12"},
+    {"name": "amazon_links_tagged", "passed": true, "detail": "3 link amazon.it/dp/... tutti con tag=16120s-21 coerente con sources.yaml"},
+    {"name": "amzn_to_links_plausible", "passed": true, "detail": "nessun link amzn.to o aliexpress short-link presente nel draft"},
+    {"name": "no_duplicate_content_with_published_posts", "passed": true, "detail": "nessun paragrafo >40 parole in comune con content/posts/*.md, incluso mini-pc-usati-nas-commerciali.md (topic distinto: NAS/storage vs inferenza LLM)"},
+    {"name": "no_title_slug_duplicate", "passed": true, "detail": "nessun post in content/posts/ tratta homelab AI/LLM locale con questo titolo"},
+    {"name": "no_collision_with_other_weekly_article", "passed": true, "detail": "pipeline/content/draft.md tratta un topic distinto (ESP32-S31 Ethernet Gigabit), nessuna collisione titolo/slug"},
+    {"name": "tags_categories_within_limits", "passed": true, "detail": "5 tag (<=5), 1 categoria (<=2)"},
+    {"name": "article_agreement_il_lo_un_uno", "passed": true, "detail": "nessun pattern sospetto trovato con grep"}
   ],
   "blocking_issues": [],
   "warnings": []

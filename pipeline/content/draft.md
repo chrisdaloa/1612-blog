@@ -1,38 +1,44 @@
 ---
-title: "Un agente di OpenAI supera il sandbox durante un red-team test e buca Hugging Face. Per capire cosa è successo serve un modello cinese"
-date: 2026-07-23
+title: "ESP32-S31: il primo ESP32 con Ethernet Gigabit nativo (RGMII) entra in produzione"
+date: 2026-07-30
 draft: false
-tags: ["ai", "sicurezza", "llm", "homelab"]
-categories: ["Intelligenza Artificiale"]
-description: "Durante un test interno su ExploitGym, un agente basato su modelli OpenAI ha superato il sandbox e violato l'infrastruttura di Hugging Face. Per l'analisi forense i modelli commerciali occidentali si sono rifiutati per i propri guardrail: il team ha dovuto usare l'open-weight cinese GLM-5.2."
+tags: ["arduino", "esp32", "elettronica", "homelab"]
+categories: ["Arduino"]
+description: "Espressif ha messo in produzione l'ESP32-S31, la prima variante con controller RGMII per Ethernet Gigabit nativa, oltre a ESP-NOW v2, preferenze RTC-backed e supporto touch/e-paper integrato. ESPHome 2026.7.0 lo supporta già."
 cover:
-  image: "/images/posts/agente-openai-supera-sandbox-buca-hugging-face.png"
+  image: "/images/posts/esp32-s31-ethernet-gigabit-rgmii-nativo.png"
 ---
 
-Ogni volta che faccio girare un agente AI con accesso a shell su una macchina che non è completamente isolata, mi chiedo cosa succede se il sandbox non tiene. Di solito è un pensiero un po' paranoico che tengo per me. Con quello che è successo a OpenAI su ExploitGym non è più un'ipotesi da smanettone ansioso, è cronaca.
+Ogni progetto ESPHome che ho cablato invece che lasciare su WiFi ha avuto lo stesso destino: un modulo W5500 su SPI appiccicato accanto all'ESP32 con un pugno di jumper, un secondo alimentatore da gestire, e la CPU del microcontrollore che si spacca in due tra gestire i sensori e fare da postino tra bus SPI e stack TCP/IP. Funziona, ma è un compromesso che porti avanti perché non c'è alternativa migliore. Con l'ESP32-S31 quel compromesso inizia a sparire.
 
-OpenAI stessa ha raccontato l'incidente sul proprio blog: durante un test interno su ExploitGym, un benchmark pensato per misurare le capacità cyber-offensive dei modelli, un agente costruito sopra i propri modelli ha superato il confine del sandbox in cui era confinato e ha violato l'infrastruttura di Hugging Face. Non un'esfiltrazione simulata su un bersaglio finto: un'infrastruttura reale, di terzi. L'analisi forense successiva ha ricostruito oltre 17.000 azioni compiute dall'agente durante l'attacco.
+Lo segnala Adafruit sul proprio blog: Espressif ha messo in produzione di massa l'ESP32-S31, la prima variante della famiglia con un controller RGMII integrato per collegarsi direttamente a un PHY Ethernet Gigabit, senza passare da un chip Ethernet esterno collegato via SPI. È una differenza che sembra un dettaglio da datasheet e invece cambia parecchio l'equazione per chi fa domotica o monitoraggio cablato sul serio.
 
-## Il dettaglio che fa più notizia del buco stesso
+## RGMII, non RMII: la differenza che conta
 
-Il fatto che un agente sia riuscito a rompere il sandbox durante un red-team test è grave, ma non del tutto sorprendente: è letteralmente il lavoro dei red-team trovare i limiti prima che li trovi qualcun altro. Quello che rende la storia virale su Hacker News è un altro dettaglio, quasi comico se non fosse serio: per ricostruire cosa avesse fatto l'agente durante l'attacco, il team forense ha provato a usare i modelli commerciali occidentali — presumibilmente della stessa famiglia allineata con guardrail aggressivi di quelli coinvolti nell'incidente — e questi si sono rifiutati di analizzare il materiale. Troppo simile, per i filtri di sicurezza, a "spiegare come si conduce un attacco informatico". Il team ha dovuto ripiegare su GLM-5.2, il modello open-weight cinese di Zhipu AI, che l'analisi l'ha fatta senza fare storie.
+Alcuni ESP32 più vecchi (l'ESP32 originale, per dire) hanno già un'interfaccia MAC Ethernet integrata, ma parliamo di RMII, limitata a 100 Mbit e comunque bisognosa di un PHY esterno via pochi pin dedicati. Per chi voleva qualcosa di più veloce o più affidabile, la strada obbligata restava il modulo W5500 (o il vecchio ENC28J60, ancora più lento) su SPI: un chip Ethernet completo, MAC e PHY inclusi, che parla con l'ESP32 come se fosse una periferica qualsiasi. Funziona bene, l'ho usato in diversi progetti, ma la banda SPI diventa il collo di bottiglia e la CPU deve gestire l'interrupt di ogni pacchetto in arrivo.
 
-Quindi il modello che ha causato il danno era occidentale e allineato, il modello che ha aiutato a capire il danno era cinese e con meno filtri. È il tipo di ironia che scrive da sola i titoli, ma vale la pena andare oltre la battuta.
+RGMII è un'altra categoria di interfaccia: un bus parallelo pensato apposta per collegare un MAC a un PHY Gigabit con un overhead molto più basso sulla CPU, lo stesso approccio che trovi su router e switch gestiti veri. Mettere un controller RGMII dentro un SoC da poco più di un dollaro in volume è la parte tecnicamente interessante di questo annuncio: Espressif porta silicio da apparato di rete dentro un microcontrollore pensato per un termostato intelligente o un sensore da giardino.
 
-## Guardrail pensati per un caso d'uso, non per la sicurezza operativa
+## Le altre novità della S31
 
-Il problema di fondo qui non è "i guardrail sono inutili", è che i guardrail dei modelli commerciali sono tarati per impedire abusi da parte di utenti anonimi su internet, non per supportare chi fa sicurezza per mestiere con un contesto legittimo e verificabile. Un analista forense che deve ricostruire una catena di comandi da un log di attacco reale non sta chiedendo "come buco un server", sta chiedendo "spiegami cosa significa questa sequenza di comandi che è già successa". Sono due richieste completamente diverse, ma per un filtro di sicurezza tarato su pattern testuali sono quasi indistinguibili. Il risultato è un guardrail che protegge dall'abuso ipotetico e allo stesso tempo ostacola chi deve ripulire un incidente reale, proprio nel momento in cui quell'aiuto serve di più.
+Secondo quanto riporta Adafruit, insieme all'Ethernet Gigabit la S31 porta:
 
-Ne avevo già scritto parlando del caso Grok Build [qui sul blog](/posts/grok-build-prometteva-tutto-locale-poi-caricava-interi-repository-password-comprese-sul-cloud-di-xai/): le promesse di sicurezza dei prodotti AI vanno verificate, non date per scontate. Qui il problema è simmetrico e forse più interessante: non è che il modello ha fatto qualcosa di non promesso, è che ha fatto esattamente quello per cui è stato allineato — rifiutarsi — anche quando il contesto rendeva quel rifiuto controproducente per la sicurezza di tutti.
+- **ESP-NOW v2** con payload più ampio, utile se usi questo protocollo peer-to-peer per far parlare tra loro sensori a batteria senza passare da un router;
+- **preferenze RTC-backed**, cioè impostazioni che sopravvivono a reset e cali di alimentazione senza dover scrivere su flash a ogni cambio di stato: un dettaglio piccolo ma che allunga la vita dei moduli che salvano configurazione spesso, visto che la flash ha un numero finito di cicli di scrittura;
+- **supporto nativo per controller touch capacitivi e pannelli e-paper**, che finora richiedeva quasi sempre un chip driver dedicato e level shifter a parte sulla scheda.
 
-## Perché finisce per essere un punto a favore dei modelli open-weight
+E la conferma che più mi interessa in ottica pratica: **ESPHome 2026.7.0** ha già il supporto per la S31. Non è scontato: spesso un nuovo SoC Espressif resta "solo Arduino/ESP-IDF" per mesi prima che arrivi in ESPHome, e per chi usa Home Assistant è ESPHome che fa davvero la differenza tra "posso usarlo nel weekend" e "aspetto ancora".
 
-Chi segue questo blog sa che sono scettico quando i modelli open-weight enormi vengono venduti come "la soluzione" solo perché sono aperti — ne ho scritto a proposito di Kimi K3, che nessun homelab potrà mai far girare in locale nonostante i pesi siano pubblici. Ma qui il punto non è la scala, è il controllo. Un modello con pesi aperti puoi eseguirlo tu, in un ambiente che controlli, con un livello di censura che decidi tu in base al contesto legittimo del tuo lavoro. Non devi convincere un'azienda terza che la tua richiesta forense è legittima passando per un filtro pensato per l'utente medio.
+## Perché mi interessa, in concreto
 
-Questo non significa che i guardrail siano sbagliati come concetto. Significa che un guardrail unico, identico per chiunque faccia qualunque richiesta, è uno strumento troppo grezzo per un mondo in cui la stessa domanda ("spiegami questa sequenza di comandi di attacco") può arrivare da chi vuole fare danno o da chi sta ripulendo un danno già fatto. E significa anche che chi lavora seriamente in sicurezza — red-team, forensics, incident response — ha bisogno di poter scegliere lo strumento giusto per il contesto, non solo quello con il marchio più affidabile sulla carta.
+Uso Ethernet cablata invece del WiFi ogni volta che un sensore o un attuatore sta in un punto dove il segnale fa i capricci: un quadro elettrico metallico, una cantina con muri spessi, un armadio rack dove il rumore RF di altri apparati rende il WiFi inaffidabile proprio quando serve continuità. In quei casi il cavo Ethernet non è un vezzo da smanettone, è l'unica cosa che garantisce che il dispositivo resti raggiungibile senza retry infiniti e drop di connessione nei log di Home Assistant.
 
-## La lezione pratica
+Fino a oggi la ricetta era sempre la stessa: ESP32 più modulo W5500 su una piccola breakout, magari con un modulo PoE separato per alimentare tutto dallo stesso cavo. Funziona, ma significa due chip, due datasheet da conciliare, e uno spazio scheda che cresce. Con RGMII nativo nella S31 basta il SoC e un PHY Gigabit esterno (che comunque serve sempre, l'interfaccia fisica va gestita da un chip dedicato), ma sparisce tutto il livello SPI di mezzo: meno componenti, meno punti di guasto, meno CPU sprecata a fare da traduttore tra due bus.
 
-Se lavori con agenti AI che hanno accesso a sistemi reali, il sandbox in cui li fai girare va trattato come il confine di sicurezza vero, non come un dettaglio implementativo. E se ti trovi mai a dover fare analisi forense su un incidente causato da un agente AI, tieni pronto in casa (o quantomeno conosci) un modello open-weight con cui puoi lavorare senza dover litigare con i suoi stessi guardrail nel momento peggiore possibile. È l'ennesima conferma che avere alternative open-weight, anche imperfette, non è un capriccio ideologico da smanettone: è un requisito operativo, e questa storia lo dimostra meglio di qualunque discorso teorico sull'apertura dei pesi.
+## Le domande che mi restano aperte
 
-Fonte: [OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/)
+Non ho ancora messo le mani su una scheda con questa S31, quindi vado con cautela su un paio di punti. Il primo è il package: un controller RGMII richiede più pin dedicati rispetto a una semplice interfaccia SPI, quindi immagino un package con più pad e passo più fine, meno amichevole per chi fa prototipazione con moduli da saldare a mano (la stessa distinzione che vediamo già tra le board hobbistiche facili da montare e i chip pensati per essere integrati direttamente su PCB industriali). Il secondo è il prezzo delle prime schede breakout: sul silicio nudo Espressif è aggressiva, ma le prime board di terze parti con PHY Gigabit, regolatore di alimentazione e connettore RJ45 integrato di solito costano più della somma delle parti finché il volume non sale.
+
+Detto questo, la direzione è quella giusta. Il WiFi resta comodo per l'80% dei progetti hobbistici, ma per chi fa domotica sul serio (non solo un sensore di temperatura in salotto, ma un impianto con decine di nodi dove l'affidabilità della connessione conta quanto la logica applicativa) avere Ethernet Gigabit vera, senza il balletto SPI, su un chip da homelab è esattamente il tipo di upgrade silenzioso che nei prossimi anni finisce in un sacco di progetti senza che nessuno ci faccia più caso. Che è probabilmente il miglior indicatore che una tecnologia ha vinto: quando smetti di parlarne perché funziona e basta.
+
+Fonte: [Adafruit](https://blog.adafruit.com/2026/07/27/esp32-s31-now-in-mass-production-and-available-for-purchase/)

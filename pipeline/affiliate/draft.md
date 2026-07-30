@@ -1,38 +1,48 @@
 ---
-title: "Anbernic RG SP: torna la forma del Game Boy Advance SP, senza stick analogici"
-date: 2026-07-23
+title: "Mini PC e schede per homelab AI: quale comprare per far girare LLM in locale"
+date: 2026-07-30
 draft: false
-tags: ["retro-gaming", "handheld", "emulazione"]
-categories: ["Retrogaming"]
-description: "Anbernic annuncia la RG SP, handheld pieghevole ispirata al Game Boy Advance SP: schermo IPS 3,4 pollici, chip Allwinner H700, niente stick analogici. Cosa significa questa scelta e a chi conviene davvero."
+tags: ["ai", "llm", "homelab", "mini-pc", "guida-acquisto"]
+categories: ["Intelligenza Artificiale"]
+description: "Beelink EQ14, GMKtec EVO-X2 con Ryzen AI Max+ 395 e NVIDIA Jetson Orin Nano a confronto: quale hardware comprare per far girare modelli LLM in locale nel proprio homelab, dalla fascia budget fino ai 128GB di memoria unificata."
 cover:
-  image: "/images/posts/anbernic-rg-sp-game-boy-advance-sp.png"
+  image: "/images/posts/mini-pc-homelab-ai-quale-comprare.png"
 ---
 
 {{< affiliate-disclosure >}}
 
-Il Game Boy Advance SP resta, a distanza di più di vent'anni, uno degli oggetti più azzeccati mai usciti da Nintendo: si chiudeva a conchiglia, entrava in tasca senza rovinarti i pantaloni, e con la retroilluminazione risolveva finalmente il problema dello schermo del GBA originale che al buio era illeggibile. Anbernic l'ha capito benissimo, e con la RG SP appena annunciata ne clona la forma quasi pixel per pixel.
+Mi chiedono spesso quale mini PC comprare per far girare un LLM in casa, e la risposta onesta è "dipende da cosa intendi per far girare un LLM", perché tra un modello 7B che risponde in due secondi e uno che ci mette dieci minuti a produrre un paragrafo c'è un abisso di aspettative deluse. Ho messo mano, tra acquisti diretti e prove su hardware di amici, a tre categorie molto diverse di macchine per l'inferenza locale, e vale la pena capire prima di comprare in quale fascia ti trovi davvero, perché il salto di prezzo tra una e l'altra è enorme e non sempre giustificato dal tuo caso d'uso.
 
-L'ha raccontato Time Extension, e i numeri sono quelli tipici della fascia Anbernic ormai matura: schermo IPS da 3,4 pollici a 720x480, processore Allwinner H700 (lo stesso che troviamo su parecchi handheld cinesi recenti, capace senza troppi patemi di reggere fino a PS1 e sistemi 16-bit con margine), batteria da 3300 mAh con ricarica rapida fino a 7,5W. Il claim ufficiale, tradotto, è far rivivere "la pura gioia dell'era 2D". Marketing a parte, la scelta tecnica dietro merita due parole in più.
+Il problema di fondo, per chi fa homelab AI, è la memoria, non la potenza di calcolo pura. Un LLM quantizzato deve stare tutto in RAM (o VRAM) per essere veloce, e la banda di memoria disponibile decide quanti token al secondo ottieni molto più della frequenza della CPU. È la lente giusta con cui guardare ogni scheda tecnica qui sotto.
 
-## Niente stick analogici, ed è una scelta precisa
+## Fascia budget: Beelink EQ14, per chi vuole solo provare
 
-La cosa che salta all'occhio, e che secondo me è la vera notizia sotto la notizia, è l'assenza totale di stick analogici. Solo croce direzionale e pulsanti frontali, esattamente come il GBA SP originale. In un mercato dove ormai quasi ogni nuovo handheld Anbernic o Retroid punta ad arrivare a PS2 e GameCube con doppio stick Hall-effect, fare marcia indietro sembra un controsenso commerciale. Non lo è, se guardi bene il target.
+Il [Beelink EQ14](https://www.amazon.it/dp/B0F3D7Y6X8?tag=16120s-21) monta un Intel N100, quattro core Alder Lake-N pensati per consumare pochissimo, non certo per macinare matematica. Costa meno di una cena buona per due, è fanless o quasi silenzioso, e con 16GB di RAM riesce a far girare in locale via Ollama o llama.cpp un modello quantizzato da 7B parametri (tipo Llama 3.1 8B o Mistral 7B in GGUF Q4_K_M) senza sbattere in swap.
 
-La RG SP non vuole competere con la fascia alta emulazione 3D. Vuole essere il dispositivo con cui rigiochi Pokémon Smeraldo, Metroid Fusion, Kirby e tutto il catalogo 2D che con la croce direzionale ci gioca benissimo e non ha mai avuto bisogno di uno stick analogico in vita sua. Tolgo gli stick, abbasso i costi, alleggerisco il case, e ottengo un dispositivo pensato apposta per un solo tipo di libreria: quella 2D pura, NES/SNES/GBA/Genesis, dove la croce direzionale non è un compromesso ma lo standard con cui quei giochi sono stati progettati.
+La resa è quella che è: pochi token al secondo, tutto su CPU perché la GPU integrata è troppo debole per contare davvero nell'inferenza. Per chiedere due domande e avere una risposta ragionevole in dieci-quindici secondi va bene. Per un assistente che deve rispondere in tempo reale mentre lavori, o per fare summarization di documenti lunghi, la pazienza finisce prima della risposta.
 
-È lo stesso ragionamento che avevo fatto parlando del [Miyoo Mini Plus](https://www.amazon.it/dp/B0CBTHCH2V?tag=16120s-21) in una guida agli handheld che ho scritto qualche giorno fa: se il tuo obiettivo dichiarato è la generazione 8/16-bit, uno stick analogico che non userai mai è solo un costo e un punto di rottura in più.
+Dove lo trovo comunque sensato: come nodo dedicato per un piccolo task ripetitivo (classificazione di email, tagging automatico di note in Obsidian, un chatbot casalingo che non deve essere brillante, solo disponibile), non come workstation per uso quotidiano intensivo. Consuma pochissimo, sta acceso 24/7 senza pesare sulla bolletta, e questo per un homelab conta più della velocità bruta in molti scenari.
 
-## Il form factor conta più di quanto si pensi
+## Fascia alta: GMKtec EVO-X2, il vero salto di categoria
 
-Il pieghevole a conchiglia non è solo nostalgia da vetrina. Chiuso protegge lo schermo senza bisogno di custodie aggiuntive, entra in tasca in modo naturale, e libera lo spazio per uno schermo relativamente generoso (3,4 pollici) su un corpo che da chiuso resta compatto. Chi ha avuto un GBA SP originale ricorderà anche il piacere tattile dello scatto della cerniera: un dettaglio piccolo, ma che i cloni economici spesso rovinano con un meccanismo ballerino dopo qualche mese d'uso. Su questo aspetto specifico bisognerà aspettare le prime unità in mano per capire se Anbernic ha fatto i compiti seriamente o se ha risparmiato sulla cerniera come talvolta capita nella fascia bassa del suo catalogo.
+Qui cambia completamente la storia. Il [GMKtec EVO-X2](https://www.amazon.it/dp/B0F6X332N6?tag=16120s-21) monta l'AMD Ryzen AI Max+ 395, la piattaforma che AMD chiama internamente Strix Halo, con GPU integrata Radeon 8060S e soprattutto fino a 128GB di memoria unificata LPDDR5X condivisa tra CPU e GPU. È lo stesso principio che rende interessanti i Mac con chip Apple Silicon per l'AI locale: niente VRAM separata da riempire, la memoria di sistema fa entrambi i lavori, e con 128GB puoi caricare modelli quantizzati che su una GPU consumer con 24GB di VRAM semplicemente non entrano.
 
-Sul chip, l'Allwinner H700 lo conosciamo già da altri modelli Anbernic recenti: non è un mostro di potenza, ma per l'obiettivo dichiarato (16-bit e sotto, con margine su qualche titolo PS1 leggero) è più che sufficiente, e ha il vantaggio di consumare poco, che si traduce in autonomia reale coerente con la batteria da 3300 mAh dichiarata.
+Con questa macchina un modello 70B quantizzato Q4 gira, e gira a una velocità utilizzabile, non solo "tecnicamente possibile". È la differenza tra Beelink e GMKtec: sul primo alcuni modelli non li carichi proprio, sul secondo scegli tra "carico anche mostri enormi" e "quanto sono disposto a spendere per averlo". Il prezzo di un EVO-X2 configurato con 128GB si aggira sui duemila euro, che è tanto per un mini PC ma pochissimo rispetto a una workstation con più GPU datacenter, ed è comunque l'opzione più equilibrata oggi sul mercato consumer per chi vuole modelli grandi in locale senza costruire un rig con schede video usate.
 
-## Vale la pena, secondo me
+Il limite reale è la banda, non la capacità di memoria. La LPDDR5X unificata è più lenta di una VRAM GDDR6X dedicata, quindi anche se il modello ci sta, i token al secondo restano inferiori a quello che otterresti con una GPU discreta di fascia alta (tipo una RTX 4090 o una 3090 usata) sugli stessi parametri attivi. Per chi bada solo alla velocità pura su modelli piccoli e medi, una GPU usata da 24GB resta più conveniente. Per chi vuole la capacità di caricare modelli enormi senza fare i salti mortali con offload CPU/GPU o quantizzazioni estreme, l'EVO-X2 vince a mani basse.
 
-Se cerchi un dispositivo che faccia tutto, dal NES alla Dreamcast, la RG SP non è quello che stai cercando: per quello restano scelte migliori il [Retroid Pocket 5](https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21) o l'[Anbernic RG556](https://www.amazon.it/dp/B0CXPS6T1Z?tag=16120s-21), con doppio stick e chip più potente. Ma se il tuo obiettivo è specifico e onesto — rigiocarti l'infanzia 2D, GBA in testa, in un formato che sta in tasca ed è chiaramente pensato per quello scopo — la RG SP colpisce esattamente il bersaglio che si è data, senza fingere di essere altro.
+## Fascia edge: NVIDIA Jetson Orin Nano, un altro sport
 
-È anche, va detto, un acquisto d'impulso facile: prezzo presumibilmente contenuto (Anbernic in questa fascia storicamente si muove tra i 40 e i 70 euro) e un design che parla direttamente alla nostalgia di chiunque abbia avuto un GBA SP in tasca alle medie. Aspetto la disponibilità effettiva e i primi unboxing prima di consigliarla a scatola chiusa, ma l'impostazione tecnica, per quello che deve fare, mi convince.
+Il [Jetson Orin Nano](https://www.amazon.it/dp/B0BZJTQ5YP?tag=16120s-21) va inquadrato diversamente dagli altri due: non è un PC generalista con un sistema operativo desktop, è una scheda per progetti embedded e robotica dove l'inferenza AI deve girare a bordo, con consumi bassissimi e senza connessione a un server remoto. Con 8GB di memoria condivisa e fino a 67 TOPS nella versione Super, è pensato per computer vision, riconoscimento oggetti in tempo reale su un robot o una telecamera, non per fare da assistente conversazionale con un LLM generalista.
 
-Fonte: [Time Extension](https://www.timeextension.com/news/2026/07/relive-the-pure-joy-of-the-2d-golden-era-meet-the-rg-sp-anbernics-latest-gba-sp-inspired-handheld)
+Ci ho messo le mani per un progetto di visione artificiale su un piccolo rover, e lì il Jetson brilla: il supporto CUDA nativo di NVIDIA, TensorRT per ottimizzare i modelli, e un ecosistema di modelli di visione già pronti per questa architettura lo rendono la scelta quasi obbligata se il tuo progetto è embedded e deve fare inferenza on-device, con Arduino o microcontrollori a fare da contorno per sensori e attuatori. Come chatbot locale generico è invece uno spreco: hai poca memoria, e l'obiettivo del chip non è quello.
+
+## Cosa comprerei io, secondo il caso d'uso
+
+Se vuoi solo capire come funziona Ollama, giocare con RAG su documenti tuoi, o avere un piccolo assistente domestico che risponde a comandi semplici, il Beelink EQ14 è il punto di ingresso più sensato: costa poco, consuma pochissimo, e ti fa toccare con mano i limiti reali dell'inferenza locale prima di spendere di più.
+
+Se vuoi un homelab AI serio, con modelli grandi che rispondono con qualità vicina a quella dei servizi cloud, e sei disposto a investire duemila euro in hardware dedicato, il GMKtec EVO-X2 con 128GB è oggi la scelta più equilibrata sul mercato consumer, meglio di rincorrere GPU datacenter usate introvabili o di costruire un rig con più schede video che consuma come un condizionatore acceso tutto il giorno.
+
+Se il tuo progetto non è "voglio un chatbot" ma "voglio un robot o una telecamera che capisce cosa vede senza mandare tutto al cloud", il Jetson Orin Nano è nella categoria giusta. Lì la concorrenza reale sono altre schede embedded, non i mini PC x86, e NVIDIA resta avanti per maturità del software.
+
+Una cosa vale per tutti e tre: prima di comprare, guarda la memoria disponibile e la sua banda, non il numero di core o i TFLOPS pubblicizzati. È quello che decide davvero se il modello che vuoi far girare ci sta, e a che velocità.
