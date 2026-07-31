@@ -1,0 +1,13 @@
+{{- /* Unità AdSense display responsive. Uso: {{ partial "ads/unit.html" .slot }} con .slot = data-ad-slot */ -}}
+{{- $slot := . -}}
+{{- if $slot }}
+<div class="ad-unit" style="margin: var(--gap) 0; text-align: center;">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.Params.adsense.client }}"
+       data-ad-slot="{{ $slot }}"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{{- end -}}

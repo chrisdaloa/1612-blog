@@ -41,6 +41,12 @@ params:
     - name: email
       url: "mailto:chrisdaloa@gmail.com"
 
+  # Unità AdSense manuali (client già in extend_head.html). Slot vuoto = nessun annuncio mostrato in quel punto.
+  adsense:
+    client: "ca-pub-3620589436606953"
+    inArticleSlot: ""
+    endArticleSlot: ""
+
 menu:
   main:
     - name: Articoli
