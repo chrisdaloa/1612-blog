@@ -12,7 +12,7 @@ cover:
     relative: false
 ---
 
-# Linux su Lenovo IdeaPad 330S-15ARR: risolvere il blocco all'avvio con "Booting a command list"
+## Linux su Lenovo IdeaPad 330S-15ARR: risolvere il blocco all'avvio con "Booting a command list"
 
 Installando Linux su un **Lenovo IdeaPad 330S-15ARR** con processore AMD Ryzen può capitare che il sistema non riesca ad avviarsi correttamente.
 

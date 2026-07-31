@@ -11,17 +11,13 @@ cover:
   caption: "Controllo remoto facile su linux "
   relative: false
 ---
----
-
-
-# 🖥️ NoMachine su Linux Mint: esperienza reale, pro, contro e guida completa
 
 Se come me avete diversi computer in casa, magari in zone o piani differenti, avrete sicuramente la necessità di collegarvi su altri computer per fare cose. In questa situazione uno strumento affidabile per il desktop remoto diventa fondamentale. Una delle soluzioni che ho testato su Linux Mint è NoMachine. 
 In questo articolo vediamo come funziona, i suoi pro e contro e una guida completa all’installazione su Linux Mint.
 
 ---
 
-# ⚙️ Cos’è NoMachine
+## ⚙️ Cos’è NoMachine
 
 NoMachine è un software di desktop remoto che permette di accedere a un computer da un altro dispositivo tramite rete locale o Internet.
 
@@ -33,42 +29,42 @@ A differenza di soluzioni più leggere come VNC, punta su:
 
 ---
 
-# 👍 Vantaggi di NoMachine
+## 👍 Vantaggi di NoMachine
 
-## 🚀 Prestazioni elevate
+### 🚀 Prestazioni elevate
 Anche su reti non perfette la fluidità rimane buona.
 
-## 🔊 Audio remoto
+### 🔊 Audio remoto
 Supporta la trasmissione dell’audio del sistema remoto.
 
-## 🧩 Configurazione semplice
+### 🧩 Configurazione semplice
 Installazione rapida senza configurazioni complesse.
 
-## 🔐 Connessione sicura
+### 🔐 Connessione sicura
 Supporta cifratura e autenticazione.
 
-## 💻 Multi-piattaforma
+### 💻 Multi-piattaforma
 Funziona su Linux, Windows e macOS.
 
 ---
 
-# 👎 Svantaggi di NoMachine
+## 👎 Svantaggi di NoMachine
 
-## 🌐 Software proprietario
+### 🌐 Software proprietario
 Non è open source.
 
-## ⚙️ Meno flessibile
+### ⚙️ Meno flessibile
 Rispetto a SSH o soluzioni avanzate ha meno controllo.
 
-## 📦 Più pesante
+### 📦 Più pesante
 Consuma più risorse rispetto a soluzioni minimaliste.
 
-## 🔌 Opzioni avanzate poco intuitive
+### 🔌 Opzioni avanzate poco intuitive
 Alcune impostazioni non sono immediate.
 
 ---
 
-# 🧠 Quando usarlo
+## 🧠 Quando usarlo
 
 NoMachine è ideale se:
 - vuoi accedere facilmente al tuo PC Linux da remoto
@@ -77,12 +73,12 @@ NoMachine è ideale se:
 
 ---
 
-# 🛠️ Installazione su Linux Mint
+## 🛠️ Installazione su Linux Mint
 
-## Scaricare il pacchetto
+### Scaricare il pacchetto
 Scarica il file `.deb` dal sito ufficiale di NoMachine.
 
-## Installazione
+### Installazione
 
 ```bash
 sudo dpkg -i nomachine_*.deb
@@ -94,19 +90,19 @@ Se mancano dipendenze:
 sudo apt --fix-broken install
 ```
 
-## Avvio del servizio
+### Avvio del servizio
 
 ```bash
 sudo /usr/NX/bin/nxserver --start
 ```
 
-## Verifica stato
+### Verifica stato
 
 ```bash
 sudo /usr/NX/bin/nxserver --status
 ```
 
-## Connessione da un altro PC
+### Connessione da un altro PC
 
 - Installa NoMachine sul client
 - Inserisci IP del PC Linux Mint
@@ -114,28 +110,28 @@ sudo /usr/NX/bin/nxserver --status
 
 ---
 
-# 🔥 Configurazione firewall
+## 🔥 Configurazione firewall
 
-## Apertura porta NoMachine
+### Apertura porta NoMachine
 
 ```bash
 sudo ufw allow 4000/tcp
 ```
 
-## Attivare firewall (se necessario)
+### Attivare firewall (se necessario)
 
 ```bash
 sudo ufw enable
 ```
 
-## Ricaricare regole
+### Ricaricare regole
 
 ```bash
 sudo ufw reload
 ```
 
 
-# 🧾 Conclusione
+## 🧾 Conclusione
 
 NoMachine è una soluzione solida per desktop remoto su Linux Mint: semplice, veloce e abbastanza stabile.
 
