@@ -71,7 +71,7 @@ Prima di iniziare, assicurati di avere:
 ✅ Smartphone Android/iOS
 ✅ Account GitHub
 
-**Se non hai ancora Hugo su GitHub/Netlify**, segui prima [questa guida](/posts/creare-sito-hugo-github).
+**Se non hai ancora Hugo su GitHub/Netlify**, sistema prima quello: è il prerequisito base per tutto il resto di questa guida.
 
 ---
 
@@ -738,11 +738,6 @@ Pronto a iniziare?
 ---
 
 **Hai già provato GitJournal?** Raccontami il tuo workflow nei commenti, mi interessa sapere come scrivi i tuoi articoli.
-
-**Articoli correlati:**
-- [Creare un Blog Hugo da Zero con GitHub](/posts/creare-blog-hugo-github)
-- [I Migliori Editor Markdown per Developer](/posts/editor-markdown-developer)
-- [Workflow Git per Blogger: Guida Completa](/posts/workflow-git-blogging)
 
 ---
 

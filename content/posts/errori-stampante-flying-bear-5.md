@@ -80,9 +80,4 @@ Quando la temperatura sale verso il target, la temperatura corrente risulta infe
 
 La maggior parte di questi errori è legata a problemi di connessione dei sensori termici o a un'alimentazione insufficiente. Se l'errore persiste dopo i controlli indicati, verifica il cablaggio dell'hotend e del letto riscaldato, e considera di ricalibrate i valori PID dalla console.
 
-**Link utili:**
-- [Guida alla calibrazione PID per stampanti 3D](/posts/calibrazione-pid)
-- [Manutenzione della Flying Bear Ghost](/posts/manutenzione-flying-bear)
-- [I migliori upgrade per la Flying Bear Ghost](/posts/upgrade-flying-bear)
-
 

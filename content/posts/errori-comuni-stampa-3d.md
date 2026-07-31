@@ -303,11 +303,6 @@ Ricorda: ogni stampante è diversa, quindi prendi questi consigli come punto di 
 
 Lascia un commento descrivendo il tuo problema, magari con foto, e cercherò di aiutarti! La community maker è qui per questo.
 
-**Link utili:**
-- [Guida completa allo slicing con Cura](/posts/guida-cura-slicer)
-- [I migliori filamenti PLA del 2025](/posts/migliori-filamenti-pla)
-- [Upgrade essenziali per la tua stampante](/posts/upgrade-stampante-3d)
-
 ---
 
 *Buona stampa!*
