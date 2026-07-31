@@ -4,15 +4,8 @@ date: 2026-07-04T22:02:42.792+01:00
 draft: false
 slug: "voice-ai-con-gemma-4-una-rivoluzione-per-linterfaccia-utente"
 author: "Michele"
-categories:
-  - "Stampa 3D"
-  - "Tecnologia"
-tags:
-  - "TCT Magazine"
-  - "Manifattura Additiva"
-  - "AI"
-  - "interfaccia utente"
-  - "open-source"
+categories: ["Intelligenza Artificiale"]
+tags: ["ai", "open-source"]
 description: "Quello che mi ha colpito di più in questo articolo è il modo in cui Hugging Face e Cerebras hanno unito la potenza dell’open-source a un’architettura modulare,"
 cover:
   image: "/images/posts/voice-ai-con-gemma-4.png"

@@ -2,7 +2,7 @@
 title: "Home Assistant: un sensore per ricordarti quale bidone mettere fuori"
 date: 2019-05-01
 draft: false
-tags: ["home-assistant", "domotica", "template", "lovelace", "rifiuti"]
+tags: ["home-assistant", "domotica", "tutorial"]
 categories: ["Domotica"]
 description: "Come creare un sensore template in Home Assistant per ricordare quale tipologia di rifiuti raccogliere ogni giorno, senza installare componenti custom."
 cover:

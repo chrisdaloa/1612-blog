@@ -3,7 +3,7 @@ title: "open-wa: un gateway WhatsApp self-hosted e open source"
 date: 2026-05-19
 draft: false
 
-tags: ["whatsapp", "self-hosting", "docker", "automazione", "open-source", "api"]
+tags: ["self-hosting", "open-source", "homelab"]
 categories: ["Linux", "Tech"]
 
 description: "open-wa è un gateway HTTP per WhatsApp da installare in casa propria. Niente vendor lock-in, niente abbonamenti, dati che restano tuoi."

@@ -2,7 +2,7 @@
 title: "Ricambi e Upgrades Flying Bear Ghost 5"
 date: 2021-11-15
 draft: false
-tags: ["stampa-3d", "flying-bear", "upgrades", "ricambi"]
+tags: ["stampa-3d", "flying-bear", "manutenzione"]
 categories: ["Stampa 3D"]
 description: "Lista completa di ricambi e upgrade testati per la stampante 3D Flying Bear Ghost 5. Migliora le performance della tua stampante con questi componenti verificati."
 cover:

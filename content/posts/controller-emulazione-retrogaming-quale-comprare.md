@@ -2,7 +2,7 @@
 title: "Controller e periferiche per emulazione: cosa comprare"
 date: 2026-07-24
 draft: false
-tags: ["retro-gaming", "guida-acquisto", "emulazione", "controller"]
+tags: ["retro-gaming", "guida-acquisto", "emulazione"]
 categories: ["Retrogaming"]
 description: "8BitDo Pro 3, Ultimate 2 o SN30 Pro: quale controller comprare per emulare su Batocera, RetroPie, PC e handheld Android, con criteri pratici su stick Hall-effect, connettività e compatibilità reale."
 cover:

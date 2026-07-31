@@ -3,7 +3,7 @@ title: "Silicone food-safe stampato in 3D: Lynxter lancia SIL-004"
 date: 2026-05-25
 draft: false
 
-tags: ["stampa-3d", "silicone", "materiali", "industria", "food-safe"]
+tags: ["stampa-3d", "materiali", "food-safe"]
 categories: ["Stampa 3D"]
 
 description: "Lynxter presenta SIL-004, il primo silicone stampabile in 3D conforme agli standard FDA per l'industria alimentare. Non è roba da stampante casalinga, ma è tecnologicamente interessante."

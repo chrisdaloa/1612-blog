@@ -2,7 +2,7 @@
 title: "Stampa 3D 2026: I Nuovi Materiali Che Stanno Cambiando Tutto"
 date: 2025-11-24
 draft: false
-tags: ["stampa-3d", "materiali", "innovazione", "guida"]
+tags: ["stampa-3d", "materiali", "guida"]
 categories: ["Stampa 3D"]
 description: "Scopri i nuovi materiali rivoluzionari per stampa 3D del 2025: polimeri conduttivi, bioplastiche, compositi ad alte prestazioni. Guida completa con test, prezzi e applicazioni."
 cover:

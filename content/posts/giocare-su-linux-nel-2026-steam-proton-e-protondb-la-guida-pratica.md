@@ -2,7 +2,7 @@
 title: "Giocare su Linux nel 2026: Steam, Proton e ProtonDB, la guida pratica"
 date: 2026-07-18
 draft: false
-tags: ["linux", "linux-mint", "gaming", "steam"]
+tags: ["linux", "linux-mint", "guida"]
 categories: ["Linux"]
 description: "Come giocare su Linux oggi con Steam Play e Proton: come consultare ProtonDB prima di comprare un gioco, setup lato sistema con Linux Mint, configurazione lato Steam e le limitazioni reali che nessuno ti dice."
 cover:

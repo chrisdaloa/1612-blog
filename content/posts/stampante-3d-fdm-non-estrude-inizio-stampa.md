@@ -3,7 +3,7 @@ title: "Stampante FDM che non estrude all'inizio della stampa: cause e soluzioni
 date: 2026-05-26
 draft: false
 
-tags: ["stampa-3d", "fdm", "troubleshooting", "estrusione", "primo-layer"]
+tags: ["stampa-3d", "fdm", "troubleshooting"]
 categories: ["Stampa 3D"]
 
 description: "La stampante scalda, si posiziona, parte — e non esce niente. Quasi sempre c'è una causa precisa. Ecco come trovarla e risolverla."

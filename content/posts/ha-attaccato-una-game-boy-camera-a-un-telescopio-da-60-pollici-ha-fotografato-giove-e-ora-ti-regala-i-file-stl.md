@@ -2,7 +2,7 @@
 title: "Ha attaccato una Game Boy Camera a un telescopio da 60 pollici, ha fotografato Giove, e ora ti regala i file STL"
 date: 2026-07-18
 draft: false
-tags: ["retro-gaming", "game-boy", "stampa-3d", "astronomia", "open-source", "arduino", "nintendo"]
+tags: ["retro-gaming", "stampa-3d", "diy", "open-source"]
 categories: ["Stampa 3D"]
 description: "Chris Graue ha collegato una Game Boy Camera al telescopio Hooker da 60 pollici di Mount Wilson con un adattatore C-Mount stampato in 3D, fotografando Giove con quello che chiama l'obiettivo più lungo mai usato con l'accessorio Nintendo. Ora gli schemi sono open source."
 cover:

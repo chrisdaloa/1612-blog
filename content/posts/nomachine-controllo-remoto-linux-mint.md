@@ -2,8 +2,8 @@
 title: "NoMachine su Linux Mint: pro, contro e guida completa all’installazione"
 date: 2026-04-21
 draft: false
-tags: ["linux", "nomachine", "remote desktop", "linux mint", "tutorial"]
-categories: ["tecnologia"]
+tags: ["linux", "linux-mint", "tutorial"]
+categories: ["Tech"]
 description: "Analisi completa di NoMachine su Linux Mint: vantaggi, svantaggi e guida passo-passo all’installazione e configurazione."
 cover:
   image: "/images/nomachine.png"

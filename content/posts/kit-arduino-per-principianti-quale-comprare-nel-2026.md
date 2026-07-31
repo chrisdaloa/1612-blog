@@ -2,7 +2,7 @@
 title: "Kit Arduino per principianti: quale comprare nel 2026"
 date: 2026-07-18
 draft: false
-tags: ["arduino", "elettronica", "diy", "maker", "guida-acquisto"]
+tags: ["arduino", "elettronica", "diy", "guida-acquisto"]
 categories: ["Arduino"]
 description: "ELEGOO UNO R3 Super Starter Kit, Freenove Ultimate Starter Kit V4 o kit ufficiale Arduino con la nuova UNO R4 WiFi: confronto pratico tra i tre starter kit che consiglierei davvero a chi parte da zero."
 cover:

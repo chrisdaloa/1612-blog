@@ -2,7 +2,7 @@
 title: "Grok Build prometteva 'tutto locale'. Poi caricava interi repository (password comprese) sul cloud di xAI"
 date: 2026-07-18
 draft: false
-tags: ["ai", "sicurezza", "xai", "grok", "cli-tools", "privacy", "homelab"]
+tags: ["ai", "sicurezza", "homelab", "privacy"]
 categories: ["Intelligenza Artificiale"]
 description: "Il CLI di coding di xAI, Grok Build, mandava silenziosamente interi repository Git (segreti in chiaro inclusi) su un bucket Google Cloud gestito da xAI, nonostante promettesse elaborazione locale. Cosa insegna a chi usa CLI AI sul proprio codice."
 cover:

@@ -3,7 +3,7 @@ title: "Mini PC usati come NAS: il mio setup con due OptiPlex e Proxmox"
 date: 2026-05-19
 draft: false
 
-tags: ["nas", "mini-pc", "proxmox", "self-hosting", "linux", "home-server", "jellyfin", "xpenology"]
+tags: ["mini-pc", "self-hosting", "linux", "homelab"]
 categories: ["Linux", "Tech"]
 
 description: "Due OptiPlex usati, Proxmox, XPenology, Jellyfin e due vecchi Synology DS112j come storage aggiuntivo. Quanto costa, cosa funziona e cosa no."

@@ -2,7 +2,7 @@
 title: "Guida rapida: creare un sito con Hugo e il tema PaperMod (SEO)"
 date: 2025-11-25
 draft: false
-tags: ["hugo","papermod","static-site","seo","tutorial"]
+tags: ["hugo", "tutorial", "seo"]
 categories: ["Web","Hugo"]
 description: "Istruzioni passo-passo per creare, configurare e ottimizzare SEO un sito Hugo usando il tema PaperMod. Comandi Windows, configurazione, deploy su Netlify/GitHub Pages."
 cover:

@@ -2,7 +2,7 @@
 title: "Fire TV Blocca le App: Fine del Sideload e Migliori Alternative per Streaming"
 date: 2026-02-21
 draft: false
-tags: ["streaming", "fire-tv", "android-tv", "google-tv", "tech"]
+tags: ["streaming", "fire-tv", "tech"]
 categories: ["Tech"]
 description: "Amazon blocca definitivamente il sideload su Fire TV. Analisi del problema, motivazioni e migliori alternative per streaming libero: Android TV, Google TV e box consigliati."
 cover:

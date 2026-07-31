@@ -2,7 +2,7 @@
 title: "AI Agents vs AI Chatbot: Differenze e Quale Usare nel 2026"
 date: 2025-11-24
 draft: false
-tags: ["AI", "intelligenza-artificiale", "tutorial", "produttività"]
+tags: ["ai", "tutorial", "produttività"]
 categories: ["Intelligenza Artificiale"]
 description: "Scopri le differenze tra AI Agents e AI Chatbot, quando usarli e i migliori tool del 2026. Guida pratica con esempi reali per sviluppatori e maker."
 cover:

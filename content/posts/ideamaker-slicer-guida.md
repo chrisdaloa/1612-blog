@@ -2,7 +2,7 @@
 title: "IdeaMaker: Lo Slicer Sottovalutato per Stampa 3D (Non Solo Raise3D)"
 date: 2025-12-02
 draft: false
-tags: ["stampa-3d", "slicer", "ideamaker", "tutorial", "software"]
+tags: ["stampa-3d", "tutorial", "slicer"]
 categories: ["Stampa 3D"]
 description: "Guida completa a IdeaMaker, lo slicer gratuito e potente per stampa 3D. Supporta centinaia di stampanti, non solo Raise3D. Setup, profili e confronto con Cura."
 cover:

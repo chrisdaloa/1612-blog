@@ -3,7 +3,7 @@ title: "Un modello da 3 miliardi di parametri che batte GPT e Claude sull'OCR"
 date: 2026-05-25
 draft: false
 
-tags: ["ai", "intelligenza-artificiale", "ocr", "llm", "machine-learning"]
+tags: ["ai", "llm", "ocr"]
 categories: ["Intelligenza Artificiale"]
 
 description: "Dharma-AI ha testato un modello specializzato da 3B parametri contro Claude Opus, Gemini e GPT su un task OCR. Il modello piccolo ha vinto, a 52 volte il costo in meno."

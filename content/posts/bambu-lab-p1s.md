@@ -3,7 +3,7 @@ title: "Bambu Lab P1S: La Recensione Definitiva. È Veramente la Migliore Stampa
 date: 2025-12-02
 draft: false
 author: "cbor"
-tags: ["stampa3d", "BambuLabP1S", "migliore stampante 3D", "CoreXY", "AMS", "tecnologia", "recensione lunga", "SEO"]
+tags: ["stampa-3d", "guida-acquisto", "recensione"]
 categories: ["Stampa 3D"]
 keywords: ["Bambu Lab P1S recensione", "velocità stampa 3D", "vantaggi Bambu Lab", "svantaggi Bambu Lab", "prezzo Bambu Lab P1S"]
 description: "Bambu Lab P1S:  esploriamo le tecnologie CoreXY e AMS, i motivi del successo planetario e le criticità nascoste (manutenzione e open source). Scopri se è la scelta giusta per il tuo prossimo acquisto."

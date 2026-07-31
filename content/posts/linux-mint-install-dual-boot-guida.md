@@ -3,7 +3,7 @@ title: "Dual Boot Linux Mint + Windows: Guida Completa 2026 (Disco Separato)"
 date: 2026-01-18
 draft: false
 tags: ["linux", "linux-mint", "dual-boot", "tutorial", "windows"]
-categories: ["Programmazione", "Linux"]
+categories: ["Linux"]
 description: "Guida completa per installare Linux Mint in dual boot con Windows usando un secondo disco. Procedura step-by-step aggiornata 2025, facile e sicura."
 cover:
     image: "/images/linux-mint-dual-boot-install-guide.webp"

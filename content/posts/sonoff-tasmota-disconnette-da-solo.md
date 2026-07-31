@@ -2,7 +2,7 @@
 title: "Sonoff Tasmota: risolvere il comportamento anomalo alla riconnessione MQTT"
 date: 2019-01-04
 draft: false
-tags: ["sonoff", "tasmota", "mqtt", "home-assistant", "mosquitto", "domotica"]
+tags: ["home-assistant", "domotica", "troubleshooting"]
 categories: ["Domotica"]
 description: "Se il tuo Sonoff con firmware Tasmota si comporta in modo anomalo dopo una riconnessione MQTT, la causa è quasi sempre il RETAIN. Ecco come risolverlo."
 cover:

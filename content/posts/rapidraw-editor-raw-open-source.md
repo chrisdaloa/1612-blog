@@ -3,7 +3,7 @@ title: "RapidRAW: un editor RAW open source che vale la pena tenere d'occhio"
 date: 2026-05-19
 draft: false
 
-tags: ["fotografia", "open-source", "linux", "raw", "strumenti", "alternativa-lightroom"]
+tags: ["open-source", "linux", "fotografia"]
 categories: ["Linux", "Tech"]
 
 description: "RapidRAW è un editor RAW open source, scritto in Rust, che pesa 20 MB e gira su Linux, Mac e Windows. Sviluppato da un 18enne durante un apprendistato."

@@ -2,7 +2,7 @@
 title: "Codici Errore Flying Bear Ghost 4 e 5: Guida alla Risoluzione"
 date: 2026-05-17
 draft: false
-tags: ["stampa-3d", "flying-bear", "ghost", "troubleshooting", "errori"]
+tags: ["stampa-3d", "flying-bear", "troubleshooting"]
 categories: ["Stampa 3D"]
 description: "Guida completa all'interpretazione dei codici errore sul display delle stampanti Flying Bear Ghost 4 e 5: cause e soluzioni per ogni errore."
 cover:

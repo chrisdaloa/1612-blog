@@ -2,7 +2,8 @@
 title: "Robot al Capodanno cinese 2026: tra tradizione, tecnologia e soft power"
 date: 2026-02-22
 draft: false
-tags: ["robot Capodanno cinese 2026", "robotica Cina", "soft power tecnologico", "intelligenza artificiale", "Gala Festival Primavera", "filosofia politica"]
+tags: ["ai", "robotica"]
+categories: ["Intelligenza Artificiale"]
 description: "Un’analisi approfondita delle esibizioni robotiche al Capodanno cinese 2026, tra spettacolo, soft power tecnologico e riflessioni filosofiche sul potere e la tecnologia."
 cover:
   image: "/images/capodanno_cinese.jpg"
