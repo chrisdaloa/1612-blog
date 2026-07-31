@@ -9,7 +9,9 @@ cover:
   image: "/images/posts/clickfix-truffa-falso-captcha.png"
 ---
 
-Con questo articolo apro una nuova categoria del blog, Sicurezza: alert pratici su falle e truffe che vale la pena conoscere, dal punto di vista di chi passa le giornate davanti a un terminale e sa quanto sia facile abbassare la guardia proprio per quello. Si comincia con ClickFix, perché se giri per internet da un po' probabilmente l'hai già visto senza saperlo, o peggio, l'hai quasi cliccato.
+Se hai un minuto solo: ClickFix è una truffa che ti fa credere di star superando un normale controllo anti-bot, ma in realtà ti guida a incollare ed eseguire tu stesso un comando malevolo su Esegui (Windows) o sul Terminale (macOS). Riguarda chiunque navighi, non solo chi gestisce server o servizi esposti. La difesa sta tutta in una regola: nessuna verifica CAPTCHA vera ti chiede di aprire uno strumento di sistema e incollarci dentro qualcosa, se succede chiudi la pagina e basta. Sotto trovi come riconoscerla nel dettaglio.
+
+Con questo articolo apro anche una nuova categoria del blog, Sicurezza: alert pratici su falle e truffe che vale la pena conoscere, dal punto di vista di chi passa le giornate davanti a un terminale e sa quanto sia facile abbassare la guardia proprio per quello. Si comincia con ClickFix, perché se giri per internet da un po' probabilmente l'hai già visto senza saperlo, o peggio, l'hai quasi cliccato.
 
 ClickFix non è un malware. È un metodo di distribuzione, una tecnica di ingegneria sociale che negli ultimi mesi è diventata una delle più usate in assoluto per far eseguire codice malevolo direttamente dalla vittima. Il meccanismo è quasi imbarazzante nella sua semplicità: funziona perché non attacca il tuo browser, attacca il tuo istinto di risolvere un fastidio nel modo più veloce possibile.
 
