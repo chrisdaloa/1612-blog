@@ -1,6 +1,6 @@
 ---
 name: trend-scout
-description: Cerca trend e notizie recenti sui topic del blog (AI, stampa 3D, Arduino, arcade/nerd). Da usare come primo step della pipeline settimanale.
+description: Cerca trend e notizie recenti sui topic del blog (AI, stampa 3D, Arduino, arcade/nerd, sicurezza). Da usare come primo step della pipeline settimanale.
 tools: Bash, WebSearch, WebFetch, Read, Write
 ---
 

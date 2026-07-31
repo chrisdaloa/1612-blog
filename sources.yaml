@@ -38,6 +38,16 @@ topics:
       - "Kotaku / community retro gaming"
     dynamic: true
 
+  sicurezza:
+    label: "Sicurezza"
+    seeds:
+      - "BleepingComputer"
+      - "Krebs on Security"
+      - "CERT-AGID (agid.gov.it)"
+      - "The Hacker News (thehackernews.com)"
+    dynamic: true
+    note: "Due filoni: (1) falle/vulnerabilità critiche rilevanti per chi si autogestisce servizi homelab/self-hosted (CVE su software esposti su internet, router, NAS, Home Assistant, Docker, reverse proxy...); (2) truffe/campagne di social engineering online diffuse anche fuori dall'ambito homelab (es. ClickFix, phishing, malware via falsi CAPTCHA), quando il tema è abbastanza rilevante/diffuso da valere un alert pratico. Taglio sempre pratico e utile (cosa rischi, come riconoscerlo, cosa fare), mai da bollettino/comunicato ufficiale. Preferire notizie con azione concreta possibile per il lettore rispetto a advisory puramente tecnici senza impatto per un utente homelab."
+
 # Regole generali di selezione trend
 selection_rules:
   min_novelty_days: 7          # scarta notizie più vecchie di 7 giorni
