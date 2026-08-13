@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Guida per gli ospiti — L'Arco della Controra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F2ECE1; --cream-light:#F8F4EC;
+    --ink:#2B2620; --ink-soft:#5C5449;
+    --mustard:#D89A2A; --mustard-deep:#A96F14;
+    --lavender:#8C7EB5; --lavender-deep:#584B7D;
+    --line: rgba(43,38,32,0.14); --line-strong: rgba(43,38,32,0.28);
+    --max: 860px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--cream); color:var(--ink);
+    font-family:'Work Sans', sans-serif; font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 24px;}
+  h1,h2{font-family:'Fraunces', serif; font-weight:500; letter-spacing:-0.01em;}
+  a{color:var(--lavender-deep);}
+
+  header{
+    padding:44px 0 34px; border-bottom:1px solid var(--line);
+    background:var(--cream-light); text-align:center;
+  }
+  .brand{display:inline-flex; flex-direction:column; align-items:center; gap:10px; text-decoration:none;}
+  .brand img{height:70px; width:auto;}
+  .brand h1{font-size:24px; color:var(--ink); font-style:italic;}
+
+  main{padding:20px 0 90px;}
+  .section{padding:34px 0; border-bottom:1px solid var(--line);}
+  .section:first-child{padding-top:30px;}
+  .section-title{
+    display:flex; align-items:center; gap:10px; font-size:20px; margin-bottom:14px;
+    break-after:avoid; page-break-after:avoid;
+  }
+  .section p{margin-top:8px;}
+  .section p + p{margin-top:10px;}
+
+  ul.doc-list{list-style:none; margin-top:10px;}
+  ul.doc-list li{
+    padding:10px 0 10px 22px; border-bottom:1px solid var(--line);
+    position:relative; break-inside:avoid; page-break-inside:avoid;
+  }
+  ul.doc-list li:last-child{border-bottom:none;}
+  ul.doc-list li::before{content:"•"; position:absolute; left:2px; color:var(--mustard-deep);}
+
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  .contact-line{
+    margin-top:8px; font-style:italic; color:var(--ink-soft);
+  }
+
+  footer{padding:40px 0; text-align:center; color:var(--ink-soft); font-size:13px;}
+
+  @media print{
+    body{background:var(--cream);}
+    .section{padding:20px 0;}
+    header{padding:26px 0 20px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="#" class="brand">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAc4AAAFMCAYAAABCnlxjAAANuElEQVR42u3dR5bkRhJAwUS+vATvf9CYLVlTAiKEh7vZjuzuEhDx4Uh1/PPPPy8A4Jy3TQAAwgkAwgkAwgkAwgkAwgkAwmkTAIBwAoBwAoBwAoBwAoBwAoBw2gQAIJwAMMRn8NdvX/77sMkBMHECgHACAMIJAMIJAMIJAMIJAMIJAMIJAAgnAAgnAOQLp7fbA0A4AUA4AQDhBIDI4Ww2LwDCCQDCCQAIJwAIJwAIJwAIJwAIJwAIJwAgnAAgnAAgnAAgnAAgnAAgnACAcAKAcAKAcAKAcAKAcAKAcAIAwgkAwgkAwgkAwgkAwgkAwjncYVMDIJwAIJwAgHACgHACgHACgHACgHD+rNm0AAgnAAgnACCcACCcACCcACCcACCcACCcAIBwAoBwAoBwAoBwAoBwAoBwAgDCCQDCCQDCCQDCCQDCCQDCCQAIJwAIJwAIJwAIJwAIJwAIJwAQKZyHzQyAcAKAcAIAwgkAwgkAwgkAwgkAwgkAwgkACCcACCcA5Ahns1kBEE4AQDgBQDgBQDgBQDgBQDgBIKuPTQDD/fslWkei7wUmTmBoyCp9bxBOQKQB4YSv4WnJAiSmIJwgOAIJ63hyENnD5wkyccNu3yCcEHBxbgUW6Lbpz+biBuEEwQi7nY7A+0dA2YrHONk1BGcX5WrT5hHkd26T/g0IJ3RkgtnvToB4Ep5btQhljUDNul3bLu6bqo9LY+KE5cG00P53G0R6TPNwsYNwAvS7C3A8nKZBOCHwIh9F2+DnMU2Sksc4ibDIX11gj5PhyPoyh7ZJTEfs0x7HnKAjnGw/ET19Mkgb9PWzPUll5u/jdaOk5VYtIxYvr+HjaWyPCcePYw7hZKspc+ZCdtjGW8XzmLhNxJPL3KplxTTx28LV63Zi1Fi2zj/7cfH7Zbz9/Ne2GXUrH+GELrFqFxf2nk8KmbX4tUWBbjd+395Putkhmscv/23CJHw4XcVxd0E8ghxrppX9Lt7O/HmzH7nLY5zssNjtfFF2bPZ1Z11wfPf328OvL3ykmDiBfgv68eDfrbhFeXaKax0mvx6vBTZ1YuJkq0g8XbD++sDkuy+T+etn3mnyHfnzHjf2y+vlMUdMnHB76uj1vXoEYNWTfzJcNLVf9kvGJ+l4MwXhhOUL0M5TM8/38bHRsdLjFjMbcquWahMRcbfx7vvHbWfhhG4L4Op3BPJ5nfP3/zHw70eIvkgW5lYtEa/Uny6iIhnrAqrZTwgnjIumSOYNaM+vF/V9kRFOkobpCPyzwd1jadbjqz3eVN4F38beAw5e4iwk7cafjZoy2snvb0Fh9Pqz6tNUmrVSONkvmKsvdP762USTkfH86fg7Jn1/hJONr7gjnuiiSa/j5es7RfW6w+JzP3m9Xh7jrBDNMy8NWfnibcHkybHz9C39ejwuKoomThItKsfiUB03fj6YdeE1+wlBLhiFkw2mzSsLxoyr5tFvNI6LxBnBpTi3autehc/6qCkLFLOP+95PQHsyMZo2hZMNpk0nJQLq3GYgt2otMMAe0+aM118jnAAlYo5wApg2xVM4AQT3vL+eLezWrXAChBb1TUIEVDhZfGUMxInmle/vfBZObp5QTh7od26deXOFp3/e+2LYGjCY13HGnvqOid/XS1MATJzhg/n0Dap/mzpbh68LPJ9aR19gO8eFs/yU2fME+BrQGZ9HCMxZL7zvs3CK5mvcJz201/mPHQNiTZt/fe3vAuq8HshjnHGuHHvFswU5sYExa8bhfDZxVr8iPQZ8zRXfF0yXfSPmcUoTpyvHRSdxc0UKS+K56/dAONOcZO11/227gP0vtJ3LQbhVa2oFTLOYOFNOm08nT8AF8k/fw5pi4gQQzQvfw90s4QRIY9bneHqfW+EE2H7aXPHh1+IpnNucICuuPoH914QKP0+ZcFrgHcBAjDW0Tfo3wsnQk6A5cIEf1ocZ0Tz7eaMI5zbTpBdAQ814zormmbXFxfs3vI6zz8F4XDgx2g9f67h4oAP5J88Z0fxtfcLE2eVAbBf+/5WD1lPBgUzhFk66PiZ5OJiBxesVwrndQejjv4AV65WoCueyg/CnqF39IOlDMIEg65qonvCZsCOyHVzfPRvt6e8uksDsdfjrB0aI5oJwVowmwA5r1t0J05r3DbdqTYVA/knT+iWcIQ9MgEwX+2IrnF0OGp9jB2SPpicnCqcrLqDUWnU8+BrWvBM8Oei+s+8z60AEIl7oW5tMnNMOxqtvjeet9ABMnCXjKX4A/z8YlJtqhfN5PJ++exBAtmB+/XupAiqc4yILUDmaX/9NmnXRY5yCCDAymj3+rYkzQTxb1ispli02jiEyRzPVeimc/Q4oC58FY/b3cMxx96L/6Hh8Hhf/zfbrpXD2mToRxYg/u7DS45hoN79W2nWySjjbgAXFLVuh3PF3dYwyM8A/xXPr9bLqxDniKdIWJJGsehGJc6jU5PlxUDxaPCw6YtnjmGjBtpfjmhnr3rZTp8c4x02g7B/JWcfDEez39l7LIJwWDKFMdffgmLiN3Nql1zGb5lj6FN9pZz7hxEKRK5ZHgWN95DZ0cSmAJs7iO/84sbAI6L6xtM/GxlREa56b5ff1x84/NX06YPaIpf2zLqYuMJlxMSycCxYKL0/IdTJZpMfFtHXYp/YPJs7EU2cTWrFERLm8dpabNiuG87t3+/lt0XCyrw+mfSCixFkzr8azZTyvvRzFQh0xmPZB/ojax/knz5b1/P5MOLlEUzBtexE1geabOn+KZ/qHuD4OAievWBIkoo6HfeNZ6pzfNZy9r1adsIJJ/4iaQuvEs9R5n2Hi9HjJHsG0j0yhptC68XyyH8NdUL2TLNYmnvn7oF3Y1rY3d4+D9vKysMgXRKPP//ZwrTdxmlpNmJSdQp2je+zHnvso7AXTZ9Md5go0ZjAtbNxZfNuN49CxtucE2mO9WX4R9Umwo568sF6ATZfsF9B//13HXs11Z2k83/aTk+/hhGnb0fM8jPah3sS8WF+67z9JTjbBnB9MiDKBmj5zrz3h7g6+J/zS7HHQntmHJkwiT6CegZszmr9dFC3Z355V64A1YZJxAnXM7r/+HFEnT49xmjBNmGScQE2fuaL52/+fvp9NnA5WEyY7BtTjn/nXobCE08EqmOwazyuLsICKZjdu1dY4UEWTzAG9+gQi4kcz9H4ycdY+UMWSihOo6XOPSTPsk7xMnHWnTIsG1SdQ0+faaB4n9pc3eSfEVZ1gUiWgps+4++LKS03CDQHRJk5XgKIJps/8+2VrESdOV4D9o2lbYuKx9mSM5ZJ9FSmc393LdgALJvRcYM8G1LkTay0LtbZ9gh3YT+NZ5fP6BBNMnyZX4XwczyqPUYgmmD4rrGlht/s78EFdMYp/HVyiCfOnF+tP0clyp3DeiWfbaaMPmjJFE+6tNWfvaAkoocP5WzwrTV1//b6CCaZPhPNUGFqBA9ltWYg7fbL+IkY4O02fWWJiyoTYC7dbtyZOVyGBgtmKbwPYab0Rz4Lr/DvRRt09Km7NQrz1xq3bedt5mzXuvelGrhRNt2Yh/hTk1m0hn40P5AwHqSkT9opnO3FOO2+Tr7GfBAdy1ikT2POiXTxjRrL8xJl5BzvhQDwJEknhTHrbABBPgdw7nA4UUyZUiedf57ZPWUkWzddrz2fViiYQMaBbRqDwfrm99rpVu/aKSTQhzyJ95tat8/789rnz6okp29bEKZrAvMnT9Bljmzxaf02c8w8CwYT88fTEobGBO/sh5EPWYBOnaALBJhrb7fHfayP3i3CKJrAmAt6m7/z0eHb7Ttmmwtlvx/92hSOaIJ69w2FKX/T1hdOUCYjnbtPm1TW261r8DvCLiyYgnibPbZg4RROYF8+7T2rh/nrbfT0Wzr7R9Hgm8HShb7ZJ7K8rnH2jCSCeyddk4by2c0QTEM/ihPPZFY1oAuJZaNoUTtEExLPa9hTOhVczognMjGe2gLYF21E4M94CAMTT9Bk3msIpmoB47hy847XgDqBwiiYgnginaALiueFaK5yiCSCeJk7RBJgZz8wvV9lyja0eTu8GBGS++Ec4px1oognsNpmJp3AuiaY3NgDEM87vI5wbRBNAPBFO0QTE07QpnKIJiKfJUzhFE6DC1CacogkQMZ6mTuEUTQDxFE7RBBBP4RRNAPEUTtEEEE/hFE0A8aRiOEUTQDyFUzQBxDNzOFeESjQBxNPEKZoA4imcogkQMZ4UCKdoAoxfU0kSTtEE6D91imfScIomgHgK5+ADAQDxLBnOJpoA4imcogkgnsIpmgDiKZyiCVAvnmwUTlc6ANZi4Xy4o1wZAcyfOsWzYzhHbEzRBBBPE+eDaB6iCSCewmmHAIincHaPpkkTIF48hVM0AbiwBpeeOleHUzQBxFM43SIAKKFkPN/BNrhoAuw1zJSL56pwiiZAnngKp2gCcGGdLjV1zg6n12oCiKdwPoymaRMghxLxfC/emKIJkGfqLBHPd+CND4B4lgynJwMBiKdwiiYAFY0Mp2gC1J46hVM0Abiwtqe8XTsinF6rCSCeaZvwDrBRARDPsuF0ixaA1PEcPXGKJoCpM5W3DQjApLU/xdT5XrDhABBP4QSACkaE07QJQNoWvDtvGNEEIHUTPjYMAIPj2TI142OfAmDyPM+TgwBAOAFAOAFAOAFAOAFAOAEA4QQA4QQA4QQA4QQA4QQA4QQAhBMALvgfNiXbs15gW9wAAAAASUVORK5CYII=" alt="L'Arco della Controra">
+  </a>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="section">
+      <h2 style="font-size:22px; margin-bottom:10px;">Benvenuti a L'Arco della Controra</h2>
+      <p>Siamo felici di accogliervi nel nostro appartamento immerso nella quiete della campagna. Il nome della nostra struttura evoca la pace e la "controra", il momento di riposo e silenzio del primo pomeriggio. Per preservare questa atmosfera e prenderci cura insieme della casa, vi chiediamo di seguire queste semplici indicazioni.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🌐 <span>Connessione Wi-Fi (Fibra veloce)</span></div>
+      <ul class="doc-list">
+        <li><strong>Nome Rete (SSID):</strong> <span class="mono">Enel-WiFi_D55ABDD1</span></li>
+        <li><strong>Password:</strong> <span class="mono">CMYH4HJ4F3</span></li>
+        <li><em>Nota:</em> Si prega di non scollegare o spostare i dispositivi di rete posizionati in sala.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🛡️ <span>Dispositivi di Sicurezza</span></div>
+      <ul class="doc-list">
+        <li><strong>Rilevatori:</strong> L'appartamento è provvisto di rilevatore di <strong>monossido di carbonio</strong> e rilevatore di <strong>gas e fumo</strong>.</li>
+        <li><strong>Estintore:</strong> Posizionato <strong>in lavanderia ed appositamente indicato</strong>.</li>
+        <li><strong>Coperta spegnifuoco:</strong> È riposta nel <strong>secondo cassetto della cucina</strong> in caso di necessità.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🧹 <span>Istruzioni per gli Elettrodomestici e Gestione Casa</span></div>
+      <ul class="doc-list">
+        <li><strong>Quando uscite dalla struttura:</strong> Vi chiediamo gentilmente di <strong>tenere le finestre chiuse e le tende oscuranti tirate</strong> ogni volta che lasciate l'appartamento, così da mantenere gli ambienti freschi e protetti.</li>
+        <li><strong>Ventilatori:</strong> Vi preghiamo di spegnere i ventilatori ogni volta che uscite, per una gestione responsabile dell'energia.</li>
+        <li><strong>Cucina e Piano Cottura:</strong> Accendete sempre la cappa durante e dopo la cottura dei cibi. Assicuratevi che i fuochi o le piastre siano completamente disattivati a fine pasto.</li>
+        <li><strong>Microonde:</strong> Per le istruzioni d'uso dettagliate, <strong>inquadra il QR code</strong> applicato accanto all'elettrodomestico.</li>
+        <li><strong>Lavatrice:</strong> Non sovraccaricare il cestello. Usare preferibilmente cicli a basse temperature (30°-40°). Lasciare l'oblò socchiuso a fine lavaggio.</li>
+        <li><strong>Frigorifero:</strong> Mantenete la porta chiusa correttamente e non modificate le impostazioni elevate del termostato.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">♻️ <span>Raccolta Differenziata (Comune di Ortovero)</span></div>
+      <p>Vi chiediamo di separare i rifiuti negli appositi contenitori interni e di seguire le indicazioni del servizio locale di <strong>SAT Servizi Ambientali</strong>.</p>
+      <p><em>Regola generale di esposizione:</em> I sacchi/contenitori vanno esposti <strong>esclusivamente negli orari serali, non prima delle 20:00 e sino alle 24:00</strong>, nei giorni indicati:</p>
+      <ul class="doc-list">
+        <li><strong>Umido / Organico:</strong> Utilizzare sacchetti biodegradabili — <em>Giorni: <strong>Lunedì, Mercoledì e Venerdì</strong></em>.</li>
+        <li><strong>Carta e Cartone:</strong> Svuotati e appiattiti (senza residui di cibo) — <em>Giorno: <strong>Martedì</strong></em>.</li>
+        <li><strong>Imballaggi in plastica e metalli:</strong> Conferire all'interno degli appositi sacchi puliti — <em>Giorno: <strong>Giovedì</strong></em>.</li>
+        <li><strong>Secco Residuo / Indifferenziato:</strong> Tutto ciò che non è differenziabile — <em>Giorno: <strong>Domenica</strong></em>.</li>
+        <li><strong>Vetro:</strong> Bottiglie e vasetti ben risciacquati — <em>Nota bene: <strong>Non esporre fuori dalla porta</strong>. Vanno gettati nei <strong>contenitori stradali</strong> posizionati vicino alla casetta dell'acqua, nei pressi del parco sottostante.</em></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🏡 <span>Regole di Convivenza e Campagna</span></div>
+      <ul class="doc-list">
+        <li><strong>Orari di Silenzio e Controra:</strong> Per rispettare la natura circostante e il vicinato, vi chiediamo di evitare rumori forti o schiamazzi all'aperto durante la fascia pomeridiana (14:00 - 16:00) e nelle ore notturne (dalle 23:00 alle 07:00).</li>
+        <li><strong>Parcheggio:</strong> È possibile usufruire del parcheggio libero situato nelle aree adiacenti. Per moto o bici, è possibile usufruire del piccolo garage adiacente l'appartamento. Si prega in ogni caso di lasciare sempre libera la strada di campagna per il passaggio dei mezzi agricoli locali.</li>
+        <li><strong>Feste e Ospiti:</strong> È vietato dare feste ed invitare nella struttura persone non registrate al check-in.</li>
+        <li><strong>Animali:</strong> Gli animali, anche se adorati, <strong>non sono ammessi</strong>, a meno che non si tratti di un animale di servizio.</li>
+        <li><strong>Fumo:</strong> È <strong>severamente vietato fumare all'interno</strong> dell'appartamento.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🚪 <span>Check-out</span></div>
+      <p>Il check-out è previsto entro le <strong>ore 10:00</strong>. Prima di partire, vi chiediamo di:</p>
+      <ul class="doc-list">
+        <li>Lavare le stoviglie utilizzate e riporre i rifiuti interni come indicato.</li>
+        <li>Spegnere tutte le luci e i ventilatori.</li>
+        <li>Chiudere le finestre.</li>
+        <li><strong>Riconsegnare le chiavi a me in fase di check out oppure concordare preventivamente un'alternativa</strong>.</li>
+      </ul>
+      <p class="contact-line">Host: Ester Cell. 347/5283089</p>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>L'Arco della Controra — Ortovero (SV) · CIN IT009045C2DGX2ESCR</p>
+  </div>
+</footer>
+
+</body>
+</html>
