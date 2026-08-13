@@ -1,16 +1,26 @@
 {
   "links_inserted": [
     {
-      "product": "Beelink EQ14",
-      "url": "https://www.amazon.it/dp/B0F3D7Y6X8?tag=16120s-21"
+      "product": "eSUN (dry box filamento)",
+      "url": "https://www.amazon.it/dp/B094XXJMT6?tag=16120s-21"
     },
     {
-      "product": "GMKtec EVO-X2",
-      "url": "https://www.amazon.it/dp/B0F6X332N6?tag=16120s-21"
+      "product": "Sunlu (dry box filamento)",
+      "url": "https://www.amazon.it/dp/B08ZHTMZ8G?tag=16120s-21"
+    }
+  ],
+  "links_skipped": [
+    {
+      "product": "Bambu Lab / Creality / Anycubic",
+      "reason": "Citati solo come marche generiche di stampanti FDM ('Bambu Lab, Creality, Anycubic o simili'), nessun modello specifico nominato: non linkabile senza inventare un prodotto."
     },
     {
-      "product": "NVIDIA Jetson Orin Nano",
-      "url": "https://www.amazon.it/dp/B0BZJTQ5YP?tag=16120s-21"
+      "product": "Ender / Kobra / A1 mini",
+      "reason": "Nominati solo come riferimento di dimensioni piano di stampa ('fascia Ender/Kobra', 'A1 mini'), non come prodotto consigliato in questo articolo: linkare qui introdurrebbe un acquisto non richiesto dal contesto (il piano PEI di ricambio generico, non uno specifico per quei modelli)."
+    },
+    {
+      "product": "Mitutoyo",
+      "reason": "Citato esplicitamente come esempio di calibro NON necessario ('non serve un Mitutoyo da officina'): linkarlo sarebbe fuorviante, il testo consiglia di non comprarlo."
     }
   ],
   "disclosure_added": true

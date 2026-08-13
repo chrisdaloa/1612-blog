@@ -39,14 +39,15 @@ Per ciascun ARTICLE_DIR, SE il relativo `selected-topic.json` ha un `topic` non 
 4. `affiliate-linker` (stesso ARTICLE_DIR) → aggiorna `{ARTICLE_DIR}/draft.md` + `{ARTICLE_DIR}/affiliate-log.json`
 5. `image-creator` (stesso ARTICLE_DIR) → aggiorna `{ARTICLE_DIR}/draft.md` (cover.image) + salva immagine in `static/images/posts/`
 6. `humanizer-review` (stesso ARTICLE_DIR) → rilegge `{ARTICLE_DIR}/draft.md` e rimuove i pattern tipici di scrittura AI (em dash, frasi fatte, formule da "rivelazione retorica", catchphrase ripetute, chiusure da comunicato...), calibrando il tono sul campione di voce autentica in `ai/style-voice-samples-wp-raw.md`. Intervento solo stilistico: non aggiunge fatti né cambia link, prezzi o front matter.
-7. `qa-gate` (stesso ARTICLE_DIR) → produce `{ARTICLE_DIR}/qa-result.json`
+7. `seo-optimizer` (stesso ARTICLE_DIR) → aggiorna `{ARTICLE_DIR}/draft.md` con correzioni SEO on-page (lunghezza `description`, `cover.alt` mancante, link interni verso articoli pertinenti già pubblicati, keyword del titolo nel primo paragrafo). Intervento solo tecnico: non cambia tono, title, tag, categorie o `cover.image`.
+8. `qa-gate` (stesso ARTICLE_DIR) → produce `{ARTICLE_DIR}/qa-result.json`
    - Se `passed: false`, FERMATI per QUESTO ARTICLE_DIR (non includerlo nella pubblicazione), ma continua comunque con l'altro ARTICLE_DIR se non ancora processato.
 
-**Importante**: esegui la produzione (step 3-7) SEMPRE in sequenza (prima tutto `pipeline/content`, poi tutto `pipeline/affiliate`), mai in parallelo — evita conflitti sullo slug e sui file intermedi.
+**Importante**: esegui la produzione (step 3-8) SEMPRE in sequenza (prima tutto `pipeline/content`, poi tutto `pipeline/affiliate`), mai in parallelo — evita conflitti sullo slug e sui file intermedi.
 
 ### Fase 3 — Pubblicazione combinata (una sola volta, dopo che ENTRAMBI gli ARTICLE_DIR sono stati processati)
 
-8. `publisher` → invocato UNA SOLA VOLTA in modalità combinata per ENTRAMBI gli ARTICLE_DIR che hanno `qa-result.json` con `passed: true`, producendo UN SOLO commit + UN SOLO push (invece di due separati) e scrivendo `{ARTICLE_DIR}/publish-log.json` per ciascun articolo pubblicato.
+9. `publisher` → invocato UNA SOLA VOLTA in modalità combinata per ENTRAMBI gli ARTICLE_DIR che hanno `qa-result.json` con `passed: true`, producendo UN SOLO commit + UN SOLO push (invece di due separati) e scrivendo `{ARTICLE_DIR}/publish-log.json` per ciascun articolo pubblicato.
    - **Perché**: ogni push attiva l'autodeploy Hugo (build su host esterno); combinare i due articoli in un solo push dimezza i deploy/crediti host consumati a settimana.
    - Se un solo ARTICLE_DIR ha superato il QA (l'altro è bloccato o ha `topic: null`), pubblica comunque quello valido con un commit+push singolo per lui.
    - Se nessuno dei due ha superato il QA, non fare alcun commit/push.

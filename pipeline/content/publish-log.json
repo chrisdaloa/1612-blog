@@ -1,6 +1,8 @@
 {
   "published": true,
-  "slug": "esp32-s31-ethernet-gigabit-rgmii-nativo",
-  "url": "https://1612.it/posts/esp32-s31-ethernet-gigabit-rgmii-nativo/",
-  "commit_hash": "316fdbcb85f8a777d5e5e07eb5606357b488dbdc"
+  "slug": "shai-hulud-worm-npm-supply-chain",
+  "url": "https://1612.it/posts/shai-hulud-worm-npm-supply-chain/",
+  "commit_hash": "408a1bd",
+  "pushed": false,
+  "note": "Commit locale creato, push non eseguito su richiesta esplicita: in attesa di autorizzazione separata dell'utente."
 }
