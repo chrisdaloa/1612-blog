@@ -51,6 +51,7 @@ Per ciascun ARTICLE_DIR, SE il relativo `selected-topic.json` ha un `topic` non 
    - **Perché**: ogni push attiva l'autodeploy Hugo (build su host esterno); combinare i due articoli in un solo push dimezza i deploy/crediti host consumati a settimana.
    - Se un solo ARTICLE_DIR ha superato il QA (l'altro è bloccato o ha `topic: null`), pubblica comunque quello valido con un commit+push singolo per lui.
    - Se nessuno dei due ha superato il QA, non fare alcun commit/push.
+   - **Push automatico vs autorizzazione**: nelle run automatiche pianificate da cron (`scripts/run-pipeline.sh`, headless `claude -p`), il `publisher` fa commit E push subito dopo un qa-gate positivo, senza attendere conferma — non c'è un umano presente per autorizzarlo. Nelle sessioni interattive (chat diretta con l'utente), invece, il commit locale può avvenire senza chiedere, ma il `git push` richiede sempre un'autorizzazione esplicita separata dell'utente prima di essere eseguito.
 
 ## Regole generali per tutti gli step
 

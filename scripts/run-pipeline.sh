@@ -35,7 +35,7 @@ cd "$BLOG_REPO_PATH"
 # --output-format json restituisce un JSON strutturato con l'esito della sessione
 # Le regole di permesso vanno configurate in .claude/settings.json della repo
 # (consigliato: permettere Bash git/hugo, WebSearch, WebFetch, Read/Write in pipeline/ e content/)
-claude -p "Esegui l'intera pipeline descritta in CLAUDE.md: fase 1 (trend-scout + selector, una sola volta), poi fase 2 in sequenza per pipeline/content e poi per pipeline/affiliate (writer, affiliate-linker, image-creator, qa-gate, publisher), rispettando tutte le regole di blocco per-articolo (topic null, qa-gate fallito non deve bloccare l'altro articolo)." \
+claude -p "Esegui l'intera pipeline descritta in CLAUDE.md: fase 1 (trend-scout + selector, una sola volta), poi fase 2 in sequenza per pipeline/content e poi per pipeline/affiliate (writer, affiliate-linker, image-creator, qa-gate, publisher), rispettando tutte le regole di blocco per-articolo (topic null, qa-gate fallito non deve bloccare l'altro articolo). Questa è una run automatica pianificata da cron, nessun umano è presente per autorizzare azioni interattive: quando invochi il publisher, se il qa-gate ha dato l'ok, fai commit E push subito, senza fermarti ad attendere un'autorizzazione separata per il push (quella regola vale solo per le sessioni interattive, non per questa run headless)." \
   --output-format json \
   > "$LOG_DIR/run-$TIMESTAMP.json" 2>&1 || {
     echo "$TIMESTAMP,,,,\"invocation_error\"" >> "$COST_LOG"
