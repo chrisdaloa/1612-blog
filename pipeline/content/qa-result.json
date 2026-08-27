@@ -1,25 +1,25 @@
 {
   "passed": true,
   "checks": [
-    {"name": "front_matter", "passed": true, "detail": "title, date, tags, categories, description e cover.image tutti presenti e non vuoti"},
-    {"name": "image_exists", "passed": true, "detail": "static/images/posts/shai-hulud-worm-npm-supply-chain.png presente su disco"},
-    {"name": "image_aspect_ratio", "passed": true, "detail": "dimensioni 1344x768 (rapporto ~1.75, ~16:9), copertina orizzontale corretta"},
-    {"name": "min_length", "passed": true, "detail": "1285 parole nel corpo articolo, ben sopra la soglia minima di 700"},
-    {"name": "no_placeholders", "passed": true, "detail": "nessuna occorrenza di TODO, Lorem ipsum, undefined, [object Object], link placeholder ](#) o ](TODO)"},
-    {"name": "disclosure_coherence", "passed": true, "detail": "affiliate-log.json ha links_inserted vuoto e disclosure_added false (articolo product_potential=1, nessun link affiliato previsto); coerentemente nel testo non compare lo shortcode {{< affiliate-disclosure >}}"},
-    {"name": "amazon_links_tagged", "passed": true, "detail": "nessun link amazon.it presente nel draft, nulla da verificare"},
-    {"name": "shortlink_plausibility", "passed": true, "detail": "nessun link amzn.to o s.click.aliexpress presente nel draft"},
-    {"name": "no_duplicate_content", "passed": true, "detail": "nessuno dei 12 paragrafi >40 parole del draft trovato (quasi) identico in content/posts/*.md"},
-    {"name": "no_title_slug_collision", "passed": true, "detail": "nessun post esistente in content/posts/ menziona 'shai-hulud' o ha titolo/slug coincidente con questo draft"},
-    {"name": "no_cross_article_collision", "passed": true, "detail": "pipeline/affiliate/draft.md presente ma corrisponde a un articolo di un ciclo precedente già pubblicato (publish-log.json: slug stampanti-3d-economiche-per-iniziare, commit ea93752, gia' in content/posts/); nessun conflitto di titolo/slug/argomento con questo draft sul worm npm Shai-Hulud"},
-    {"name": "tags_categories_limit", "passed": true, "detail": "4 tag (max 5: sicurezza, npm, supply-chain, homelab) e 1 categoria (max 2: Sicurezza), entro i limiti"},
-    {"name": "article_agreement_il_lo", "passed": true, "detail": "nessun pattern sospetto di errore di concordanza il/lo/un/uno/i davanti a termini tecnici trovato nel testo"},
-    {"name": "description_length", "passed": true, "detail": "description lunga 149 caratteri, entro il range 120-156 raccomandato"},
-    {"name": "cover_alt_present", "passed": true, "detail": "campo cover.alt presente: 'Illustrazione simbolica di un worm digitale che infetta pacchetti npm a catena'"}
+    {"name": "front_matter", "passed": true},
+    {"name": "image_exists", "passed": true},
+    {"name": "image_aspect_ratio_16_9", "passed": true},
+    {"name": "min_word_count", "passed": true},
+    {"name": "no_placeholders", "passed": true},
+    {"name": "disclosure_present", "passed": true},
+    {"name": "amazon_links_tagged", "passed": true},
+    {"name": "amzn_to_short_links_plausible", "passed": true},
+    {"name": "no_duplicate_content_vs_published_posts", "passed": true},
+    {"name": "no_last_minute_title_slug_duplicate", "passed": true},
+    {"name": "no_collision_with_other_article_dir", "passed": true},
+    {"name": "tags_categories_within_limits", "passed": true},
+    {"name": "description_length_range", "passed": true},
+    {"name": "cover_alt_present", "passed": true},
+    {"name": "title_length_serp", "passed": true},
+    {"name": "article_agreement_il_lo", "passed": true}
   ],
   "blocking_issues": [],
   "warnings": [
-    "Il title nel front matter e' lungo 90 caratteri, ben oltre i 60 raccomandati per evitare il troncamento nei risultati di ricerca: \"Il worm npm Shai-Hulud torna: oltre 440 pacchetti infetti tra keyv, cacheable e flat-cache\".",
-    "pipeline/affiliate/draft.md presente nella cartella e' un residuo del ciclo precedente gia' pubblicato (stampanti-3d-economiche-per-iniziare, commit ea93752): non rappresenta il companion di questa settimana, verificare che il publisher non lo ripubblichi per errore."
+    "Title lungo per la SERP: 101 caratteri (> 60), rischio troncamento nei risultati di ricerca. Titolo: \"Ubiquiti corregge tre vulnerabilità UniFi OS di gravità massima, una sfruttabile senza autenticazione\"."
   ]
 }

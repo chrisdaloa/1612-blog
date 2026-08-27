@@ -1,27 +1,42 @@
 {
   "links_inserted": [
     {
-      "product": "eSUN (dry box filamento)",
-      "url": "https://www.amazon.it/dp/B094XXJMT6?tag=16120s-21"
+      "product": "DHT22 (AM2302)",
+      "url": "https://www.amazon.it/dp/B078SVZB1X?tag=16120s-21"
     },
     {
-      "product": "Sunlu (dry box filamento)",
-      "url": "https://www.amazon.it/dp/B08ZHTMZ8G?tag=16120s-21"
+      "product": "BME280",
+      "url": "https://www.amazon.it/dp/B07Z99FDLW?tag=16120s-21"
+    },
+    {
+      "product": "AHT20 (+BMP280)",
+      "url": "https://www.amazon.it/dp/B0CVHWWF34?tag=16120s-21"
+    },
+    {
+      "product": "HC-SR04",
+      "url": "https://www.amazon.it/dp/B01COSN7O6?tag=16120s-21"
+    },
+    {
+      "product": "modulo PIR HC-SR501",
+      "url": "https://www.amazon.it/dp/B07Z67PWXH?tag=16120s-21"
+    },
+    {
+      "product": "DS3231",
+      "url": "https://www.amazon.it/dp/B01CAOG8IG?tag=16120s-21"
+    },
+    {
+      "product": "sensore capacitivo di umidità del terreno v1.2",
+      "url": "https://www.amazon.it/dp/B07Z6DJMJL?tag=16120s-21"
+    },
+    {
+      "product": "MQ-135",
+      "url": "https://www.amazon.it/dp/B0816PQRMB?tag=16120s-21"
+    },
+    {
+      "product": "micro servo SG90",
+      "url": "https://www.amazon.it/dp/B07CZ42862?tag=16120s-21"
     }
   ],
-  "links_skipped": [
-    {
-      "product": "Bambu Lab / Creality / Anycubic",
-      "reason": "Citati solo come marche generiche di stampanti FDM ('Bambu Lab, Creality, Anycubic o simili'), nessun modello specifico nominato: non linkabile senza inventare un prodotto."
-    },
-    {
-      "product": "Ender / Kobra / A1 mini",
-      "reason": "Nominati solo come riferimento di dimensioni piano di stampa ('fascia Ender/Kobra', 'A1 mini'), non come prodotto consigliato in questo articolo: linkare qui introdurrebbe un acquisto non richiesto dal contesto (il piano PEI di ricambio generico, non uno specifico per quei modelli)."
-    },
-    {
-      "product": "Mitutoyo",
-      "reason": "Citato esplicitamente come esempio di calibro NON necessario ('non serve un Mitutoyo da officina'): linkarlo sarebbe fuorviante, il testo consiglia di non comprarlo."
-    }
-  ],
-  "disclosure_added": true
+  "disclosure_added": true,
+  "skipped": []
 }
