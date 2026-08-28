@@ -1,42 +1,17 @@
 {
   "links_inserted": [
     {
-      "product": "DHT22 (AM2302)",
-      "url": "https://www.amazon.it/dp/B078SVZB1X?tag=16120s-21"
+      "product": "Retroid Pocket Classic",
+      "url": "https://www.amazon.it/dp/B0FFY3K8XC?tag=16120s-21"
     },
     {
-      "product": "BME280",
-      "url": "https://www.amazon.it/dp/B07Z99FDLW?tag=16120s-21"
+      "product": "RG556",
+      "url": "https://www.amazon.it/dp/B0CXPS6T1Z?tag=16120s-21"
     },
     {
-      "product": "AHT20 (+BMP280)",
-      "url": "https://www.amazon.it/dp/B0CVHWWF34?tag=16120s-21"
-    },
-    {
-      "product": "HC-SR04",
-      "url": "https://www.amazon.it/dp/B01COSN7O6?tag=16120s-21"
-    },
-    {
-      "product": "modulo PIR HC-SR501",
-      "url": "https://www.amazon.it/dp/B07Z67PWXH?tag=16120s-21"
-    },
-    {
-      "product": "DS3231",
-      "url": "https://www.amazon.it/dp/B01CAOG8IG?tag=16120s-21"
-    },
-    {
-      "product": "sensore capacitivo di umidità del terreno v1.2",
-      "url": "https://www.amazon.it/dp/B07Z6DJMJL?tag=16120s-21"
-    },
-    {
-      "product": "MQ-135",
-      "url": "https://www.amazon.it/dp/B0816PQRMB?tag=16120s-21"
-    },
-    {
-      "product": "micro servo SG90",
-      "url": "https://www.amazon.it/dp/B07CZ42862?tag=16120s-21"
+      "product": "Retroid Pocket 5",
+      "url": "https://www.amazon.it/dp/B0DT4CFQXH?tag=16120s-21"
     }
   ],
-  "disclosure_added": true,
-  "skipped": []
+  "disclosure_added": true
 }

@@ -4,22 +4,18 @@
     {"name": "front_matter", "passed": true},
     {"name": "image_exists", "passed": true},
     {"name": "image_aspect_ratio_16_9", "passed": true},
-    {"name": "min_word_count", "passed": true},
+    {"name": "min_word_count_700", "passed": true},
     {"name": "no_placeholders", "passed": true},
     {"name": "disclosure_present", "passed": true},
     {"name": "amazon_links_tagged", "passed": true},
     {"name": "amzn_to_short_links_plausible", "passed": true},
-    {"name": "no_duplicate_content_vs_published_posts", "passed": true},
-    {"name": "no_last_minute_title_slug_duplicate", "passed": true},
-    {"name": "no_collision_with_other_article_dir", "passed": true},
-    {"name": "tags_categories_within_limits", "passed": true},
-    {"name": "description_length_range", "passed": true},
-    {"name": "cover_alt_present", "passed": true},
-    {"name": "title_length_serp", "passed": true},
-    {"name": "article_agreement_il_lo", "passed": true}
+    {"name": "no_duplicate_content_with_published_posts", "passed": true},
+    {"name": "no_duplicate_title_slug", "passed": true},
+    {"name": "no_collision_with_other_article", "passed": true},
+    {"name": "tags_categories_limit", "passed": true}
   ],
   "blocking_issues": [],
   "warnings": [
-    "Title lungo per la SERP: 101 caratteri (> 60), rischio troncamento nei risultati di ricerca. Titolo: \"Ubiquiti corregge tre vulnerabilità UniFi OS di gravità massima, una sfruttabile senza autenticazione\"."
+    "Titolo front matter lungo 95 caratteri (> 60): rischio di troncamento in SERP. Titolo: \"Arduino VENTUNO Q: la scheda \\\"Physical AI\\\" con NPU Qualcomm da 40 TOPS, preordini a 299 dollari\"."
   ]
 }

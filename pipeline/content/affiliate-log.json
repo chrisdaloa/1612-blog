@@ -1,4 +1,13 @@
 {
-  "links_inserted": [],
-  "disclosure_added": false
+  "links_inserted": [
+    {
+      "product": "Jetson Orin Nano",
+      "url": "https://www.amazon.it/dp/B0BZJTQ5YP?tag=16120s-21"
+    },
+    {
+      "product": "Raspberry Pi 5",
+      "url": "https://www.amazon.it/dp/B0CK2FCG1K?tag=16120s-21"
+    }
+  ],
+  "disclosure_added": true
 }

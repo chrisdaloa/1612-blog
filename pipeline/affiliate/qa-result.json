@@ -3,17 +3,19 @@
   "checks": [
     {"name": "front_matter", "passed": true},
     {"name": "image_exists", "passed": true},
-    {"name": "image_16_9_ratio", "passed": true},
+    {"name": "image_aspect_ratio_16_9", "passed": true},
     {"name": "min_word_count", "passed": true},
     {"name": "no_placeholders", "passed": true},
     {"name": "disclosure_present", "passed": true},
     {"name": "amazon_links_tagged", "passed": true},
     {"name": "amzn_to_links_plausible", "passed": true},
     {"name": "no_duplicate_content", "passed": true},
-    {"name": "no_title_slug_duplicate", "passed": true},
-    {"name": "no_collision_with_other_article", "passed": true},
-    {"name": "tags_categories_limit", "passed": true}
+    {"name": "no_last_minute_duplicate", "passed": true},
+    {"name": "no_collision_with_content_pipeline", "passed": true},
+    {"name": "tags_categories_limits", "passed": true}
   ],
   "blocking_issues": [],
-  "warnings": []
+  "warnings": [
+    "Title supera i 60 caratteri (82 caratteri): \"Anbernic RG 55G1: il primo handheld Anbernic con chip Qualcomm, specifiche svelate\" — rischio troncamento nei risultati di ricerca."
+  ]
 }
