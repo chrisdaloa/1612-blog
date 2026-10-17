@@ -1,5 +1,11 @@
 baseURL: 'https://1612.it/'
 languageCode: it-it
+defaultContentLanguage: it
+languages:
+  it:
+    languageCode: it-it
+    languageName: Italiano
+    weight: 1
 title: 'LAB1612'
 theme: PaperMod
 enableRobotsTXT: true
