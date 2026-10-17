@@ -10,6 +10,13 @@ title: 'LAB1612'
 theme: PaperMod
 enableRobotsTXT: true
 
+# lastmod dalla data dell'articolo (o dal campo lastmod), non dal commit git: i commit in blocco
+# davano a decine di post la stessa data e Google ignora un lastmod inaffidabile
+frontmatter:
+  lastmod:
+    - lastmod
+    - date
+
 # ← outputs QUI, non dentro params!
 outputs:
   home:
