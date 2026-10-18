@@ -6,8 +6,8 @@ tags: ["retro-gaming", "handheld", "emulazione"]
 categories: ["Retrogaming"]
 description: "Recensione dell'R36S originale pagata 35 euro: schermo, stick, batteria, SD da cambiare subito, firmware dArkOSen e come evitare i cloni."
 cover:
-  image: "/images/posts/r36s-recensione-handheld-2-mesi.png"
-  alt: "R36S con guscio trasparente viola tenuta in mano durante una partita, con due microSD sul tavolo"
+  image: "/images/posts/r36s-recensione-copertina.jpg"
+  alt: "R36S con guscio nero trasparente tenuta in mano con Bubble Bobble sullo schermo"
 ---
 
 {{< affiliate-disclosure >}}
