@@ -40,7 +40,7 @@ Occhio anche alle SD contraffatte che dichiarano una capienza che non hanno. Son
 
 Il firmware di fabbrica è una versione di ArkOS, che oggi non è più mantenuto né aggiornato. Cambiarlo non è obbligatorio, perché funziona comunque, ma io lo consiglio. Io ho installato [dArkOSen](https://pixelpocket.1612.it/it/r36s/setup-firmware), erede di ArkOS basato su Debian. Sotto c'è quindi Linux, con RetroArch come motore degli emulatori ed EmulationStation come frontend: strumenti che conosce chiunque si sia già avvicinato al mondo degli emulatori, quindi niente di strano da imparare. Il problema semmai è che ogni scheda madre R36S ha un pannello (file DTB) leggermente diverso e va trovato quello giusto, spesso per tentativi.
 
-Per non rifare tutto a mano ogni volta ho scritto [R36S Auto-Installer](https://pixelpocket.1612.it/it/r36s/autoinstaller), un programma per Windows gratuito che scarica il firmware, lo scrive sulla SD e ti accompagna nella ricerca del pannello giusto.
+Per non rifare tutto a mano ogni volta ho scritto [R36S Auto-Installer](https://pixelpocket.1612.it/it/r36s/r36s-autoinstaller), un programma per Windows gratuito che scarica il firmware, lo scrive sulla SD e ti accompagna nella ricerca del pannello giusto.
 
  Non scarica né installa giochi, quindi il backup resta a carico vostro. Se vi si blocca lo schermo al primo avvio, non è per forza un guasto: prima di tutto leggete la pagina di [troubleshooting](https://pixelpocket.1612.it/it/r36s/troubleshooting).
 
@@ -48,7 +48,7 @@ Per non rifare tutto a mano ogni volta ho scritto [R36S Auto-Installer](https://
 
 Fino alla PS1 va tutto bene, e questo copre la stragrande maggioranza di quello che si cerca su una console così. I titoli più pesanti possono faticare. Per orientarsi, nella [pagina di compatibilità](https://pixelpocket.1612.it/it/r36s/compatibilita) ci sono le percentuali per sistema raccolte dalla community, con PSP, N64 e Dreamcast a livello discreto, mentre GameCube, PS2 e Wii sono fuori portata con questo chip.
 
-Per quanto riguarda come organizzare ROM e BIOS ho scritto due guide pratiche: [gestione dei giochi](https://pixelpocket.1612.it/it/r36s/guida-giochi) e [guida ai BIOS](https://pixelpocket.1612.it/it/r36s/guida-bios).
+Per quanto riguarda come organizzare ROM e BIOS ho scritto due guide pratiche: [gestione dei giochi](https://pixelpocket.1612.it/it/r36s/9-R36S-Guida-ai-giochi) e [guida ai BIOS](https://pixelpocket.1612.it/it/r36s/8-r36s-guida-ai-bios).
 
 ## Batteria e WiFi
 
